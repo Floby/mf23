@@ -1,0 +1,47 @@
+:root {
+  --color-main: #5faeae;
+  --color-on-main: rgb(238, 238, 238);
+  --color-secondary: #F0F5F5;
+  --color-on-secondary: rgb(170, 170, 170);
+  --color-accent: #4D8399;
+  --color-on-accent: rgb(238, 238, 238);
+}
+
+.light {
+  --color-bg-primary: var(--color-secondary);
+  --color-text-primary: var(--color-on-secondary);
+  --color-bg-secondary: var(--color-main);
+  --color-text-secondary: var(--color-on-main);
+  --color-bg-accent: var(--color-accent);
+  --color-text-accent: var(--color-on-accent);
+}
+
+.dark {
+  --color-bg-primary: var(--color-main);
+  --color-text-primary: var(--color-on-main);
+  --color-bg-secondary: var(--color-secondary);
+  --color-text-secondary: var(--color-on-secondary);
+  --color-bg-accent: var(--color-accent);
+  --color-text-accent: var(--color-on-accent);
+}
+
+html {
+  .dark();
+}
+/*
+@media (prefers-color-scheme: dark) {
+  html {
+    .dark();
+  }
+}
+@media (prefers-color-scheme: light) {
+  html {
+    .light();
+  }
+}
+*/
+
+html {
+  color: var(--color-text-primary);
+  background: var(--color-bg-primary);
+}

@@ -30,3 +30,7 @@
 
 # broccoli-debug
 /DEBUG/
+
+
+.*.un~
+.*.sw[a-z]

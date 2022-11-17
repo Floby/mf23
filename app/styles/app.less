@@ -1,0 +1,41 @@
+@import './reset.less';
+@import './colors.less';
+@import 'pod-styles.less';
+
+:root {
+  --gutter: .5rem;
+  --txt-s: .8rem;
+  --txt-m: 1rem;
+  --txt-l: 1.2rem;
+  --txt-xl: 2rem;
+}
+html {
+  height:100%;
+}
+
+.ember-application {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: var(--gutter);
+  > header { flex-grow: 0 }
+  > main { flex-grow: 1 }
+  > footer { flex-grow: 0 }
+
+
+  > header {
+    padding: var(--gutter);
+    h1 {
+      font-size: var(--txt-xl);
+      font-weight: bold;
+    }
+  }
+  > footer {
+    padding: var(--gutter);
+    text-align: center;
+    font-size: var(--txt-small);
+  }
+}
+
