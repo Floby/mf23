@@ -3,4 +3,45 @@
   p,h2,h3,h4,h5,h6,ul,li {
     margin-top: var(--gutter);
   }
+  h2 {
+    font-size: var(--txt-l);
+    font-weight: bold;
+  }
+  h3 {
+    font-size: var(--txt-m);
+    font-weight: bold;
+  }
+
+  a {
+    color: var(--color-accent);
+  }
+}
+
+.secondary() {
+  background: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+}
+
+.accent() {
+  backgrbackground-coloround: var(--color-bg-secondary);
+  color: var(--color-text-secondary);
+}
+
+.vignette () {
+  position: relative;
+  z-index: 1;
+
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, transparent 50%, red 150%);
+    mix-blend-mode: difference;
+  }
+  &:is(:active, :hover)::after {
+    background: none;
+  }
 }
