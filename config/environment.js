@@ -43,5 +43,9 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
   }
 
+  ENV['ember-component-css'] = {
+    pathClassicComponent: false,
+  };
+
   return ENV;
 };

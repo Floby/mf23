@@ -1,8 +1,24 @@
 {{page-title "Juger"}}
-<form class="add-comment" action="">
-  <textarea id="comment" name="comment" cols="40" rows="8">Mon super commentaire vraiment très intelligent.</textarea>
-  <fieldset class="controls">
-    <a class="back" href="javascript:history.back()">&times; annuler</a>
-    <input type="submit" value="&plus; enregistrer" />
+<form class="judge" action="">
+  <div class="mention-picked">
+    {{ this.currentMention.label }}
+  </div>
+  <fieldset class="mention">
+    <label for="mention">Jugement</label>
+    <Input @type="range" id="mention" @value={{ this.mention }} name="mention" min="0" max="6" class="heart-slider slider" />
+    <ul class="mention-emojis">
+      {{#each this.mentions as |mention|}}
+        <li>
+          <label {{on "click" (fn this.selectMention mention.value)}} for="mention" class="reaction" title={{mention.label}}>{{mention.reaction}}</label>
+        </li>
+      {{/each}}
+    </ul>
+  </fieldset>
+  <fieldset class="add-comment">
+    <textarea placeholder="Ici, la motivation de votre jugement." id="comment" name="comment" cols="40" rows="4">Mon super commentaire vraiment très intelligent.</textarea>
+    <fieldset class="controls">
+      <a class="back" href="javascript:history.back()">&times; annuler</a>
+      <input type="submit" value="&plus; enregistrer" />
+    </fieldset>
   </fieldset>
 </form>

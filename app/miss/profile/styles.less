@@ -46,41 +46,9 @@
 
 & > .commentaires {
   .sensible();
-  .padded();
-
-  form.add-comment {
-    border-radius: var(--radius);
-    border: 1px solid var(--color-bg-secondary);
-    text-align: right;
-    background: var(--color-bg-input);
-
-    textarea[name=comment] {
-      .padded();
-      width: 100%;
-      border: none;
-      box-sizing: border-box;
-      font-family: inherit;
-      background: none;
-      color: var(--color-text-input);
-      border-radius: var(--radius) var(--radius) 0 0;
-    }
-
-    .controls {
-      .padded();
-    }
-
-    .back {
-      .secondary();
-      .button();
-    }
-    input[type=submit] {
-      .accent();
-      .button();
-    }
-  }
-
 
   .comment {
+    .padded();
     margin-top: calc(2*var(--gutter));
     a {
       display: block;
