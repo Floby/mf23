@@ -7,5 +7,9 @@ export default class Router extends EmberRouter {
 }
 
 Router.map(function () {
-  this.route('miss', function () {});
+  this.route('miss', function () {
+    this.route('profile', { path: '/:miss_id' }, function () {
+      this.route('judge');
+    });
+  });
 });

@@ -29,14 +29,22 @@ html {
 
 
   > header {
-    padding: var(--gutter);
+    background: var(--color-bg-primary);
+    color: var(--color-bg-secondary);
+    .shadow();
+    .padded();
+    margin-bottom: var(--gutter);
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
     h1 {
       font-size: var(--txt-xl);
       font-weight: bold;
     }
   }
   > footer {
-    padding: var(--gutter);
+    .padded();
     text-align: center;
     font-size: var(--txt-small);
   }

@@ -1,0 +1,35 @@
+{{page-title @model.nom}}
+
+<section class="description">
+  <div class="header">
+    <a href="#">&#x2329;</a>
+    <h2 class="region">
+      {{ @model.région }}
+    </h2>
+    <a href="#">&#x232a;</a>
+  </div>
+  <h3 class="nom"><strong>{{ @model.nom }}</strong>, {{ @model.age }} ans</h3>
+  <p class="bio">
+    Elsa est galop 3, mais en revanche elle fait des blagues un peu trop reloues pour passer
+    à la télé en toute tranquillité.
+  </p>
+  &nbsp;
+</section>
+<section class="photos">
+  <img src={{ @model.photos.portrait}} alt="" role="none">
+</section>
+<section class="commentaires">
+  {{outlet}}
+  <ul class="comments">
+    <li class="comment">
+      <blockquote>
+        Franchement, je la pète, en dépit de son cul de nez. Elle a
+        un côté _girl next door_ qui me plaît.
+      </blockquote>
+      <figcaption>
+        <span class="mention" title="Meilleures chances au salon de l'agriculture">🐮</span>
+        <span class="author">Victor</span>
+      </figcaption>
+    </li>
+  </ul>
+</section>

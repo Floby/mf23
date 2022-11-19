@@ -1,7 +1,27 @@
+.padded() {
+  padding: var(--gutter);
+}
+.padded-l() {
+  padding: calc(2*var(--gutter));
+}
+
+.rounded() {
+  border-radius: var(--radius);
+}
+.rounded-l() {
+  border-radius: calc(2*var(--radius));
+}
+
+.shadow() {
+  filter: drop-shadow(2px 4px 6px var(--color-shadow));
+}
 
 .sensible {
   p,h2,h3,h4,h5,h6,ul,li {
     margin-top: var(--gutter);
+    &:first-child {
+      margin-top: 0;
+    }
   }
   h2 {
     font-size: var(--txt-l);
@@ -15,22 +35,38 @@
   a {
     color: var(--color-accent);
   }
+
+  strong {
+    font-weight: bold;
+  }
+  em {
+    font-style: italic;
+  }
 }
 
+.primary() {
+  --color-bg: var(--color-bg-primary);
+  --color-text: var(--color-text-primary);
+  background: var(--color-bg-primary);
+  color: var(--color-text-primary);
+}
 .secondary() {
+  --color-bg: var(--color-bg-secondary);
+  --color-text: var(--color-text-secondary);
   background: var(--color-bg-secondary);
   color: var(--color-text-secondary);
 }
 
 .accent() {
-  backgrbackground-coloround: var(--color-bg-secondary);
-  color: var(--color-text-secondary);
+  --color-bg: var(--color-bg-accent);
+  --color-text: var(--color-text-accent);
+  background: var(--color-bg-accent);
+  color: var(--color-text-accent);
 }
 
 .vignette () {
   position: relative;
-  z-index: 1;
-
+  line-height: 0;
   &::after {
     content: '';
     position: absolute;
@@ -41,7 +77,20 @@
     background: radial-gradient(circle, transparent 50%, red 150%);
     mix-blend-mode: difference;
   }
-  &:is(:active, :hover)::after {
-    background: none;
-  }
+}
+
+.button() {
+  border: none;
+  padding: .3em .5em;
+  border-radius: var(--radius);
+  font-size: var(--txt-s);
+  display: inline-block;
+  font-family: inherit;
+  text-align: center;
+  user-select: none;
+  font-weight:regular;
+  letter-spacing: initial;
+  word-spacing: initial;
+  line-height: initial;
+  text-decoration: none;
 }
