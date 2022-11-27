@@ -1,17 +1,16 @@
-{{page-title @model.nom}}
+{{page-title (concat @model.nom ", Miss " @model.région)}}
 
 <section class="description">
   <div class="header">
-    <a rel="previous" href="#">&#x3008;</a>
+    <LinkTo rel="previous" @route="miss.profile" @model={{@model.prev}}>&#x3008;</LinkTo>
     <h2 class="region">
       {{ @model.région }}
     </h2>
-    <a rel="next" href="#">&#x3009;</a>
+    <LinkTo rel="next" @route="miss.profile" @model={{@model.next}}>&#x3009;</LinkTo>
   </div>
   <h3 class="nom"><strong>{{ @model.nom }}</strong>, {{ @model.age }} ans</h3>
   <p class="bio">
-    Elsa est galop 3, mais en revanche elle fait des blagues un peu trop reloues pour passer
-    à la télé en toute tranquillité.
+    {{@model.bio}}
   </p>
   &nbsp;
 </section>

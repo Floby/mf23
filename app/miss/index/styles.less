@@ -21,14 +21,16 @@
     }
 
     .miss {
+      margin: 0;
       .secondary();
       border-radius: var(--radius);
       overflow: hidden;
       .portrait {
+        display: block;
         .vignette();
         line-height:0;
         width: 100%;
-        aspect-ratio: 1 / 1;
+        aspect-ratio: ~'1 / 1';
         img {
           height: 100%;
           width: 100%;
@@ -37,10 +39,12 @@
       }
       .legend {
         padding: var(--gutter);
-        padding-top: 0;
       }
       .nom {
         font-size: var(--txt-s);
+      }
+      > a {
+        display: block;
       }
     }
   }

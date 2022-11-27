@@ -1,16 +1,18 @@
 {{page-title "Les Miss"}}
 <h2>Toutes les miss</h2>
 <ul class="misses">
+  {{#each this.model as |miss|}}
   <li class="miss">
-    <LinkTo @route="miss.profile" @model="01-alsace">
+    <LinkTo @route="miss.profile" @model={{ miss }}>
       <div class="portrait">
-        <img src="https://static.actu.fr/uploads/2022/10/camille-sedira-1024x1024-960x640.png" alt="" role="none">
+        <img src={{miss.photos.portrait}} alt="" role="none">
       </div>
       <section class="legend">
-        <h3 class="region">Alsace</h3>
-        <h4 class="nom">Elsa Mülhimmler</h4>
+        <h3 class="region">{{miss.région}}</h3>
+        <h4 class="nom">{{miss.nom}}</h4>
       </section>
     </LinkTo>
   </li>
+  {{/each}}
 </ul>
 {{outlet}}

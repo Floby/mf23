@@ -16,22 +16,22 @@ async function main() {
   for (const miss of list) {
     const key = slugify(miss.region);
     if (!ref[key]) {
-      const assetPath = path.join('public/miss', `${key}.portrait.webp`);
-      const dest = path.join(__dirname, assetPath);
+      const assetPath = path.join('miss', `${key}.pied.webp`);
+      const dest = path.join(__dirname, 'public', assetPath);
       await download.image({ url: miss.src, dest });
       ref[key] = {
         nom: miss.nom,
         age: 22,
         région: miss.region,
         photos: {
-          portrait: path.join('/', assetPath),
+          pied: path.join('/', assetPath),
         },
       };
     } else {
-      const assetPath = path.join('public/miss', `${key}.pied.webp`);
-      const dest = path.join(__dirname, assetPath);
+      const assetPath = path.join('miss', `${key}.portrait.webp`);
+      const dest = path.join(__dirname, 'public', assetPath);
       await download.image({ url: miss.src, dest });
-      ref[key].photos.pied = path.join('/', assetPath);
+      ref[key].photos.portrait = path.join('/', assetPath);
     }
   }
 
