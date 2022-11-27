@@ -1,0 +1,19 @@
+@import 'mixin.less';
+
+& {
+  margin: 0;
+  padding: 0;
+  overflow-y: hidden;
+  white-space: nowrap;
+  font-size: 0;
+  word-spacing: 0;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  > :not(.control) {
+    height: 100%;
+    display: inline-block;
+    scroll-snap-align: center;
+  }
+}

@@ -16,7 +16,11 @@
   &nbsp;
 </section>
 <section class="photos">
-  <img src={{ @model.photos.portrait}} alt="" role="none">
+  <Carousel class="carousel">
+    <Picture class="picture" src={{ @model.photos.portrait}} alt="" role="none" />
+    <Picture class="picture" src={{ @model.photos.pied}} alt="" role="none" />
+    <Picture class="picture" src={{ @model.photos.maillot}} alt="" role="none" />
+  </Carousel>
 </section>
 <section class="commentaires">
   {{outlet}}

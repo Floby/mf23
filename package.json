@@ -43,6 +43,7 @@
     "ember-data": "~4.7.3",
     "ember-fetch": "^8.1.2",
     "ember-load-initializers": "^2.1.2",
+    "ember-modifier": "^3.2.7",
     "ember-page-title": "^7.0.0",
     "ember-qunit": "^6.0.0",
     "ember-resolver": "^8.0.3",
@@ -67,5 +68,8 @@
   },
   "ember": {
     "edition": "octane"
+  },
+  "dependencies": {
+    "image-downloader": "^4.3.0"
   }
 }

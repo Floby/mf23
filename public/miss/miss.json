@@ -1,0 +1,272 @@
+{
+  "alsace": {
+    "nom": "Camille Sedira",
+    "age": 22,
+    "région": "Alsace",
+    "photos": {
+      "portrait": "/public/miss/alsace.portrait.webp",
+      "pied": "/public/miss/alsace.pied.webp"
+    }
+  },
+  "aquitaine": {
+    "nom": "Orianne Galvez Soto",
+    "age": 22,
+    "région": "Aquitaine",
+    "photos": {
+      "portrait": "/public/miss/aquitaine.portrait.webp",
+      "pied": "/public/miss/aquitaine.pied.webp"
+    }
+  },
+  "auvergne": {
+    "nom": "Alissia Ladeveze",
+    "age": 22,
+    "région": "Auvergne",
+    "photos": {
+      "portrait": "/public/miss/auvergne.portrait.webp",
+      "pied": "/public/miss/auvergne.pied.webp"
+    }
+  },
+  "bourgogne": {
+    "nom": "Lara Lebretton",
+    "age": 22,
+    "région": "Bourgogne",
+    "photos": {
+      "portrait": "/public/miss/bourgogne.portrait.webp",
+      "pied": "/public/miss/bourgogne.pied.webp"
+    }
+  },
+  "bretagne": {
+    "nom": "Enora Moal",
+    "age": 22,
+    "région": "Bretagne",
+    "photos": {
+      "portrait": "/public/miss/bretagne.portrait.webp",
+      "pied": "/public/miss/bretagne.pied.webp"
+    }
+  },
+  "centre-val-de-loire": {
+    "nom": "Coraline Lerasle",
+    "age": 22,
+    "région": "Centre-Val de Loire",
+    "photos": {
+      "portrait": "/public/miss/centre-val-de-loire.portrait.webp",
+      "pied": "/public/miss/centre-val-de-loire.pied.webp"
+    }
+  },
+  "champagne-ardenne": {
+    "nom": "Solène Scholer",
+    "age": 22,
+    "région": "Champagne-Ardenne",
+    "photos": {
+      "portrait": "/public/miss/champagne-ardenne.portrait.webp",
+      "pied": "/public/miss/champagne-ardenne.pied.webp"
+    }
+  },
+  "corse": {
+    "nom": "Orianne Meloni",
+    "age": 22,
+    "région": "Corse",
+    "photos": {
+      "portrait": "/public/miss/corse.portrait.webp",
+      "pied": "/public/miss/corse.pied.webp"
+    }
+  },
+  "cote-d-azur": {
+    "nom": "Flavy Barla",
+    "age": 22,
+    "région": "Côte-d'Azur",
+    "photos": {
+      "portrait": "/public/miss/cote-d-azur.portrait.webp",
+      "pied": "/public/miss/cote-d-azur.pied.webp"
+    }
+  },
+  "franche-comte": {
+    "nom": "Marion Navarro",
+    "age": 22,
+    "région": "Franche-Comté",
+    "photos": {
+      "portrait": "/public/miss/franche-comte.portrait.webp",
+      "pied": "/public/miss/franche-comte.pied.webp"
+    }
+  },
+  "guadeloupe": {
+    "nom": "Indira Ampiot",
+    "age": 22,
+    "région": "Guadeloupe",
+    "photos": {
+      "portrait": "/public/miss/guadeloupe.portrait.webp",
+      "pied": "/public/miss/guadeloupe.pied.webp"
+    }
+  },
+  "guyane": {
+    "nom": "Shaïna Robin",
+    "age": 22,
+    "région": "Guyane",
+    "photos": {
+      "portrait": "/public/miss/guyane.portrait.webp",
+      "pied": "/public/miss/guyane.pied.webp"
+    }
+  },
+  "ile-de-france": {
+    "nom": "Adèle Bonnamour",
+    "age": 22,
+    "région": "Île-de-France",
+    "photos": {
+      "portrait": "/public/miss/ile-de-france.portrait.webp",
+      "pied": "/public/miss/ile-de-france.pied.webp"
+    }
+  },
+  "languedoc": {
+    "nom": "Cameron Vallière",
+    "age": 22,
+    "région": "Languedoc",
+    "photos": {
+      "portrait": "/public/miss/languedoc.portrait.webp",
+      "pied": "/public/miss/languedoc.pied.webp"
+    }
+  },
+  "limousin": {
+    "nom": "Salomé Maud",
+    "age": 22,
+    "région": "Limousin",
+    "photos": {
+      "portrait": "/public/miss/limousin.portrait.webp",
+      "pied": "/public/miss/limousin.pied.webp"
+    }
+  },
+  "lorraine": {
+    "nom": "Sarah Aoutar",
+    "age": 22,
+    "région": "Lorraine",
+    "photos": {
+      "portrait": "/public/miss/lorraine.portrait.webp",
+      "pied": "/public/miss/lorraine.pied.webp"
+    }
+  },
+  "martinique": {
+    "nom": "Axelle René",
+    "age": 22,
+    "région": "Martinique",
+    "photos": {
+      "portrait": "/public/miss/martinique.portrait.webp",
+      "pied": "/public/miss/martinique.pied.webp"
+    }
+  },
+  "midi-pyrenees": {
+    "nom": "Florence Demortier",
+    "age": 22,
+    "région": "Midi-Pyrénées",
+    "photos": {
+      "portrait": "/public/miss/midi-pyrenees.portrait.webp",
+      "pied": "/public/miss/midi-pyrenees.pied.webp"
+    }
+  },
+  "nord-pas-de-calais": {
+    "nom": "Agathe Cauet",
+    "age": 22,
+    "région": "Nord-Pas-de-Calais",
+    "photos": {
+      "portrait": "/public/miss/nord-pas-de-calais.portrait.webp",
+      "pied": "/public/miss/nord-pas-de-calais.pied.webp"
+    }
+  },
+  "normandie": {
+    "nom": "Perrine Prunier",
+    "age": 22,
+    "région": "Normandie",
+    "photos": {
+      "portrait": "/public/miss/normandie.portrait.webp",
+      "pied": "/public/miss/normandie.pied.webp"
+    }
+  },
+  "nouvelle-caledonie": {
+    "nom": "Océane Le Goff",
+    "age": 22,
+    "région": "Nouvelle-Calédonie",
+    "photos": {
+      "portrait": "/public/miss/nouvelle-caledonie.portrait.webp",
+      "pied": "/public/miss/nouvelle-caledonie.pied.webp"
+    }
+  },
+  "pays-de-la-loire": {
+    "nom": "Emma Guibert",
+    "age": 22,
+    "région": "Pays de la Loire",
+    "photos": {
+      "portrait": "/public/miss/pays-de-la-loire.portrait.webp",
+      "pied": "/public/miss/pays-de-la-loire.pied.webp"
+    }
+  },
+  "picardie": {
+    "nom": "Bérénice Legendre",
+    "age": 22,
+    "région": "Picardie",
+    "photos": {
+      "portrait": "/public/miss/picardie.portrait.webp",
+      "pied": "/public/miss/picardie.pied.webp"
+    }
+  },
+  "poitou-charentes": {
+    "nom": "Marine Paulais",
+    "age": 22,
+    "région": "Poitou-Charentes",
+    "photos": {
+      "portrait": "/public/miss/poitou-charentes.portrait.webp",
+      "pied": "/public/miss/poitou-charentes.pied.webp"
+    }
+  },
+  "provence": {
+    "nom": "Chana Goyons",
+    "age": 22,
+    "région": "Provence",
+    "photos": {
+      "portrait": "/public/miss/provence.portrait.webp",
+      "pied": "/public/miss/provence.pied.webp"
+    }
+  },
+  "reunion": {
+    "nom": "Marion Marimoutou",
+    "age": 22,
+    "région": "Réunion",
+    "photos": {
+      "portrait": "/public/miss/reunion.portrait.webp",
+      "pied": "/public/miss/reunion.pied.webp"
+    }
+  },
+  "rhone-alpes": {
+    "nom": "Esther Coutin",
+    "age": 22,
+    "région": "Rhône-Alpes",
+    "photos": {
+      "portrait": "/public/miss/rhone-alpes.portrait.webp",
+      "pied": "/public/miss/rhone-alpes.pied.webp"
+    }
+  },
+  "roussillon": {
+    "nom": "Chiara Fontaine",
+    "age": 22,
+    "région": "Roussillon",
+    "photos": {
+      "portrait": "/public/miss/roussillon.portrait.webp",
+      "pied": "/public/miss/roussillon.pied.webp"
+    }
+  },
+  "saint-martin-saint-barthelemy": {
+    "nom": "Inès Tessier",
+    "age": 22,
+    "région": "Saint-Martin-Saint-Barthélemy",
+    "photos": {
+      "portrait": "/public/miss/saint-martin-saint-barthelemy.portrait.webp",
+      "pied": "/public/miss/saint-martin-saint-barthelemy.pied.webp"
+    }
+  },
+  "tahiti": {
+    "nom": "Herenui Tuheiava",
+    "age": 22,
+    "région": "Tahiti",
+    "photos": {
+      "portrait": "/public/miss/tahiti.portrait.webp",
+      "pied": "/public/miss/tahiti.pied.webp"
+    }
+  }
+}
