@@ -12,4 +12,5 @@ Router.map(function () {
       this.route('judge');
     });
   });
+  this.route('settings');
 });

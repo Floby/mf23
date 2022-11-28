@@ -1,0 +1,13 @@
+{{page-title "Paramètres"}}
+<h2>Paramètres</h2>
+
+<form>
+  <label for="nickname">Pseudo</label>
+  <Input name="nickname" id="nickname" @value={{ @model.name }} />
+  <label>Thème</label>
+  <fieldset class="theme">
+    <Input @type="radio" name="theme" id="theme-auto" @value="auto" /><label for="theme-auto">Auto</label>
+    <Input @type="radio" name="theme" id="theme-light" /><label for="theme-light">Clair</label>
+    <Input @type="radio" name="theme" id="theme-dark" /><label for="theme-dark">Sombre</label>
+  </fieldset>
+</form>

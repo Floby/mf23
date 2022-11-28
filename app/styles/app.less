@@ -39,7 +39,12 @@ html {
 
 
   > header {
+    font-size: var(--txt-xl);
     background: var(--color-bg-primary);
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    justify-content: space-between;
     color: var(--color-bg-secondary);
     .shadow();
     .padded();
@@ -49,7 +54,6 @@ html {
       color: inherit;
     }
     h1 {
-      font-size: var(--txt-xl);
       font-weight: bold;
     }
   }
