@@ -1,1 +1,1 @@
-web: npx http-server dist
+web: node server/start.js
