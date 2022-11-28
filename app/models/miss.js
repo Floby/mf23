@@ -39,4 +39,4 @@ const Miss = {
   },
 };
 
-export default Miss
+export default Miss;

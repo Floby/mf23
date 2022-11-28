@@ -71,7 +71,9 @@
     "edition": "octane"
   },
   "dependencies": {
+    "http-server": "^14.1.1",
     "image-downloader": "^4.3.0",
+    "store2": "^2.14.2",
     "yaml": "^2.1.3"
   }
 }

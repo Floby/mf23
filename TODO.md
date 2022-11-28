@@ -3,14 +3,14 @@ TODO
 
 + Consulter une miss
 
-- Consulter toutes les miss
++ Consulter toutes les miss
   + liste, région, nom
   + bio
   + photos
 
-- Juger une miss
-  - commentaire - mention
-  - enregistrement local storage
++ Juger une miss
+  + commentaire - mention
+  + enregistrement local storage
 
 ----------------------
 

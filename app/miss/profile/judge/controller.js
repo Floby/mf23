@@ -4,7 +4,21 @@ import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 
 export default class MissProfileJudgeController extends Controller {
-  @tracked mention = 2;
+  _model = null;
+  @tracked mention = 0;
+  @tracked comment = '';
+
+  set model(judgement) {
+    this._model = judgement;
+    this.mention = judgement.mention;
+    this.comment = judgement.comment;
+  }
+  get model() {
+    return {
+      mention: Number(this.mention),
+      comment: this.comment,
+    };
+  }
 
   get mentions() {
     return Mentions.map((m, value) => ({
@@ -15,7 +29,7 @@ export default class MissProfileJudgeController extends Controller {
   }
 
   get currentMention() {
-    return this.mentions[this.mention];
+    return this.mentions[this.model.mention];
   }
 
   @action

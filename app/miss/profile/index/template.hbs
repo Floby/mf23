@@ -1,10 +1,10 @@
 <div class="comment own">
   <LinkTo @route="miss.profile.judge">
     <blockquote>
-      Mon super commentaire vraiment très intelligent.
+      {{@model.comment}}
     </blockquote>
     <figcaption>
-      <span class="mention" title="À gerber">🤮</span>
+      <span class="mention" title={{mention-label @model.mention}}>{{mention-emoji @model.mention}}</span>
       <span class="author">Moi</span>
     </figcaption>
   </LinkTo>
