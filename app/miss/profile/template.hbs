@@ -25,15 +25,17 @@
 <section class="commentaires">
   {{outlet}}
   <ul class="comments">
-    <li class="comment">
-      <blockquote>
-        Franchement, je la pète, en dépit de son cul de nez. Elle a
-        un côté <em>girl next door</em> qui me plaît.
-      </blockquote>
-      <figcaption>
-        <span class="mention" title={{mention-label 5}}>{{mention-emoji 5}}</span>
-        <span class="author">Victor</span>
-      </figcaption>
-    </li>
+    {{#each @model.judgements}}
+      <li class="comment">
+        <blockquote>
+          Franchement, je la pète, en dépit de son cul de nez. Elle a
+          un côté <em>girl next door</em> qui me plaît.
+        </blockquote>
+        <figcaption>
+          <span class="mention" title={{mention-label 5}}>{{mention-emoji 5}}</span>
+          <span class="author">Victor</span>
+        </figcaption>
+      </li>
+    {{/each}}
   </ul>
 </section>
