@@ -19,7 +19,7 @@
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
     "start": "ember serve",
-    "test": "npm-run-all --print-name \"lint\" \"test:*\"",
+    "test": "npm-run-all --print-name \"test:*\"",
     "test:server": "mocha tests/api",
     "test:ember": "ember test"
   },
