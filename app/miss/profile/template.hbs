@@ -14,12 +14,14 @@
   </p>
   &nbsp;
 </section>
+
 <section class="photos">
   <Carousel class="carousel">
     <Picture class="picture" src={{ @model.photos.portrait}} alt="" role="none" />
     <Picture class="picture" src={{ @model.photos.pied}} alt="" role="none" />
   </Carousel>
 </section>
+
 <section class="commentaires">
   {{outlet}}
   <ul class="comments">
