@@ -2,7 +2,7 @@
 <h2>Toutes les miss</h2>
 <ul class="misses">
   {{#each this.model as |miss|}}
-  <li class="miss">
+  <li class="miss" {{region-css miss.id}}>
     <LinkTo @route="miss.profile" @model={{ miss }}>
       <div class="portrait">
         <img src={{miss.photos.portrait}} alt="" role="none">

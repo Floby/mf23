@@ -22,6 +22,7 @@
 
     .miss {
       margin: 0;
+      position: relative;
       .primary();
       .shadow();
       .rounded();
@@ -31,7 +32,7 @@
         .vignette();
         line-height:0;
         width: 100%;
-        aspect-ratio: ~'1 / 1';
+        aspect-ratio: ~'2 / 3';
         img {
           height: 100%;
           width: 100%;
@@ -40,9 +41,28 @@
       }
       .legend {
         padding: var(--gutter);
+        position: absolute;
+        bottom: 0;
+        display: flex;
+        flex-direction: column;
+        .overlay();
+        box-sizing: border-box;
+        left: 0;
+        width: 100%;
+        height: 40%;
+        > .nom {
+          display: inline;
+        }
+        > .region:is(.saint-martin-saint-barthelemy .region) {
+          font-size: 80%;
+          font-weight: 500;
+        }
       }
       .nom {
         font-size: var(--txt-s);
+      }
+      .region {
+        font-weight: 400;
       }
       > a {
         display: block;
