@@ -14,6 +14,11 @@ TODO
 
 ----------------------
 
+- Settings
+  - Page settings
+  - Thème sombre/clair
+  - Choisir un pseudo
+
 - Authentification
   - auth0 c'est bien
   - validation des comptes sur auth0
