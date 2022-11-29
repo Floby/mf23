@@ -11,6 +11,8 @@
   --color-on-accent: rgb(238, 238, 238);
   --color-glamour: hsl(352deg 55% 82%);
   --color-on-glamour: @colorOnGlamour;
+  --color-disabled: #ddd;
+  --color-on-disabled: #888;
 
   --color-bg-input: #fffb;
   --color-text-input: #333;
@@ -24,6 +26,9 @@
   --color-bg-accent: var(--color-accent);
   --color-text-accent: var(--color-on-accent);
   --color-shadow: fade(@colorGlamour, 90%);
+
+  --color-bg-disabled: var(--color-disabled);
+  --color-text-disabled: var(--color-on-disabled);
 }
 
 .dark {
@@ -35,6 +40,9 @@
   --color-bg-accent: @colorGlamour;
   --color-text-accent: @colorOnGlamour;
   --color-shadow: #0003;
+
+  --color-bg-disabled: var(--color-disabled);
+  --color-text-disabled: var(--color-on-disabled);
 }
 
 html {

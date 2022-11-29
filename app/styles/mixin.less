@@ -1,3 +1,5 @@
+@import "./colors.less";
+
 .padded() {
   padding: var(--gutter);
 }
@@ -101,4 +103,16 @@
   word-spacing: initial;
   line-height: initial;
   text-decoration: none;
+  border: 1px solid transparent;
+  cursor: pointer;
+
+  &[disabled] {
+    background: transparent;
+    background: var(--color-bg-disabled);
+    border-color: var(--color-text-disabled);
+    color: var(--color-text-disabled);
+    cursor: not-allowed;
+  }
+  
+  transition: all 80ms ease-out;
 }

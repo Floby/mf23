@@ -1,7 +1,7 @@
 {{page-title "Juger"}}
-<form class="judge" {{action 'saveJudgement' this.model on="submit"}}>
+<form class="judge" {{action 'saveJudgement' this.newModel on="submit"}}>
   <div class="mention-picked">
-    {{ this.currentMention.label }}
+    {{mention-label this.mention}}
   </div>
   <fieldset class="mention">
     <label for="mention">Jugement</label>
@@ -9,13 +9,15 @@
     <ul class="mention-emojis">
       {{#each this.mentions as |mention|}}
         <li>
-          <label {{on "click" (fn this.selectMention mention.value)}} for="mention" class="reaction" title={{mention.label}}>{{mention.reaction}}</label>
+          <label {{on "click" (fn this.selectMention mention)}} for="mention" class="reaction" title={{mention-label mention}}>
+            {{mention-emoji mention}}
+          </label>
         </li>
       {{/each}}
     </ul>
   </fieldset>
   <fieldset class="add-comment">
-    <Textarea {{input-autosize}} @value={{ this.comment }} placeholder="Ici, la motivation de votre jugement." id="comment" name="comment" cols="40" rows="2" />
+    <Textarea required {{input-autosize}} @value={{ this.comment }} placeholder="Ici, la motivation de votre jugement." id="comment" name="comment" cols="40" rows="2" />
     <fieldset class="controls">
       <a class="back" href="javascript:history.back()">&times; annuler</a>
       <input type="submit" value="&plus; enregistrer" />

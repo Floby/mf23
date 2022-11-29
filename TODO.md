@@ -21,8 +21,8 @@ TODO
 
 - Quality of life
   + Textarea autosize
-  - disable save
-  - disable cancel
+  + disable save
+  + disable cancel
   - témoin galerie (need debounce-decorator ?)
   - navigation galerie
 

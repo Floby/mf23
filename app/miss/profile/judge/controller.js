@@ -4,7 +4,7 @@ import { action } from '@ember/object';
 import { tracked } from '@glimmer/tracking';
 
 export default class MissProfileJudgeController extends Controller {
-  _model = null;
+  @tracked _model = null;
   @tracked mention = 0;
   @tracked comment = '';
 
@@ -13,7 +13,7 @@ export default class MissProfileJudgeController extends Controller {
     this.mention = judgement.mention;
     this.comment = judgement.comment;
   }
-  get model() {
+  get newModel() {
     return {
       mention: Number(this.mention),
       comment: this.comment,
@@ -21,19 +21,11 @@ export default class MissProfileJudgeController extends Controller {
   }
 
   get mentions() {
-    return Mentions.map((m, value) => ({
-      value,
-      reaction: m[0],
-      label: m[1],
-    }));
-  }
-
-  get currentMention() {
-    return this.mentions[this.model.mention];
+    return Mentions.map((_, value) => value);
   }
 
   @action
   selectMention(index) {
-    this.mention = index;
+    this.mention = Number(index);
   }
 }
