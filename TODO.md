@@ -20,7 +20,7 @@ TODO
   + effet Black & white quand TODO
 
 - Quality of life
-  - Textarea autosize
+  + Textarea autosize
   - disable save
   - disable cancel
   - témoin galerie (need debounce-decorator ?)

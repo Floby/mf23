@@ -15,7 +15,7 @@
     </ul>
   </fieldset>
   <fieldset class="add-comment">
-    <Textarea @value={{ this.comment }} placeholder="Ici, la motivation de votre jugement." id="comment" name="comment" cols="40" rows="4"></Textarea>
+    <Textarea {{input-autosize}} @value={{ this.comment }} placeholder="Ici, la motivation de votre jugement." id="comment" name="comment" cols="40" rows="2" />
     <fieldset class="controls">
       <a class="back" href="javascript:history.back()">&times; annuler</a>
       <input type="submit" value="&plus; enregistrer" />
