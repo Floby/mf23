@@ -1,5 +1,9 @@
 {{page-title "Les Miss"}}
-<h2>Toutes les miss</h2>
+<div class="header">
+  <h2>Toutes les miss</h2>
+  <progress max={{this.total}} value={{this.judged}}></progress>
+  <legend><small>Encore {{this.todo}} miss à juger</small></legend>
+</div>
 <ul class="misses">
   {{#each this.model.misses as |miss|}}
   <li class="miss {{if (get @model.judge.miss miss.id) 'done' 'todo'}}" {{region-css miss.id}}>

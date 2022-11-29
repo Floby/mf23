@@ -4,6 +4,34 @@
   .sensible();
   padding:var(--gutter);
 
+
+  .header {
+    display: grid;
+    grid-gap: 0 var(--gutter);
+    grid-template-columns: auto 1fr;
+
+    progress {
+      width: 100%;
+      appearance: none;
+      box-sizing: border-box;
+
+      &::-webkit-progress-bar {
+        overflow: hidden;
+        .rounded();
+        background-color: var(--color-text-secondary);
+      }
+      &::-webkit-progress-value {
+        background: none;
+        background-color: var(--color-bg-secondary);
+      }
+    }
+    legend {
+      grid-column: 2;
+    }
+
+    margin-bottom: 1em;
+  }
+
   .misses {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

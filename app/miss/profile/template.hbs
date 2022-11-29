@@ -25,7 +25,6 @@
 <section class="commentaires">
   {{outlet}}
   <ul class="comments">
-    {{#each @model.judgements}}
       <li class="comment">
         <blockquote>
           Franchement, je la pète, en dépit de son cul de nez. Elle a
@@ -36,6 +35,7 @@
           <span class="author">Victor</span>
         </figcaption>
       </li>
+    {{#each @model.judgements}}
     {{/each}}
   </ul>
 </section>

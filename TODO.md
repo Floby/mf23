@@ -14,8 +14,8 @@ TODO
 
 ----------------------
 
-- Progress
-  - progress par sur la page de liste
++ Progress
+  + progress par sur la page de liste
   + mention actuelle sur la tronche de la miss dans la vue liste
   + effet Black & white quand TODO
 

@@ -10,7 +10,7 @@
   --color-accent: #4D8399;
   --color-on-accent: rgb(238, 238, 238);
   --color-glamour: hsl(352deg 55% 82%);
-  --color-on-glamour: hsl(180deg 12% 28%);
+  --color-on-glamour: @colorOnGlamour;
 
   --color-bg-input: #fffb;
   --color-text-input: #333;
@@ -30,7 +30,8 @@
   --color-bg-primary: var(--color-main);
   --color-text-primary: var(--color-on-main);
   --color-bg-secondary: var(--color-secondary);
-  --color-text-secondary: var(--color-main);
+  --color-text-secondary: var(--color-on-secondary);
+  --color-text-secondary: hsl(180deg 30% 59%);
   --color-bg-accent: @colorGlamour;
   --color-text-accent: @colorOnGlamour;
   --color-shadow: #0003;
