@@ -19,12 +19,12 @@ TODO
   + mention actuelle sur la tronche de la miss dans la vue liste
   + effet Black & white quand TODO
 
-- Quality of life
++ Quality of life
   + Textarea autosize
   + disable save
   + disable cancel
-  - témoin galerie (need debounce-decorator ?)
-  - navigation galerie
+  + témoin galerie (need debounce-decorator ?)
+  ? navigation galerie
 
 - Deploiement sur clevercloud
   - PoC deploiement + FS addon
