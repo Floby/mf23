@@ -4,6 +4,6 @@ import { service } from '@ember/service';
 export default class ApplicationRoute extends Route {
   @service judge;
   async model() {
-    return this.judge.getCurrent();
+    return { judge: this.judge.getCurrent() };
   }
 }

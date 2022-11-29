@@ -1,2 +1,5 @@
 import Controller from '@ember/controller';
-export default class MissIndexController extends Controller {}
+import { cached, tracked } from '@glimmer/tracking';
+
+export default class MissIndexController extends Controller {
+}

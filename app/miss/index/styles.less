@@ -38,6 +38,13 @@
           width: 100%;
           object-fit: cover;
           transform: scale(300%) translateY(17%) translateX(-2%);
+
+          &:is(.todo .portrait img) {
+            filter: grayscale(1) contrast(110%)
+          }
+          &:is(.done .portrait img) {
+            filter: saturate(100%);
+          }
         }
       }
       .legend {
@@ -58,6 +65,13 @@
           font-size: 80%;
           font-weight: 500;
         }
+      }
+      .mention {
+        display: block;
+        position: absolute;
+        top: 0;
+        right: 0;
+        padding: .4rem;
       }
       .nom {
         font-size: var(--txt-s);

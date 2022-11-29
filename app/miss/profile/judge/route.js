@@ -19,6 +19,9 @@ export default class MissProfileJudgeRoute extends Route {
 
   @action
   saveJudgement(judgement) {
+    if (!judgement.comment.trim()) {
+      return;
+    }
     const judge = this.judge.getCurrent();
     const miss = this.modelFor('miss.profile');
     judge.miss[miss.id] = judgement;

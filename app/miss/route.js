@@ -3,6 +3,6 @@ import miss from '../models/miss';
 
 export default class MissRoute extends Route {
   model() {
-    return miss;
+    return { misses: miss };
   }
 }
