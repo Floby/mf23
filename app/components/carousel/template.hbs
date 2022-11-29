@@ -1,3 +1,9 @@
 <section {{style-namespace 'carousel'}} ...attributes>
-  {{yield}}
+  <div class="carousel-wrapper" 
+       {{did-insert this.onInsert}}
+       {{on 'resize' this.updateMeter}}
+       {{on 'scroll' this.updateMeter}} >
+    {{yield}}
+  </div>
+  <span class="control meter">{{this.meter}}</span>
 </section>

@@ -3,17 +3,30 @@
 & {
   margin: 0;
   padding: 0;
-  overflow-y: hidden;
-  white-space: nowrap;
-  font-size: 0;
-  word-spacing: 0;
+  position: relative;
 
-  overflow-x: scroll;
-  scroll-snap-type: x mandatory;
+  > .meter {
+    display: block;
+    position: absolute;
+    top: 1em;
+    left: 1em;
+    padding: .5em;
+    .overlay();
+    .rounded-l();
+    font-size: var(--txt-s);
+  }
 
-  > :not(.control) {
-    height: 100%;
-    display: inline-block;
-    scroll-snap-align: center;
+  .carousel-wrapper {
+    font-size: 0;
+    white-space: nowrap;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+
+    > :not(.control) {
+      height: 100%;
+      display: inline-block;
+      scroll-snap-align: center;
+    }
   }
 }
