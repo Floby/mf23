@@ -12,18 +12,34 @@
 
     progress {
       width: 100%;
+      -webkit-appearance: none;
+      -moz-appearance: none;
       appearance: none;
       box-sizing: border-box;
+      .rounded();
+
+      overflow: hidden;
+      background: none;
+      background: var(--color-text-secondary);
+      border: none;
 
       &::-webkit-progress-bar {
-        overflow: hidden;
-        .rounded();
-        background-color: var(--color-text-secondary);
+        background: none;
+        border: none;
       }
       &::-webkit-progress-value {
+        .progress-value();
+      }
+      &::-moz-progress-bar {
+        .progress-value();
+      }
+
+      .progress-value () {
         background: none;
         background-color: var(--color-bg-secondary);
+        .shadow();
       }
+
     }
     legend {
       grid-column: 2;
