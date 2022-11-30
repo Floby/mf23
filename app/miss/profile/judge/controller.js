@@ -15,6 +15,7 @@ export default class MissProfileJudgeController extends Controller {
   }
   get newModel() {
     return {
+      ...this._model,
       mention: Number(this.mention),
       comment: this.comment,
     };

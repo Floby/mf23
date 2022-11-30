@@ -12,6 +12,7 @@ export default class MissProfileJudgeRoute extends Route {
       return judge.miss[miss.id];
     }
     return {
+      createdAt: Date.now(),
       mention: 2,
       comment: '',
     };
@@ -24,7 +25,13 @@ export default class MissProfileJudgeRoute extends Route {
     }
     const judge = this.judge.getCurrent();
     const miss = this.modelFor('miss.profile');
-    judge.miss[miss.id] = judgement;
+    const version = judge.miss[miss.id]?.version || 0;
+    const updatedAt = Date.now();
+    judge.miss[miss.id] = {
+      ...judgement,
+      version: version + 1,
+      updatedAt,
+    };
     this.judge.saveCurrent(judge);
     this.router.transitionTo('miss.profile');
   }
