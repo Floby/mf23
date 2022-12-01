@@ -18,7 +18,8 @@
     "lint:hbs:fix": "ember-template-lint . --fix",
     "lint:js": "eslint . --cache",
     "lint:js:fix": "eslint . --fix",
-    "start": "ember serve",
+    "start": "node server/start.js",
+    "dev": "ember serve",
     "test": "npm-run-all --print-name \"test:*\"",
     "test:server": "mocha tests/api",
     "test:ember": "ember test"
@@ -86,6 +87,7 @@
     "express": "^4.18.2",
     "glob": "^4.5.3",
     "image-downloader": "^4.3.0",
+    "mongodb": "^4.12.1",
     "morgan": "^1.10.0",
     "store2": "^2.14.2",
     "yaml": "^2.1.3"
