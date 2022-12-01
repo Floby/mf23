@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const Miss = require('../../../app/models/miss.referential.json');
-const bodyParser = require('body-parser');
+const { H, Accept, WithAuth } = require('../../http');
 const express = require('express');
 
 module.exports = function (app) {
@@ -8,10 +8,12 @@ module.exports = function (app) {
   let JudgeRouter = express.Router();
 
   JudgeRouter.get(
-    '/:id',
+    '/me',
+    WithAuth(['judge']),
     H(async (req, res) => {
       const repo = req.inject.repository.judge;
-      const judge = await repo.get('me');
+      const id = req.auth.sub;
+      const judge = await repo.get(id);
       if (judge) {
         res.setHeader('Last-Modified', new Date(judge.updatedAt).toUTCString());
         res.send(judge);
@@ -23,48 +25,20 @@ module.exports = function (app) {
   );
 
   JudgeRouter.put(
-    '/:id',
+    '/me',
+    WithAuth(['judge']),
     Accept(JudgeValidator),
     H(async (req, res) => {
-      console.log(req.inject);
+      const id = req.auth.sub;
       const repo = req.inject.repository.judge;
-      await repo.save({ ...req.body, id: 'me' });
-      res.send(await repo.get('me'));
+      await repo.save({ ...req.body, id });
+      res.header('Last-Modified', new Date(req.body.updatedAt).toUTCString());
+      res.send(await repo.get(id));
     })
   );
 
   app.use('/api/judge', JudgeRouter);
 };
-
-function H(middleware) {
-  return async function (req, res, next) {
-    try {
-      await middleware(req, res);
-    } catch (e) {
-      next(e);
-    }
-  };
-}
-
-function Accept(schema) {
-  return [bodyParser.json(), validate];
-
-  function validate(req, res, next) {
-    try {
-      req.body = Joi.attempt(req.body, schema, {
-        abortEarly: false,
-      });
-      next();
-    } catch (error) {
-      if (!error.details) return next(error);
-      res.status(400);
-      res.send({
-        error: 'Invalid payload',
-        errors: error.details,
-      });
-    }
-  }
-}
 
 const JudgeValidator = Joi.object({
   id: Joi.string().required().max(100).description('Identifier'),
