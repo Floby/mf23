@@ -57,7 +57,7 @@ module.exports = function (app) {
 };
 
 const JudgeValidator = Joi.object({
-  id: Joi.string().required().max(100).description('Identifier'),
+  id: Joi.string().optional().max(100).description('Identifier'),
   nom: Joi.string().required().max(100).description('The name of the judge'),
   updatedAt: Joi.number().required().integer().description('Javascript epoch'),
   miss: Joi.object(

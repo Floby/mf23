@@ -1,8 +1,12 @@
 import Service from '@ember/service';
+import { debounce } from 'typescript-debounce-decorator';
+import { service } from '@ember/service';
+import ms from 'ms';
 import Store from 'store2';
 import { tracked } from '@glimmer/tracking';
 
 export default class JudgeService extends Service {
+  @service auth;
   constructor(...args) {
     super(...args);
     const schemaVersion = 2;
@@ -27,11 +31,31 @@ export default class JudgeService extends Service {
       updatedAt: Date.now(),
     });
     this._current = judge;
+    this.pushChanges();
   }
 
   getCurrentJudgementFor(id) {
     const current = this.getCurrent();
     return current.miss[id];
+  }
+
+  @debounce(ms('15 seconds'))
+  async pushChanges() {
+    if (!this.auth.isAuthenticated) return;
+    const ifSince = new Date(this._current.updatedAt);
+    try {
+      await fetch(`/api/judge/me`, {
+        method: 'PUT',
+        body: JSON.stringify(this._current),
+        headers: {
+          Authorization: `Bearer ${this.auth.accessToken}`,
+          'Content-Type': 'application/json',
+          'If-Unmodified-Since': ifSince.toUTCString(),
+        },
+      });
+    } catch (e) {
+      console.error('failed to synchronize judge', e);
+    }
   }
 
   migrateTo(target) {
