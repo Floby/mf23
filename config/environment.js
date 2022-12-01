@@ -1,4 +1,4 @@
-'use strict';
+require('dotenv').config();
 
 module.exports = function (environment) {
   const ENV = {
@@ -16,6 +16,11 @@ module.exports = function (environment) {
     APP: {
       // Here you can pass flags/options to your application instance
       // when it is created
+    },
+    auth0: {
+      domain: process.env.AUTH0_DOMAIN,
+      clientId: process.env.AUTH0_CLIENT_ID,
+      clientSecret: process.env.AUTH0_CLIENT_SECRET,
     },
   };
 
