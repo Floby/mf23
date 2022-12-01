@@ -1,6 +1,6 @@
 const Joi = require('joi');
 const Miss = require('../../../app/models/miss.referential.json');
-const { H, Accept, WithAuth } = require('../../http');
+const { H, Precondition, Accept, WithAuth } = require('../../http');
 const express = require('express');
 
 module.exports = function (app) {
@@ -27,10 +27,26 @@ module.exports = function (app) {
   JudgeRouter.put(
     '/me',
     WithAuth(['judge']),
+    Precondition('If-Unmodified-Since', Joi.date()),
     Accept(JudgeValidator),
     H(async (req, res) => {
+      const ifSince = req.conditions['If-Unmodified-Since'];
+      console.log({ ifSince });
       const id = req.auth.sub;
       const repo = req.inject.repository.judge;
+      const judge = await repo.get(id);
+      const savedAt = Math.floor(judge.updatedAt / 1000) * 1000; // get seconds
+      if (ifSince < savedAt) {
+        res.status(412);
+        res.send({
+          error: 'Precondition Failed',
+          detail: {
+            message: 'Resource is fresher on server',
+            saved: new Date(judge.updatedAt),
+            yours: new Date(ifSince),
+          },
+        });
+      }
       await repo.save({ ...req.body, id });
       res.header('Last-Modified', new Date(req.body.updatedAt).toUTCString());
       res.send(await repo.get(id));

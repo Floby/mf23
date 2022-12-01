@@ -34,14 +34,15 @@ TODO
 
 - Authentification
   + auth0 c'est bien
-  - validation des comptes sur auth0
+  + validation des comptes sur auth0
 
 - Onboarding
   - Choisir un pseudo
   - Afficher le nom du device
 
 - Partage des jugements
-  - enregistrer sur API si le compte est validé
+  + enregistrer sur API si le compte est validé
+  - enregistrer en background si on a la dernière date
   - récupérer les autres jugements si le compte est validé
 
 -----------------------

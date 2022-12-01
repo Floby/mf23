@@ -67,3 +67,28 @@ exports.WithAuth = function WithAuth(...permissionAlternatives) {
     }
   };
 };
+
+exports.Precondition = function Precondition(condition, schema = Joi.any()) {
+  return (req, res, next) => {
+    if (req.get(condition)) {
+      const { error, value } = schema.validate(req.get(condition));
+      if (error) {
+        res.status(428);
+        res.send({
+          error: 'Precondition Required',
+          details: error,
+        });
+        return;
+      }
+      req.conditions = req.conditions = {};
+      req.conditions[condition] = value;
+      next();
+    } else {
+      res.status(428);
+      res.send({
+        error: 'Precondition Required',
+        message: `This request is only allows with the ${condition} header`,
+      });
+    }
+  };
+};
