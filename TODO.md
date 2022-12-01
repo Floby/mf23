@@ -33,7 +33,7 @@ TODO
 ----------------------
 
 - Authentification
-  - auth0 c'est bien
+  + auth0 c'est bien
   - validation des comptes sur auth0
 
 - Onboarding
