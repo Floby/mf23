@@ -11,15 +11,17 @@ describeJudgeRepository(
 );
 describeJudgeRepository(
   'Mongo',
-  async () => {
+  async function () {
     const url = 'mongodb://localhost:27017';
     const dbName = `test-${Math.floor(Math.random() * 1000)}`;
-    const client = new MongoClient(url);
-    const db = client.db(dbName);
+    this.client = new MongoClient(url);
+    await this.client.connect();
+    const db = this.client.db(dbName);
     return new MongoJudgeRepository(db);
   },
-  async (repository) => {
-    console.dir(repository.db);
+  async function (repo) {
+    await repo.clear();
+    await this.client.close();
   }
 );
 
@@ -37,10 +39,12 @@ function describeJudgeRepository(name, setup, teardown) {
       },
     };
     let repo;
-    beforeEach(() => {
-      repo = setup();
+    beforeEach(async function () {
+      repo = await setup.call(this);
     });
-    afterEach(() => teardown(repo));
+    afterEach(async function () {
+      await teardown.call(this, repo);
+    });
     context('when there are no contents', () => {
       describe('.list()', () => {
         it('resolves an empty array', async () => {
@@ -103,7 +107,7 @@ function describeJudgeRepository(name, setup, teardown) {
       });
     });
     context('when 2 judges have been saved', () => {
-      const id2 = 'ZYHUJKL';
+      const id2 = 'AYHUJKL';
       const judge2 = {
         id: id2,
         name: 'Other',
