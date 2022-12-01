@@ -86,6 +86,7 @@
     "express": "^4.18.2",
     "glob": "^4.5.3",
     "image-downloader": "^4.3.0",
+    "joi": "^17.7.0",
     "mongodb": "^4.12.1",
     "morgan": "^1.10.0",
     "store2": "^2.14.2",

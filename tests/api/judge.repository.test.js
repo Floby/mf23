@@ -15,7 +15,7 @@ describeJudgeRepository(
     const url = 'mongodb://localhost:27017';
     const dbName = `test-${Math.floor(Math.random() * 1000)}`;
     this.client = new MongoClient(url);
-    await this.client.connect();
+    //await this.client.connect();
     const db = this.client.db(dbName);
     return new MongoJudgeRepository(db);
   },

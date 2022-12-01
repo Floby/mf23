@@ -2,8 +2,15 @@ const configureApi = require('./index');
 const configureStatic = require('./static');
 const express = require('express');
 
-const app = express();
-configureApi(app);
-configureStatic(app);
+async function main() {
+  const app = express();
+  configureApi(app);
+  configureStatic(app);
 
-app.listen(process.env.PORT || 8080);
+  app.listen(process.env.PORT || 8080);
+}
+
+main().catch((error) => {
+  console.error(error.stack);
+  process.exit(1);
+});
