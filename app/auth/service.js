@@ -189,10 +189,8 @@ export default class AuthService extends Service {
     this.sessionStore.remove('expires_at');
     this.sessionStore.remove('userInfo');
     this.getSession();
-    return;
     window.location = AUTH_LOGOUT_URI.query({
       client_id: AUTH_CONFIG.clientId,
-      federated: false,
       returnTo: window.location.origin + '/',
     });
   }
