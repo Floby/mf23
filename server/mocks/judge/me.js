@@ -35,7 +35,7 @@ module.exports = function (app) {
       const id = req.auth.sub;
       const repo = req.inject.repository.judge;
       const judge = await repo.get(id);
-      const savedAt = Math.floor(judge.updatedAt / 1000) * 1000; // get seconds
+      const savedAt = Math.floor((judge?.updatedAt || 0) / 1000) * 1000; // get seconds
       if (ifSince < savedAt) {
         res.status(412);
         res.send({

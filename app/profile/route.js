@@ -12,6 +12,9 @@ export default class ProfileRoute extends Route {
       console.error(error);
       this.transitionTo('index');
     }
+    if (!this.isAuthenticated) {
+      return this.auth.login();
+    }
   }
 
   async model() {
