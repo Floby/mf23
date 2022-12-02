@@ -48,6 +48,8 @@ TODO
   - un lien vers Instagram
   - la 3e photo maillot
 
++ taille des miss
+
 -------------------------
 
 - Partage des jugements
