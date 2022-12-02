@@ -15,10 +15,12 @@
   &nbsp;
 </section>
 
-<section class="photos">
+<section class="photos {{@model.id}}">
   <Carousel class="carousel">
-    <Picture class="picture" src={{ @model.photos.portrait}} alt="" role="none" />
-    <Picture class="picture" src={{ @model.photos.pied}} alt="" role="none" />
+    <Picture class="picture" title="Portrait" src={{ @model.photos.portrait}} alt="" role="none" />
+    <Picture class="picture" title="Pied" src={{ @model.photos.pied}} alt="" role="none" />
+    <Picture class="picture" title="MaillotPied" src={{ @model.photos.maillotPied}} alt="" role="none" />
+    <Picture class="picture" title="MaillotAssis" src={{ @model.photos.maillotAssis}} alt="" role="none" />
   </Carousel>
 </section>
 

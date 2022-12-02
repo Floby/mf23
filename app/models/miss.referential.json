@@ -4,8 +4,11 @@
     "age": 21,
     "région": "Alsace",
     "photos": {
-      "pied": "/miss/alsace.pied.webp",
-      "portrait": "/miss/alsace.portrait.webp"
+      "pied": "/miss/alsace/pied.jpg",
+      "portrait": "/miss/alsace/portrait.jpg",
+      "maillotPied": "/miss/alsace/maillot-pied.jpg",
+      "maillotAssis": "/miss/alsace/maillot-assis.jpg",
+      "maillotPortrait": "/miss/alsace/maillot-portrait.jpg"
     }
   },
   "aquitaine": {
@@ -13,8 +16,11 @@
     "age": 23,
     "région": "Aquitaine",
     "photos": {
-      "pied": "/miss/aquitaine.pied.webp",
-      "portrait": "/miss/aquitaine.portrait.webp"
+      "pied": "/miss/aquitaine/pied.jpg",
+      "portrait": "/miss/aquitaine/portrait.jpg",
+      "maillotPied": "/miss/aquitaine/maillot-pied.jpg",
+      "maillotAssis": "/miss/aquitaine/maillot-assis.jpg",
+      "maillotPortrait": "/miss/aquitaine/maillot-portrait.jpg"
     }
   },
   "auvergne": {
@@ -22,8 +28,11 @@
     "age": 21,
     "région": "Auvergne",
     "photos": {
-      "pied": "/miss/auvergne.pied.webp",
-      "portrait": "/miss/auvergne.portrait.webp"
+      "pied": "/miss/auvergne/pied.jpg",
+      "portrait": "/miss/auvergne/portrait.jpg",
+      "maillotPied": "/miss/auvergne/maillot-pied.jpg",
+      "maillotAssis": "/miss/auvergne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/auvergne/maillot-portrait.jpg"
     }
   },
   "bourgogne": {
@@ -31,8 +40,11 @@
     "age": 23,
     "région": "Bourgogne",
     "photos": {
-      "pied": "/miss/bourgogne.pied.webp",
-      "portrait": "/miss/bourgogne.portrait.webp"
+      "pied": "/miss/bourgogne/pied.jpg",
+      "portrait": "/miss/bourgogne/portrait.jpg",
+      "maillotPied": "/miss/bourgogne/maillot-pied.jpg",
+      "maillotAssis": "/miss/bourgogne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/bourgogne/maillot-portrait.jpg"
     }
   },
   "bretagne": {
@@ -40,8 +52,11 @@
     "age": 21,
     "région": "Bretagne",
     "photos": {
-      "pied": "/miss/bretagne.pied.webp",
-      "portrait": "/miss/bretagne.portrait.webp"
+      "pied": "/miss/bretagne/pied.jpg",
+      "portrait": "/miss/bretagne/portrait.jpg",
+      "maillotPied": "/miss/bretagne/maillot-pied.jpg",
+      "maillotAssis": "/miss/bretagne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/bretagne/maillot-portrait.jpg"
     }
   },
   "centre-val-de-loire": {
@@ -49,8 +64,11 @@
     "age": 23,
     "région": "Centre-Val de Loire",
     "photos": {
-      "pied": "/miss/centre-val-de-loire.pied.webp",
-      "portrait": "/miss/centre-val-de-loire.portrait.webp"
+      "pied": "/miss/centre-val-de-loire/pied.jpg",
+      "portrait": "/miss/centre-val-de-loire/portrait.jpg",
+      "maillotPied": "/miss/centre-val-de-loire/maillot-pied.jpg",
+      "maillotAssis": "/miss/centre-val-de-loire/maillot-assis.jpg",
+      "maillotPortrait": "/miss/centre-val-de-loire/maillot-portrait.jpg"
     }
   },
   "champagne-ardenne": {
@@ -58,8 +76,11 @@
     "age": 21,
     "région": "Champagne-Ardenne",
     "photos": {
-      "pied": "/miss/champagne-ardenne.pied.webp",
-      "portrait": "/miss/champagne-ardenne.portrait.webp"
+      "pied": "/miss/champagne-ardenne/pied.jpg",
+      "portrait": "/miss/champagne-ardenne/portrait.jpg",
+      "maillotPied": "/miss/champagne-ardenne/maillot-pied.jpg",
+      "maillotAssis": "/miss/champagne-ardenne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/champagne-ardenne/maillot-portrait.jpg"
     }
   },
   "corse": {
@@ -67,8 +88,11 @@
     "age": 22,
     "région": "Corse",
     "photos": {
-      "pied": "/miss/corse.pied.webp",
-      "portrait": "/miss/corse.portrait.webp"
+      "pied": "/miss/corse/pied.jpg",
+      "portrait": "/miss/corse/portrait.jpg",
+      "maillotPied": "/miss/corse/maillot-pied.jpg",
+      "maillotAssis": "/miss/corse/maillot-assis.jpg",
+      "maillotPortrait": "/miss/corse/maillot-portrait.jpg"
     }
   },
   "cote-d-azur": {
@@ -76,8 +100,11 @@
     "age": 19,
     "région": "Côte-d'Azur",
     "photos": {
-      "pied": "/miss/cote-d-azur.pied.webp",
-      "portrait": "/miss/cote-d-azur.portrait.webp"
+      "pied": "/miss/cote-d-azur/pied.jpg",
+      "portrait": "/miss/cote-d-azur/portrait.jpg",
+      "maillotPied": "/miss/cote-d-azur/maillot-pied.jpg",
+      "maillotAssis": "/miss/cote-d-azur/maillot-assis.jpg",
+      "maillotPortrait": "/miss/cote-d-azur/maillot-portrait.jpg"
     }
   },
   "franche-comte": {
@@ -85,8 +112,11 @@
     "age": 19,
     "région": "Franche-Comté",
     "photos": {
-      "pied": "/miss/franche-comte.pied.webp",
-      "portrait": "/miss/franche-comte.portrait.webp"
+      "pied": "/miss/franche-comte/pied.jpg",
+      "portrait": "/miss/franche-comte/portrait.jpg",
+      "maillotPied": "/miss/franche-comte/maillot-pied.jpg",
+      "maillotAssis": "/miss/franche-comte/maillot-assis.jpg",
+      "maillotPortrait": "/miss/franche-comte/maillot-portrait.jpg"
     }
   },
   "guadeloupe": {
@@ -94,8 +124,11 @@
     "age": 18,
     "région": "Guadeloupe",
     "photos": {
-      "pied": "/miss/guadeloupe.pied.webp",
-      "portrait": "/miss/guadeloupe.portrait.webp"
+      "pied": "/miss/guadeloupe/pied.jpg",
+      "portrait": "/miss/guadeloupe/portrait.jpg",
+      "maillotPied": "/miss/guadeloupe/maillot-pied.jpg",
+      "maillotAssis": "/miss/guadeloupe/maillot-assis.jpg",
+      "maillotPortrait": "/miss/guadeloupe/maillot-portrait.jpg"
     }
   },
   "guyane": {
@@ -103,8 +136,11 @@
     "age": 21,
     "région": "Guyane",
     "photos": {
-      "pied": "/miss/guyane.pied.webp",
-      "portrait": "/miss/guyane.portrait.webp"
+      "pied": "/miss/guyane/pied.jpg",
+      "portrait": "/miss/guyane/portrait.jpg",
+      "maillotPied": "/miss/guyane/maillot-pied.jpg",
+      "maillotAssis": "/miss/guyane/maillot-assis.jpg",
+      "maillotPortrait": "/miss/guyane/maillot-portrait.jpg"
     }
   },
   "ile-de-france": {
@@ -112,8 +148,11 @@
     "age": 18,
     "région": "Île-de-France",
     "photos": {
-      "pied": "/miss/ile-de-france.pied.webp",
-      "portrait": "/miss/ile-de-france.portrait.webp"
+      "pied": "/miss/ile-de-france/pied.jpg",
+      "portrait": "/miss/ile-de-france/portrait.jpg",
+      "maillotPied": "/miss/ile-de-france/maillot-pied.jpg",
+      "maillotAssis": "/miss/ile-de-france/maillot-assis.jpg",
+      "maillotPortrait": "/miss/ile-de-france/maillot-portrait.jpg"
     }
   },
   "languedoc": {
@@ -121,8 +160,11 @@
     "age": 23,
     "région": "Languedoc",
     "photos": {
-      "pied": "/miss/languedoc.pied.webp",
-      "portrait": "/miss/languedoc.portrait.webp"
+      "pied": "/miss/languedoc/pied.jpg",
+      "portrait": "/miss/languedoc/portrait.jpg",
+      "maillotPied": "/miss/languedoc/maillot-pied.jpg",
+      "maillotAssis": "/miss/languedoc/maillot-assis.jpg",
+      "maillotPortrait": "/miss/languedoc/maillot-portrait.jpg"
     }
   },
   "limousin": {
@@ -130,8 +172,11 @@
     "age": 23,
     "région": "Limousin",
     "photos": {
-      "pied": "/miss/limousin.pied.webp",
-      "portrait": "/miss/limousin.portrait.webp"
+      "pied": "/miss/limousin/pied.jpg",
+      "portrait": "/miss/limousin/portrait.jpg",
+      "maillotPied": "/miss/limousin/maillot-pied.jpg",
+      "maillotAssis": "/miss/limousin/maillot-assis.jpg",
+      "maillotPortrait": "/miss/limousin/maillot-portrait.jpg"
     }
   },
   "lorraine": {
@@ -139,8 +184,11 @@
     "age": 26,
     "région": "Lorraine",
     "photos": {
-      "pied": "/miss/lorraine.pied.webp",
-      "portrait": "/miss/lorraine.portrait.webp"
+      "pied": "/miss/lorraine/pied.jpg",
+      "portrait": "/miss/lorraine/portrait.jpg",
+      "maillotPied": "/miss/lorraine/maillot-pied.jpg",
+      "maillotAssis": "/miss/lorraine/maillot-assis.jpg",
+      "maillotPortrait": "/miss/lorraine/maillot-portrait.jpg"
     }
   },
   "martinique": {
@@ -148,8 +196,11 @@
     "age": 21,
     "région": "Martinique",
     "photos": {
-      "pied": "/miss/martinique.pied.webp",
-      "portrait": "/miss/martinique.portrait.webp"
+      "pied": "/miss/martinique/pied.jpg",
+      "portrait": "/miss/martinique/portrait.jpg",
+      "maillotPied": "/miss/martinique/maillot-pied.jpg",
+      "maillotAssis": "/miss/martinique/maillot-assis.jpg",
+      "maillotPortrait": "/miss/martinique/maillot-portrait.jpg"
     }
   },
   "midi-pyrenees": {
@@ -157,8 +208,11 @@
     "age": 23,
     "région": "Midi-Pyrénées",
     "photos": {
-      "pied": "/miss/midi-pyrenees.pied.webp",
-      "portrait": "/miss/midi-pyrenees.portrait.webp"
+      "pied": "/miss/midi-pyrenees/pied.jpg",
+      "portrait": "/miss/midi-pyrenees/portrait.jpg",
+      "maillotPied": "/miss/midi-pyrenees/maillot-pied.jpg",
+      "maillotAssis": "/miss/midi-pyrenees/maillot-assis.jpg",
+      "maillotPortrait": "/miss/midi-pyrenees/maillot-portrait.jpg"
     }
   },
   "nord-pas-de-calais": {
@@ -166,8 +220,11 @@
     "age": 24,
     "région": "Nord-Pas-de-Calais",
     "photos": {
-      "pied": "/miss/nord-pas-de-calais.pied.webp",
-      "portrait": "/miss/nord-pas-de-calais.portrait.webp"
+      "pied": "/miss/nord-pas-de-calais/pied.jpg",
+      "portrait": "/miss/nord-pas-de-calais/portrait.jpg",
+      "maillotPied": "/miss/nord-pas-de-calais/maillot-pied.jpg",
+      "maillotAssis": "/miss/nord-pas-de-calais/maillot-assis.jpg",
+      "maillotPortrait": "/miss/nord-pas-de-calais/maillot-portrait.jpg"
     }
   },
   "normandie": {
@@ -175,8 +232,11 @@
     "age": 22,
     "région": "Normandie",
     "photos": {
-      "pied": "/miss/normandie.pied.webp",
-      "portrait": "/miss/normandie.portrait.webp"
+      "pied": "/miss/normandie/pied.jpg",
+      "portrait": "/miss/normandie/portrait.jpg",
+      "maillotPied": "/miss/normandie/maillot-pied.jpg",
+      "maillotAssis": "/miss/normandie/maillot-assis.jpg",
+      "maillotPortrait": "/miss/normandie/maillot-portrait.jpg"
     }
   },
   "nouvelle-caledonie": {
@@ -184,8 +244,11 @@
     "age": 26,
     "région": "Nouvelle-Calédonie",
     "photos": {
-      "pied": "/miss/nouvelle-caledonie.pied.webp",
-      "portrait": "/miss/nouvelle-caledonie.portrait.webp"
+      "pied": "/miss/nouvelle-caledonie/pied.jpg",
+      "portrait": "/miss/nouvelle-caledonie/portrait.jpg",
+      "maillotPied": "/miss/nouvelle-caledonie/maillot-pied.jpg",
+      "maillotAssis": "/miss/nouvelle-caledonie/maillot-assis.jpg",
+      "maillotPortrait": "/miss/nouvelle-caledonie/maillot-portrait.jpg"
     }
   },
   "pays-de-la-loire": {
@@ -193,8 +256,11 @@
     "age": 20,
     "région": "Pays de la Loire",
     "photos": {
-      "pied": "/miss/pays-de-la-loire.pied.webp",
-      "portrait": "/miss/pays-de-la-loire.portrait.webp"
+      "pied": "/miss/pays-de-la-loire/pied.jpg",
+      "portrait": "/miss/pays-de-la-loire/portrait.jpg",
+      "maillotPied": "/miss/pays-de-la-loire/maillot-pied.jpg",
+      "maillotAssis": "/miss/pays-de-la-loire/maillot-assis.jpg",
+      "maillotPortrait": "/miss/pays-de-la-loire/maillot-portrait.jpg"
     }
   },
   "picardie": {
@@ -202,8 +268,11 @@
     "age": 26,
     "région": "Picardie",
     "photos": {
-      "pied": "/miss/picardie.pied.webp",
-      "portrait": "/miss/picardie.portrait.webp"
+      "pied": "/miss/picardie/pied.jpg",
+      "portrait": "/miss/picardie/portrait.jpg",
+      "maillotPied": "/miss/picardie/maillot-pied.jpg",
+      "maillotAssis": "/miss/picardie/maillot-assis.jpg",
+      "maillotPortrait": "/miss/picardie/maillot-portrait.jpg"
     }
   },
   "poitou-charentes": {
@@ -211,8 +280,11 @@
     "age": 20,
     "région": "Poitou-Charentes",
     "photos": {
-      "pied": "/miss/poitou-charentes.pied.webp",
-      "portrait": "/miss/poitou-charentes.portrait.webp"
+      "pied": "/miss/poitou-charentes/pied.jpg",
+      "portrait": "/miss/poitou-charentes/portrait.jpg",
+      "maillotPied": "/miss/poitou-charentes/maillot-pied.jpg",
+      "maillotAssis": "/miss/poitou-charentes/maillot-assis.jpg",
+      "maillotPortrait": "/miss/poitou-charentes/maillot-portrait.jpg"
     }
   },
   "provence": {
@@ -220,8 +292,11 @@
     "age": 18,
     "région": "Provence",
     "photos": {
-      "pied": "/miss/provence.pied.webp",
-      "portrait": "/miss/provence.portrait.webp"
+      "pied": "/miss/provence/pied.jpg",
+      "portrait": "/miss/provence/portrait.jpg",
+      "maillotPied": "/miss/provence/maillot-pied.jpg",
+      "maillotAssis": "/miss/provence/maillot-assis.jpg",
+      "maillotPortrait": "/miss/provence/maillot-portrait.jpg"
     }
   },
   "reunion": {
@@ -229,8 +304,11 @@
     "age": 18,
     "région": "Réunion",
     "photos": {
-      "pied": "/miss/reunion.pied.webp",
-      "portrait": "/miss/reunion.portrait.webp"
+      "pied": "/miss/reunion/pied.jpg",
+      "portrait": "/miss/reunion/portrait.jpg",
+      "maillotPied": "/miss/reunion/maillot-pied.jpg",
+      "maillotAssis": "/miss/reunion/maillot-assis.jpg",
+      "maillotPortrait": "/miss/reunion/maillot-portrait.jpg"
     }
   },
   "rhone-alpes": {
@@ -238,8 +316,11 @@
     "age": 24,
     "région": "Rhône-Alpes",
     "photos": {
-      "pied": "/miss/rhone-alpes.pied.webp",
-      "portrait": "/miss/rhone-alpes.portrait.webp"
+      "pied": "/miss/rhone-alpes/pied.jpg",
+      "portrait": "/miss/rhone-alpes/portrait.jpg",
+      "maillotPied": "/miss/rhone-alpes/maillot-pied.jpg",
+      "maillotAssis": "/miss/rhone-alpes/maillot-assis.jpg",
+      "maillotPortrait": "/miss/rhone-alpes/maillot-portrait.jpg"
     }
   },
   "roussillon": {
@@ -247,8 +328,11 @@
     "age": 20,
     "région": "Roussillon",
     "photos": {
-      "pied": "/miss/roussillon.pied.webp",
-      "portrait": "/miss/roussillon.portrait.webp"
+      "pied": "/miss/roussillon/pied.jpg",
+      "portrait": "/miss/roussillon/portrait.jpg",
+      "maillotPied": "/miss/roussillon/maillot-pied.jpg",
+      "maillotAssis": "/miss/roussillon/maillot-assis.jpg",
+      "maillotPortrait": "/miss/roussillon/maillot-portrait.jpg"
     }
   },
   "saint-martin-saint-barthelemy": {
@@ -256,8 +340,11 @@
     "age": 20,
     "région": "Saint-Martin-Saint-Barthélemy",
     "photos": {
-      "pied": "/miss/saint-martin-saint-barthelemy.pied.webp",
-      "portrait": "/miss/saint-martin-saint-barthelemy.portrait.webp"
+      "pied": "/miss/saint-martin-saint-barthelemy/pied.jpg",
+      "portrait": "/miss/saint-martin-saint-barthelemy/portrait.jpg",
+      "maillotPied": "/miss/saint-martin-saint-barthelemy/maillot-pied.jpg",
+      "maillotAssis": "/miss/saint-martin-saint-barthelemy/maillot-assis.jpg",
+      "maillotPortrait": "/miss/saint-martin-saint-barthelemy/maillot-portrait.jpg"
     }
   },
   "tahiti": {
@@ -265,8 +352,11 @@
     "age": 24,
     "région": "Tahiti",
     "photos": {
-      "pied": "/miss/tahiti.pied.webp",
-      "portrait": "/miss/tahiti.portrait.webp"
+      "pied": "/miss/tahiti/pied.jpg",
+      "portrait": "/miss/tahiti/portrait.jpg",
+      "maillotPied": "/miss/tahiti/maillot-pied.jpg",
+      "maillotAssis": "/miss/tahiti/maillot-assis.jpg",
+      "maillotPortrait": "/miss/tahiti/maillot-portrait.jpg"
     }
   }
 }

@@ -54,6 +54,30 @@
   .picture {
     width: var(--max-width);
     aspect-ratio: 2/3;
+
+    &[title="MaillotAssis"] {
+      object-fit: scale-down;
+      transform: scale(230%) translateX(-10%);
+      position: relative;
+
+      &:is(.auvergne *) { left: 12% }
+      &:is(.bourgogne *) { left: -10% }
+      &:is(.champagne-ardenne *) { left: -12% }
+      &:is(.corse *) { left: -14% }
+      &:is(.cote-d-azur *) { left: -6% }
+      &:is(.guadeloupe *) { left: 12% }
+      &:is(.languedoc *) { left: -12% }
+      &:is(.limousin *) { left: 6% }
+      &:is(.lorraine *) { left: -12% }
+      &:is(.martinique *) { left: -12% }
+      &:is(.normandie *) { left: -3% }
+      &:is(.nouvelle-caledonie *) { left: -4% }
+      &:is(.pays-de-la-loire *) { left: -12% }
+      &:is(.picardie *) { left: -6% }
+      &:is(.provence *) { left: -12% }
+      &:is(.saint-martin-saint-barthelemy *) { left: -20% }
+      &:is(.tahiti *) { left: -6% }
+    }
   }
 }
 
