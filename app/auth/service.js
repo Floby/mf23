@@ -121,14 +121,14 @@ export default class AuthService extends Service {
     this.setUserInfo(userInfo);
   }
 
-  @tracked _userInfo;
+  @tracked _userInfo = INITIAL;
   setUserInfo(userInfo) {
     this.sessionStore.set('userInfo', userInfo);
     this._userInfo = userInfo;
   }
   getUserInfo() {
-    if (!this._userInfo) {
-      this._userInfo = this.sessionStore.get('userInfo');
+    if (this._userInfo === INITIAL) {
+      return this.sessionStore.get('userInfo');
     }
     return this._userInfo;
   }

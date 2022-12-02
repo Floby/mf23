@@ -56,6 +56,19 @@ html {
     h1 {
       font-weight: bold;
     }
+
+    a[rel=profile] img {
+      aspect-ratio: ~"1/1";
+      position: relative;
+      width: 1em;
+      border-radius: 1em;
+      box-sizing: border-box;
+      border: 1px solid var(--color-bg-secondary);
+      top: .1em;
+      &:is(:active, :focus, :hover) {
+        border-color: var(--color-bg-accent);
+      }
+    }
   }
   > footer {
     .padded();

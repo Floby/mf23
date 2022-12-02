@@ -5,7 +5,11 @@
 
   <header>
     <h1><LinkTo @route="index">👸 MFU 2023</LinkTo></h1>
-    {{!--<LinkTo @route="settings" class="settings" title="Paramètres">&#x2699;</LinkTo> --}}
+    {{#if this.auth.isAuthenticated}}
+      <LinkTo rel="profile" @route="profile" class="profile" title="Profil du juge">
+        <img src={{this.auth.userInfo.picture}} alt="Aller vers la page de profil" role="link">
+      </LinkTo>
+    {{/if}}
   </header>
   <main>
 <div class={{this.routeStyleNamespaceClassSet}}>
