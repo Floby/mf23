@@ -14,6 +14,8 @@ const AUTH_USERINFO_URI = AUTH_BASE_URI.segment('/userinfo');
 const AUTH_AUTHORIZE_URI = AUTH_BASE_URI.segment('/authorize');
 const AUTH_LOGOUT_URI = AUTH_BASE_URI.segment('/logout');
 
+const INITIAL = {};
+
 export default class AuthService extends Service {
   @service router;
   @tracked lastUpdated = null;
@@ -83,7 +85,7 @@ export default class AuthService extends Service {
 
   async checkRefresh() {
     const session = this.getSession();
-    const shouldRefresh = !this.isAuthenticated && session.refresh_token;
+    const shouldRefresh = !this.isAuthenticated && session?.refresh_token;
     if (!shouldRefresh) {
       return;
     }
@@ -125,7 +127,9 @@ export default class AuthService extends Service {
     this._userInfo = userInfo;
   }
   getUserInfo() {
-    this._userInfo = this.sessionStore.get('userInfo');
+    if (!this._userInfo) {
+      this._userInfo = this.sessionStore.get('userInfo');
+    }
     return this._userInfo;
   }
 
@@ -148,15 +152,31 @@ export default class AuthService extends Service {
     return this.accessToken && !this.isExpired;
   }
 
-  @tracked _session;
+  @tracked _session = INITIAL;
   getSession() {
-    this._session = {
-      access_token: this.sessionStore.get('access_token'),
-      refresh_token: this.sessionStore.get('refresh_token'),
-      id_token: this.sessionStore.get('id_token'),
-      expires_at: new Date(this.sessionStore.get('expires_at')),
+    if (this._session !== INITIAL) {
+      return this._session;
+    }
+    const session = this.sessionStore.get('session');
+    if (!session) {
+      return null;
+    }
+    return {
+      ...session,
+      expires_at: new Date(session.expires_at),
     };
-    return this._session;
+  }
+
+  setSession(authResult) {
+    this.lastUpdated = Date.now();
+    if (authResult && authResult.access_token && authResult.id_token) {
+      // Set the time that the access token will expire at
+      let expiresAt = authResult.expires_in * 1000 + new Date().getTime();
+      const session = { ...authResult, expires_at: expiresAt };
+      this.sessionStore.set('session', session);
+      this._session = this.getSession();
+      this.setupExpirationTimeout();
+    }
   }
 
   get session() {
@@ -165,21 +185,6 @@ export default class AuthService extends Service {
 
   get accessToken() {
     return this.session?.access_token;
-  }
-
-  setSession(authResult) {
-    this.lastUpdated = Date.now();
-    if (authResult && authResult.access_token && authResult.id_token) {
-      // Set the time that the access token will expire at
-      let expiresAt = authResult.expires_in * 1000 + new Date().getTime();
-      this.sessionStore.set('access_token', authResult.access_token);
-      this.sessionStore.set('refresh_token', authResult.refresh_token);
-      this.sessionStore.set('id_token', authResult.id_token);
-      this.sessionStore.set('expires_at', expiresAt);
-      // this.notifyPropertyChange('session')
-      this.getSession(); // trigger tracked change
-      this.setupExpirationTimeout();
-    }
   }
 
   logout() {

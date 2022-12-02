@@ -1,10 +1,25 @@
-{{page-title "Profile"}}
-<h2>Profile</h2>
+{{page-title "Profil"}}
 
-<pre>
-{{this.model}}
-</pre>
+<h2>Profil de juge</h2>
 
-<br />
-<button {{action 'logout'}}>LOGOUT</button>
-{{outlet}}
+{{#if this.auth.isAuthenticated}}
+
+<div class="avatar">
+  <img class="photo" src={{@model.picture}} alt="" role="none">
+  <div class="name">
+    <Input @value={{this.nom}} name="nom" id="nom" />
+  </div>
+</div>
+
+<p class="explain">
+  Tu es maintenant connecté. Tes jugements seront sauvegardés régulièrement pour être
+  bientôt partagés.
+
+  <br>
+
+  <fieldset class="actions">
+    <button class="logout" {{action 'logout' }}>Se déconnecter</button>
+    <LinkTo @route="miss" class="to-miss">Revenir aux miss</LinkTo>
+  </fieldset>
+</p>
+{{/if}}

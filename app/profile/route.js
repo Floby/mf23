@@ -16,13 +16,13 @@ export default class ProfileRoute extends Route {
 
   async model() {
     if (this.auth.userInfo) {
-      return JSON.stringify(this.auth.userInfo, null, '  ');
+      return this.auth.userInfo;
     }
     return this.auth.login();
   }
 
   @action
-  logout () {
+  logout() {
     this.auth.logout();
   }
 

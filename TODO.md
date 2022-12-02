@@ -12,7 +12,7 @@ TODO
   + commentaire - mention
   + enregistrement local storage
 
-----------------------
+--------- done -------------
 
 + Progress
   + progress par sur la page de liste
@@ -26,26 +26,26 @@ TODO
   + témoin galerie (need debounce-decorator ?)
   ? navigation galerie
 
-- Deploiement sur clevercloud
-  - PoC deploiement + FS addon
-    - PUT /api/judge/me using FS repository
+------------ done ----------
 
-----------------------
-
-- Authentification
++ Authentification
   + auth0 c'est bien
   + validation des comptes sur auth0
 
-- Onboarding
-  - Choisir un pseudo
-  - Afficher le nom du device
++ Onboarding
+  + Choisir un pseudo
+  ? Afficher le nom du device
 
-- Partage des jugements
+
++ Sauvegarde des jugements
   + enregistrer sur API si le compte est validé
-  - enregistrer en background si on a la dernière date
-  - récupérer les autres jugements si le compte est validé
+  + enregistrer en background si on a la dernière date
 
 -----------------------
+
++ Partage des jugements
+  - récupérer les autres jugements si le compte est validé
+
 
 - Classements
   - classement général

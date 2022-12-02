@@ -13,7 +13,7 @@ module.exports = class Identity {
       audience: 'https://mf.flo.by/',
     });
     return {
-      ...payload
+      ...payload,
     };
   }
 };

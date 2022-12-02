@@ -1,0 +1,47 @@
+@import 'mixin.less';
+
+& {
+  .sensible();
+  .padded();
+
+  .avatar {
+    margin: 2em 0;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    align-items: center;
+
+    .photo {
+      aspect-ratio: ~"1 / 1";
+      width: calc(0.30 * var(--max-width));
+      border-radius: 100%;
+      .shadow();
+    }
+    .name {
+      input#nom {
+        font-size: var(--txt-m);
+        background: var(--color-text-accent);
+        color: var(--color-bg-accent);
+        .rounded();
+        border: none;
+        padding: .3em .5em;
+        .hollow();
+      }
+    }
+  }
+
+  .explain {
+    text-align: center;
+  }
+  .actions {
+    margin-top: 3em;
+    .to-miss {
+      .accent();
+      .button();
+    }
+    .logout {
+      .secondary();
+      .button();
+    }
+  }
+}
