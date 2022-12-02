@@ -41,9 +41,16 @@ TODO
   + enregistrer sur API si le compte est validé
   + enregistrer en background si on a la dernière date
 
------------------------
+--------- done --------------
 
-+ Partage des jugements
++ Plus de photos
+  + les miss en maillot
+  - un lien vers Instagram
+  - la 3e photo maillot
+
+-------------------------
+
+- Partage des jugements
   - récupérer les autres jugements si le compte est validé
 
 

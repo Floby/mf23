@@ -8,7 +8,7 @@ export default class CarouselComponent extends Component {
 
   calculateMeter(el) {
     const total = Math.round(el.scrollWidth / el.clientWidth);
-    const current = Math.floor(el.scrollLeft / el.clientWidth) + 1;
+    const current = Math.round(el.scrollLeft / el.clientWidth) + 1;
     this.meter = `${current}/${total}`;
   }
 
