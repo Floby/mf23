@@ -10,7 +10,7 @@
     }
 
 
-    blockquote {
+    .content {
       .padded-l();
       .secondary();
       .rounded-l();
@@ -19,6 +19,12 @@
       position: relative;
       a {
         color: inherit;
+      }
+
+      blockquote {
+        padding-left: 1em;
+        margin-left: 1em;
+        border-left: 1px solid var(--color-text);
       }
 
       &::before {
