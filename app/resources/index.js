@@ -1,7 +1,7 @@
 import { TrackedObject } from 'tracked-built-ins';
 
 export function resource(target, name, descriptor) {
-  const original = descriptor.value || descriptor.get ;
+  const original = descriptor.value || descriptor.get;
   if (typeof original !== 'function') {
     throw Error('@resource should be applied on a function');
   }
@@ -19,8 +19,8 @@ export function resource(target, name, descriptor) {
   return {
     get: getResource,
     configurable: true,
-    enumerable: false
-  }
+    enumerable: false,
+  };
 
   function getResource() {
     reset();

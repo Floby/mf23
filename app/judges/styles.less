@@ -1,0 +1,46 @@
+@import 'mixin.less';
+
+& {
+  .padded();
+  .sensible();
+
+  .judges {
+    margin-top: 1.5em;
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+    align-items: center;
+    grid-gap: 1.5em var(--gutter);
+
+    .judge {
+      display: contents;
+
+      .avatar {
+        text-align: center;
+        grid-column: 1;
+        img {
+          width: 5em;
+          border-radius: 100%;
+          aspect-ratio: ~"1 / 1";
+          .shadow();
+
+          background-color: var(--color-glamour);
+        }
+        h3 {
+          font-weight: 300;
+          font-size: var(--txt-l);
+          letter-spacing: -0.05em;
+        }
+      }
+      .stats {
+        vertical-align: middle;
+        grid-column: 2;
+
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-gap: .5em 1em;
+
+      }
+    }
+  }
+}

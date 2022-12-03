@@ -1,7 +1,7 @@
 <section class="commentaires">
   <div class="comment own">
     <LinkTo @route="miss.profile.judge">
-      <blockquote>
+      <blockquote class="content">
         {{sanitize-html (markdown @model.judgement.comment)}}
       </blockquote>
       <figcaption>
@@ -12,10 +12,9 @@
   </div>
 
   <ul class="comments">
-    {{this.panel.error}}
-    {{#each this.panel.value as |judgement|}}
+    {{#each this.judgements.value as |judgement|}}
       <li class="comment">
-        <blockquote>
+        <blockquote class="content">
           {{sanitize-html (markdown judgement.comment)}}
         </blockquote>
         <figcaption>
