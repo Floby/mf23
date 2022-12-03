@@ -35,7 +35,7 @@ export default class ProfileRoute extends Route {
   }
 
   @action
-  async refresh() {
+  async refreshToken() {
     await this.auth.refresh();
   }
 }
