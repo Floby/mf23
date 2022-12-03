@@ -87,11 +87,12 @@
   .comment {
     .padded();
     margin-top: calc(2*var(--gutter));
-    a {
+    > a {
       display: block;
       color: inherit;
       text-decoration: none;
     }
+
 
     blockquote {
       .padded-l();
@@ -99,6 +100,9 @@
       .rounded-l();
       .shadow();
       position: relative;
+      a {
+        color: inherit;
+      }
 
       &::before {
         content: "";
