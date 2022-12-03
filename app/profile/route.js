@@ -33,4 +33,9 @@ export default class ProfileRoute extends Route {
   async refreshLogin() {
     await this.auth.login();
   }
+
+  @action
+  async refresh() {
+    await this.auth.refresh();
+  }
 }

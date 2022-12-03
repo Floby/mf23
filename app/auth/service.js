@@ -86,9 +86,12 @@ export default class AuthService extends Service {
   async checkRefresh() {
     const session = this.getSession();
     const shouldRefresh = !this.isAuthenticated && session?.refresh_token;
-    if (!shouldRefresh) {
-      return;
+    if (shouldRefresh) {
+      return this.refresh();
     }
+  }
+
+  async refresh() {
     const response = await fetch(AUTH_TOKEN_URI, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -96,7 +99,7 @@ export default class AuthService extends Service {
         grant_type: 'refresh_token',
         client_id: AUTH_CONFIG.clientId,
         //client_secret: AUTH_CONFIG.clientSecret,
-        refresh_token: session.refresh_token,
+        refresh_token: this.session?.refresh_token,
       }),
     });
     if (response.status >= 400) {
@@ -104,6 +107,7 @@ export default class AuthService extends Service {
     } else {
       const body = await response.json();
       this.setSession(body);
+      await this.syncUserInfo(this.session.access_token);
     }
   }
 
@@ -179,6 +183,14 @@ export default class AuthService extends Service {
     }
   }
 
+  get permissions() {
+    const at = this.session?.access_token;
+    if (!at) return null;
+    const [_, payload] = at.split('.');
+    const json = JSON.parse(atob(payload));
+    return json.permissions;
+  }
+
   get session() {
     return this.getSession();
   }
@@ -216,9 +228,9 @@ export default class AuthService extends Service {
     }
     const delay = expiresAt.getTime() - Date.now();
     if (delay > 0) {
-      this._expirationTimeout = setTimeout(() => {
-        // this.notifyPropertyChange('session.expires_at')
-        this.getSession(); // trigger tracked change
+      this._expirationTimeout = setTimeout(async () => {
+        this.setSession(this.getSession());
+        await this.refresh();
       }, delay);
     }
   }

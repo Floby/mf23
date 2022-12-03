@@ -11,15 +11,27 @@
   </div>
 </div>
 
-<p class="explain">
-  Tu es maintenant connecté. Tes jugements seront sauvegardés régulièrement pour être
-  bientôt partagés.
+{{#if this.auth.isExpired}}
+  <p class="explain">
+    La connexion est expirée, il faut rafraîchir !
 
-  <br>
+    <br>
 
-  <fieldset class="actions">
-    <button class="logout" type="button" {{action 'logout' }}>Se déconnecter</button>
-    <LinkTo @route="miss" class="to-miss">Revenir aux miss</LinkTo>
-  </fieldset>
-</p>
+    <fieldset class="actions">
+        <button class="refresh" type="button" {{action 'refreshLogin'}}>Se reconnecter</button>
+    </fieldset>
+  </p>
+{{else}}
+  <p class="explain">
+    Tu es maintenant connecté. Tes jugements seront sauvegardés régulièrement pour être
+    bientôt partagés.
+
+    <br>
+
+    <fieldset class="actions">
+        <button class="logout" type="button" {{action 'logout' }}>Se déconnecter</button>
+        <LinkTo @route="miss" class="to-miss">Revenir aux miss</LinkTo>
+    </fieldset>
+  </p>
+{{/if}}
 {{/if}}
