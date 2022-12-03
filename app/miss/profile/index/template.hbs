@@ -1,7 +1,7 @@
 <div class="comment own">
   <LinkTo @route="miss.profile.judge">
     <blockquote>
-      {{@model.comment}}
+      {{sanitize-html (markdown @model.comment)}}
     </blockquote>
     <figcaption>
       <span class="mention" title={{mention-label @model.mention}}>{{mention-emoji @model.mention}}</span>
