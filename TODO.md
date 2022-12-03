@@ -52,9 +52,32 @@ TODO
 
 -------------------------
 
+
 - Partage des jugements
   - récupérer les autres jugements si le compte est validé
+  - lire les jugements des autres pour une miss
 
+- Page juges
+  - Progression du juge
+  - mention médiane accordée
+
+- Bugs de synchro
+  - Page diagnostic
+  - cas de Maud
+
+--------------------------
+
+- Bugs de synchro
+  - Page
+  - cas de Maud
+
+- Release notes
+  - page release notes avec version
+  - rediriger vers la page de release notes quand pas encore vu
+
+- Plus de photos
+  - un lien vers Instagram
+  - la 3e photo maillot
 
 - Classements
   - classement général

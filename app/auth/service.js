@@ -84,8 +84,7 @@ export default class AuthService extends Service {
   }
 
   async checkRefresh() {
-    const session = this.getSession();
-    const shouldRefresh = !this.isAuthenticated && session?.refresh_token;
+    const shouldRefresh = this.session?.refresh_token && this.isExpired;
     if (shouldRefresh) {
       return this.refresh();
     }
