@@ -31,8 +31,8 @@ module.exports = function (app) {
     Accept(JudgeValidator),
     H(async (req, res) => {
       const ifSince = req.conditions['If-Unmodified-Since'];
-      console.log({ ifSince });
       const id = req.auth.sub;
+      console.log({ ifSince, id, nom: req.body.nom });
       const repo = req.inject.repository.judge;
       const judge = await repo.get(id);
       const savedAt = Math.floor((judge?.updatedAt || 0) / 1000) * 1000; // get seconds
