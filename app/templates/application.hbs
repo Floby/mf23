@@ -5,11 +5,11 @@
 
   <header>
     <h1><LinkTo @route="index">👸 MFU 2023</LinkTo></h1>
-    {{#if this.auth.isExpired}}
+    {{#if this.auth.isAuthenticated}}
       <LinkTo rel="profile" @route="profile" class="profile" title="Profil du juge">
-        {{#unless this.auth.isExpired}}
+        {{#if this.auth.isExpired}}
           <small class="warning">!</small>
-        {{/unless}}
+        {{/if}}
         <img src={{this.auth.userInfo.picture}} alt="Aller vers la page de profil" role="link">
       </LinkTo>
     {{/if}}
