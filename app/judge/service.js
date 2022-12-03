@@ -39,7 +39,7 @@ export default class JudgeService extends Service {
     return current.miss[id];
   }
 
-  @debounce(ms('15 seconds'))
+  @debounce(ms('10 seconds'))
   async pushChanges() {
     if (!this.auth.isAuthenticated) return;
     const ifSince = new Date(this._current.updatedAt);

@@ -1,0 +1,67 @@
+@import 'mixin.less';
+
+& > .commentaires {
+  .sensible();
+
+  .comment {
+    .padded();
+    margin-top: 0;
+    > a {
+      display: block;
+      color: inherit;
+      text-decoration: none;
+    }
+
+
+    blockquote {
+      .padded-l();
+      .secondary();
+      .rounded-l();
+      .shadow();
+      position: relative;
+      a {
+        color: inherit;
+      }
+
+      &::before {
+        content: "";
+        width: 0px;
+        height: 0px;
+        position: absolute;
+        border-left: 1em solid var(--color-bg);
+        border-right: .4em solid transparent;
+        border-top: .4em solid var(--color-bg);
+        border-bottom: 1em solid transparent;
+        left: calc(2*var(--gutter));
+        bottom: -1em;
+      }
+      margin-bottom: calc(1em + var(--gutter) - .1em);
+    }
+    figcaption {
+      display: flex;
+      flex-direction: row;
+      gap: .5em;
+    }
+  }
+  .comment.own {
+    margin-top: var(--gutter);
+    blockquote {
+      .accent();
+      &::before {
+        transform: scaleX(-1);
+        left: auto;
+        right: calc(2*var(--gutter));
+      }
+    }
+
+    figcaption {
+      flex-direction: row-reverse;
+      align-items: baseline;
+      &::after {
+        content: "(cliquer pour modifier)";
+        font-size: var(--txt-s)
+      }
+    }
+  }
+}
+

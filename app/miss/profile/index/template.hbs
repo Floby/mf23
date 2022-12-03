@@ -12,15 +12,15 @@
   </div>
 
   <ul class="comments">
-    {{#each @model.judgements}}
+    {{this.panel.error}}
+    {{#each this.panel.value as |judgement|}}
       <li class="comment">
         <blockquote>
-          Franchement, je la pète, en dépit de son cul de nez. Elle a
-          un côté <em>girl next door</em> qui me plaît.
+          {{sanitize-html (markdown judgement.comment)}}
         </blockquote>
         <figcaption>
-          <span class="mention" title={{mention-label 5}}>{{mention-emoji 5}}</span>
-          <span class="author">Victor</span>
+          <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>
+          <span class="author">{{judgement.judge.nom}}</span>
         </figcaption>
       </li>
     {{/each}}

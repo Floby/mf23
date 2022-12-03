@@ -10,7 +10,7 @@ export default class MissProfileIndexRoute extends Route {
     return { judgement, miss };
   }
   redirect(model) {
-    if (!model?.judgement.comment) {
+    if (!model.judgement?.comment) {
       this.router.transitionTo('miss.profile.judge');
     }
   }
