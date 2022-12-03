@@ -9,7 +9,7 @@ module.exports = function (app) {
 
   JudgeRouter.get(
     '/me',
-    WithAuth(['judge']),
+    WithAuth([]),
     H(async (req, res) => {
       const repo = req.inject.repository.judge;
       const id = req.auth.sub;
@@ -26,7 +26,7 @@ module.exports = function (app) {
 
   JudgeRouter.put(
     '/me',
-    WithAuth(['judge']),
+    WithAuth([]),
     Precondition('If-Unmodified-Since', Joi.date()),
     Accept(JudgeValidator),
     H(async (req, res) => {
