@@ -11,11 +11,7 @@ export default class MissProfileJudgeRoute extends Route {
     if (judge.miss[miss.id]) {
       return judge.miss[miss.id];
     }
-    return {
-      createdAt: Date.now(),
-      mention: 2,
-      comment: '',
-    };
+    return null;
   }
 
   @action

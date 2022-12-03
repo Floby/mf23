@@ -17,27 +17,11 @@
 
 <section class="photos {{@model.id}}">
   <Carousel class="carousel">
-    <Picture class="picture" title="Portrait" src={{ @model.photos.portrait}} alt="" role="none" />
-    <Picture class="picture" title="Pied" src={{ @model.photos.pied}} alt="" role="none" />
-    <Picture class="picture" title="MaillotPied" src={{ @model.photos.maillotPied}} alt="" role="none" />
-    <Picture class="picture" title="MaillotAssis" src={{ @model.photos.maillotAssis}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="Portrait" src={{ @model.photos.portrait}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="Pied" src={{ @model.photos.pied}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="MaillotPied" src={{ @model.photos.maillotPied}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="MaillotAssis" src={{ @model.photos.maillotAssis}} alt="" role="none" />
   </Carousel>
 </section>
 
-<section class="commentaires">
-  {{outlet}}
-  <ul class="comments">
-    {{#each @model.judgements}}
-      <li class="comment">
-        <blockquote>
-          Franchement, je la pète, en dépit de son cul de nez. Elle a
-          un côté <em>girl next door</em> qui me plaît.
-        </blockquote>
-        <figcaption>
-          <span class="mention" title={{mention-label 5}}>{{mention-emoji 5}}</span>
-          <span class="author">Victor</span>
-        </figcaption>
-      </li>
-    {{/each}}
-  </ul>
-</section>
+{{outlet}}

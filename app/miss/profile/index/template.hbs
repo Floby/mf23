@@ -1,11 +1,28 @@
-<div class="comment own">
-  <LinkTo @route="miss.profile.judge">
-    <blockquote>
-      {{sanitize-html (markdown @model.comment)}}
-    </blockquote>
-    <figcaption>
-      <span class="mention" title={{mention-label @model.mention}}>{{mention-emoji @model.mention}}</span>
-      <span class="author">Moi</span>
-    </figcaption>
-  </LinkTo>
-</div>
+<section class="commentaires">
+  <div class="comment own">
+    <LinkTo @route="miss.profile.judge">
+      <blockquote>
+        {{sanitize-html (markdown @model.judgement.comment)}}
+      </blockquote>
+      <figcaption>
+        <span class="mention" title={{mention-label @model.judgement.mention}}>{{mention-emoji @model.judgement.mention}}</span>
+        <span class="author">Moi</span>
+      </figcaption>
+    </LinkTo>
+  </div>
+
+  <ul class="comments">
+    {{#each @model.judgements}}
+      <li class="comment">
+        <blockquote>
+          Franchement, je la pète, en dépit de son cul de nez. Elle a
+          un côté <em>girl next door</em> qui me plaît.
+        </blockquote>
+        <figcaption>
+          <span class="mention" title={{mention-label 5}}>{{mention-emoji 5}}</span>
+          <span class="author">Victor</span>
+        </figcaption>
+      </li>
+    {{/each}}
+  </ul>
+</section>

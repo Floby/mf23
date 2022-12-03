@@ -8,6 +8,16 @@ module.exports = function (app) {
   let JudgeRouter = express.Router();
 
   JudgeRouter.get(
+    '/',
+    //WithAuth(['judge']),
+    H(async (req, res) => {
+      const repo = req.inject.repository.judge;
+      const judges = await repo.list();
+      res.send(judges);
+    })
+  );
+
+  JudgeRouter.get(
     '/me',
     WithAuth([]),
     H(async (req, res) => {

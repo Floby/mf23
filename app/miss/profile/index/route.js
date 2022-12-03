@@ -7,10 +7,10 @@ export default class MissProfileIndexRoute extends Route {
   model() {
     const miss = this.modelFor('miss.profile');
     const judgement = this.judge.getCurrentJudgementFor(miss.id);
-    return judgement;
+    return { judgement, miss };
   }
   redirect(model) {
-    if (!model?.comment) {
+    if (!model?.judgement.comment) {
       this.router.transitionTo('miss.profile.judge');
     }
   }

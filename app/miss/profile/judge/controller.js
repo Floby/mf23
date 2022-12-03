@@ -9,9 +9,13 @@ export default class MissProfileJudgeController extends Controller {
   @tracked comment = '';
 
   set model(judgement) {
-    this._model = judgement;
-    this.mention = judgement.mention;
-    this.comment = judgement.comment;
+    this._model = judgement || {
+      createdAt: Date.now(),
+      mention: 2,
+      comment: '',
+    };
+    this.mention = this._model.mention;
+    this.comment = this._model.comment;
   }
   get newModel() {
     return {
