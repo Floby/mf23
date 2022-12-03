@@ -52,16 +52,16 @@ TODO
 
 -------------------------
 
-
-- Partage des jugements
-  - récupérer les autres jugements si le compte est validé
-  - lire les jugements des autres pour une miss
++ Partage des jugements
+  + récupérer les autres jugements si le compte est validé
+  + lire les jugements des autres pour une miss
 
 - Page juges
   - Progression du juge
   - mention médiane accordée
 
 - Bugs de synchro
+  - synchro downstream -> multi device
   - Page diagnostic
   - cas de Maud
 

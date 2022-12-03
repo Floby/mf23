@@ -9,7 +9,7 @@ module.exports = function (app) {
 
   JudgeRouter.get(
     '/',
-    //WithAuth(['judge']),
+    WithAuth([]),
     H(async (req, res) => {
       const repo = req.inject.repository.judge;
       const judges = await repo.list();
