@@ -4,6 +4,7 @@ import { service } from '@ember/service';
 import ms from 'ms';
 import Store from 'store2';
 import { tracked } from '@glimmer/tracking';
+import Miss from '../models/miss';
 
 export default class JudgeService extends Service {
   @service auth;
@@ -32,7 +33,7 @@ export default class JudgeService extends Service {
       updatedAt: Date.now(),
     });
     this._current = judge;
-    this.pushChanges();
+    this.scheduleSync();
   }
 
   getCurrentJudgementFor(id) {
@@ -40,23 +41,85 @@ export default class JudgeService extends Service {
     return current.miss[id];
   }
 
-  @debounce(ms('10 seconds'))
-  async pushChanges() {
+  @debounce(ms('5 second'))
+  scheduleSync() {
+    this.syncChanges();
+  }
+
+  async syncChanges() {
     if (!this.auth.isAuthenticated) return;
     const ifSince = new Date(this._current.updatedAt);
     try {
-      await fetch(`/api/judge/me`, {
-        method: 'PUT',
-        body: JSON.stringify(this._current),
-        headers: {
-          Authorization: `Bearer ${this.auth.accessToken}`,
-          'Content-Type': 'application/json',
-          'If-Unmodified-Since': ifSince.toUTCString(),
-        },
-      });
+      const remote = await this.#getRemote();
+      const { reconciled, localChanges, remoteChanges } = this.#reconcile(
+        remote,
+        this._current
+      );
+      if (remoteChanges) {
+        this._current = reconciled;
+        this.store.set('me', reconciled);
+      }
+      if (localChanges) {
+        await fetch(`/api/judge/me`, {
+          method: 'PUT',
+          body: JSON.stringify(reconciled),
+          headers: {
+            Authorization: `Bearer ${this.auth.accessToken}`,
+            'Content-Type': 'application/json',
+            'If-Unmodified-Since': ifSince.toUTCString(),
+          },
+        });
+      }
     } catch (e) {
       console.error('failed to synchronize judge', e);
     }
+  }
+
+  #reconcile(remote, local) {
+    let localChanges = false;
+    let remoteChanges = false;
+    const misses = {};
+    for (const miss of Miss.getAll()) {
+      const localMiss = local.miss[miss.id];
+      const remoteMiss = remote.miss[miss.id];
+      if (localMiss) {
+        if (remoteMiss) {
+          if (remoteMiss.updatedAt < localMiss.updatedAt) {
+            misses[miss.id] = localMiss;
+            localChanges = true;
+          } else {
+            misses[miss.id] = remoteMiss;
+            remoteChanges ||= remoteMiss.updatedAt !== localMiss.updatedAt;
+          }
+        } else {
+          misses[miss.id] = localMiss;
+          localChanges = true;
+        }
+      } else if (remoteMiss) {
+        misses[miss.id] = remoteMiss;
+        remoteChanges = true;
+      }
+    }
+    const freshest = local.updatedAt > remote.updatedAt ? local : remote;
+    const reconciled = {
+      ...freshest,
+      miss: misses,
+    };
+    localChanges = localChanges || freshest === local;
+    remoteChanges = remoteChanges || freshest === remote;
+    return { reconciled, localChanges, remoteChanges };
+  }
+
+  async #getRemote() {
+    const res = await fetch(`/api/judge/me`, {
+      method: 'GET',
+      headers: {
+        Authorization: `Bearer ${this.auth.accessToken}`,
+        Accept: 'application/json',
+      },
+    });
+    const json = await res.json();
+    return json;
   }
 
   migrateTo(target) {

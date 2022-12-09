@@ -26,6 +26,7 @@ module.exports = function (app) {
       const judge = await repo.get(id);
       if (judge) {
         res.setHeader('Last-Modified', new Date(judge.updatedAt).toUTCString());
+        res.setHeader('Cache-Control', 'must-revalidate');
         res.send(judge);
       } else {
         res.status(404);
