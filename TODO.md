@@ -50,11 +50,13 @@ TODO
 
 + taille des miss
 
--------------------------
+---------- done ---------------
 
 + Partage des jugements
   + récupérer les autres jugements si le compte est validé
   + lire les jugements des autres pour une miss
+
+----------- done --------------
 
 - Page juges
   - Progression du juge

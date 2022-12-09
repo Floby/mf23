@@ -26,12 +26,13 @@ export default class PanelService extends Service {
       nom: j.nom,
       avatar: j.avatar,
       progress: Object.values(j.miss).length / Miss.getAll().length,
-      median: Math.round(
-        percentile(
-          50,
-          Object.values(j.miss).map((m) => m.mention)
-        )
-      ),
+      median:
+        Math.round(
+          percentile(
+            50,
+            Object.values(j.miss).map((m) => m.mention)
+          )
+        ) || 0,
     }));
     console.log(stats);
     return stats;
