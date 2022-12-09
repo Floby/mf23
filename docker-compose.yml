@@ -6,3 +6,10 @@ services:
       image: mongo
       ports:
         - 27017:27017
+
+    mongoui:
+      image: mongo-express
+      environment:
+        ME_CONFIG_MONGODB_SERVER: mongo
+      ports:
+        - 8081:8081
