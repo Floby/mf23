@@ -2,7 +2,13 @@
 <div class="header">
   <h2>Toutes les miss</h2>
   <progress max={{this.total}} value={{this.judged}}></progress>
-  <legend><small>Encore {{this.todo}} miss à juger</small></legend>
+  <legend><small>
+      {{#if this.todo}}
+        Encore {{this.todo}} miss à juger
+      {{else}}
+        Jugement terminé ! 🎉
+      {{/if}}
+  </small></legend>
 </div>
 <ul class="misses">
   {{#each this.model.misses as |miss|}}
