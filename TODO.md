@@ -59,8 +59,8 @@ TODO
 ----------- done --------------
 
 - Page juges
-  - Progression du juge
-  - mention médiane accordée
+  + Progression du juge
+  + mention médiane accordée
 
 - Bugs de synchro
   - synchro downstream -> multi device
