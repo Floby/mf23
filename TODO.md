@@ -58,20 +58,20 @@ TODO
 
 ----------- done --------------
 
-- Page juges
++ Page juges
   + Progression du juge
   + mention médiane accordée
 
-- Bugs de synchro
-  - synchro downstream -> multi device
++ Bugs de synchro
+  + synchro downstream -> multi device
   - Page diagnostic
   - cas de Maud
 
---------------------------
++ emoji de fête si le jugement est fini
 
-- Bugs de synchro
-  - Page
-  - cas de Maud
+
+
+--------- done -----------------
 
 - Release notes
   - page release notes avec version

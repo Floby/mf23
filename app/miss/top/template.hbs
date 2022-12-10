@@ -3,12 +3,12 @@
 
 <ul class="top">
 {{#each @model.top as |rank|}}
-<li class="rank" title={{list-join rank.mentions}}>
-  <span class="miss">
+<li class="rank">
+  <span class="miss" title={{mention-label rank.mention}}>
     {{mention-emoji rank.mention}}
     <LinkTo @route="miss.profile" @model={{rank.miss.id}}> {{rank.miss.région}}</LinkTo>
   </span>
-  <span class="mentions">
+  <span class="mentions" title={{list-join rank.mentions}}>
     <MentionsRow @mentions={{rank.mentions}} />
   </span>
 </li>

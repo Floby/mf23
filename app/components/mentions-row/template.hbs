@@ -1,9 +1,5 @@
-<table {{ style-namespace 'mentions-row' }} ...attributes>
-  <tbody>
-    <tr>
+<ul {{ style-namespace 'mentions-row'}}>
     {{#each @mentions as |mention|}}
-      <td class="mention mention-{{mention}}">&nbsp;</td>
+      <li class="mention mention-{{mention}}">&nbsp;</li>
     {{/each}}
-    </tr>
-  </tbody>
-</table>
+</ul>
