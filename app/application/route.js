@@ -7,7 +7,7 @@ export default class ApplicationRoute extends Route {
     return { judge: this.judge.getCurrent() };
   }
 
-  async afterModel () {
-    await this.judge.syncChanges()
+  async afterModel() {
+    await this.judge.syncChanges();
   }
 }

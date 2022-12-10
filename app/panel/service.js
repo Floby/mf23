@@ -38,6 +38,35 @@ export default class PanelService extends Service {
     return stats;
   }
 
+  async getTop() {
+    const misses = Miss.getAll();
+    const judges = (await this.#getAll()).filter(
+      (j) => Object.keys(j.miss).length === misses.length
+    );
+    console.log(judges);
+    const top = misses
+      .map((miss) => ({
+        miss,
+        mentions: judges.map((j) => j.miss[miss.id].mention).sort(),
+      }))
+      .map(({ miss, mentions }) => {
+        const mention = Math.round(percentile(50, mentions));
+        const proponents = mentions.filter((m) => m > mention).length;
+        const opponents = mentions.filter((m) => m < mention).length;
+        return {
+          région: miss.région,
+          miss,
+          mention,
+          mentions,
+          proponents,
+          opponents,
+        };
+      })
+      .filter((r) => r.mention >= 0)
+      .sort(compareTopRank);
+    return top;
+  }
+
   async #getAll() {
     const url = `/api/judge`;
     const token = this.auth.accessToken;
@@ -49,4 +78,29 @@ export default class PanelService extends Service {
     const json = await res.json();
     return json;
   }
+}
+
+const A_THEN_B = -1;
+const B_THEN_A = 1;
+function compareTopRank(a, b) {
+  if (a.mention !== b.mention) {
+    return a.mention > b.mention ? A_THEN_B : B_THEN_A;
+  }
+  for (let i = 0; i < 6; ++i) {
+    const aPro = a.mentions.filter((m) => m > a.mention + i).length;
+    const bPro = b.mentions.filter((m) => m > b.mention + i).length;
+    const aCon = a.mentions.filter((m) => m < a.mention - i).length;
+    const bCon = b.mentions.filter((m) => m < b.mention - i).length;
+    const mPro = Math.max(aPro, bPro);
+    const mCon = Math.max(aCon, bCon);
+    if (mPro > mCon && aPro !== bPro) {
+      return aPro > bPro ? A_THEN_B : B_THEN_A;
+    }
+    if (mCon >= mPro && aCon !== bCon) {
+      return aCon > bCon ? B_THEN_A : A_THEN_B;
+    }
+  }
+  return a.miss.age + a.miss.taille > b.miss.age + b.miss.taille
+    ? B_THEN_A
+    : A_THEN_B;
 }

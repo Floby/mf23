@@ -1,0 +1,16 @@
+{{page-title "Top"}}
+{{outlet}}
+
+<ul class="top">
+{{#each @model.top as |rank|}}
+<li class="rank" title={{list-join rank.mentions}}>
+  <span class="miss">
+    {{mention-emoji rank.mention}}
+    <LinkTo @route="miss.profile" @model={{rank.miss.id}}> {{rank.miss.région}}</LinkTo>
+  </span>
+  <span class="mentions">
+    <MentionsRow @mentions={{rank.mentions}} />
+  </span>
+</li>
+{{/each}}
+</ul>

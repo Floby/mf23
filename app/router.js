@@ -11,7 +11,9 @@ Router.map(function () {
     this.route('profile', { path: '/:miss_id' }, function () {
       this.route('judge');
     });
+    this.route('top');
   });
   this.route('profile');
   this.route('judges');
+  this.route('top');
 });
