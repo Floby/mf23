@@ -1,0 +1,18 @@
+<LinkTo 
+  @route="miss.profile" 
+  @model={{ @miss }} 
+  {{ style-namespace 'miss-thumb' }}
+  class={{if @judgement 'done' 'todo'}}
+  {{region-css @miss.id}}
+>
+
+  <div class="portrait">
+    <img src={{@miss.photos.portrait}} alt="" role="none">
+  </div>
+  <section class="legend">
+    <h3 class="region">{{@miss.région}}</h3>
+    <h4 class="nom">{{@miss.nom}}</h4>
+  </section>
+  <span class="mention">{{mention-emoji (get @judgement 'mention') }}</span>
+
+</LinkTo>

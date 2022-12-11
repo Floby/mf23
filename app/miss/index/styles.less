@@ -1,11 +1,11 @@
 @import 'mixin.less';
 
 & {
-  .sensible();
   padding:var(--gutter);
 
 
   .header {
+    .sensible();
     display: grid;
     grid-gap: 0 var(--gutter);
     grid-template-columns: auto 1fr;
@@ -50,6 +50,7 @@
 
   .misses {
     display: grid;
+    list-style-type: none;
     grid-template-columns: 1fr 1fr 1fr;
     @media (orientation: landscape) {
       grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -59,73 +60,6 @@
     }
     grid-gap: var(--gutter);
 
-    a { 
-      text-decoration: none;
-      color: inherit;
-    }
-
-    .miss {
-      margin: 0;
-      position: relative;
-      .primary();
-      .shadow();
-      .rounded();
-      overflow: hidden;
-      .portrait {
-        display: block;
-        .vignette();
-        line-height:0;
-        width: 100%;
-        aspect-ratio: ~'2 / 3';
-        img {
-          height: 100%;
-          width: 100%;
-          object-fit: cover;
-          transform: scale(300%) translateY(17%) translateX(-2%);
-
-          &:is(.todo .portrait img) {
-            filter: grayscale(1) contrast(110%)
-          }
-          &:is(.done .portrait img) {
-            filter: saturate(100%);
-          }
-        }
-      }
-      .legend {
-        padding: var(--gutter);
-        position: absolute;
-        bottom: 0;
-        display: flex;
-        flex-direction: column;
-        .overlay();
-        box-sizing: border-box;
-        left: 0;
-        width: 100%;
-        height: 35%;
-        > .nom {
-          display: inline;
-        }
-        > .region:is(.saint-martin-saint-barthelemy .region) {
-          font-size: 80%;
-          font-weight: 500;
-        }
-      }
-      .mention {
-        display: block;
-        position: absolute;
-        top: 0;
-        right: 0;
-        padding: .4rem;
-      }
-      .nom {
-        font-size: var(--txt-s);
-      }
-      .region {
-        font-weight: 400;
-      }
-      > a {
-        display: block;
-      }
-    }
+    > li { }
   }
 }
