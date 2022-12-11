@@ -6,7 +6,10 @@
       {{#if this.todo}}
         Encore {{this.todo}} miss à juger
       {{else}}
-      🎉 Terminé ! <LinkTo @route="miss.top">Classement général</LinkTo>
+      🎉 Terminé !
+        {{#if this.auth.isAuthenticated}}
+          <LinkTo @route="miss.top">Classement général</LinkTo>
+        {{/if}}
       {{/if}}
   </small></legend>
 </div>

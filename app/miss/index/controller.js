@@ -1,7 +1,9 @@
 import Controller from '@ember/controller';
 import { cached } from '@glimmer/tracking';
+import { service } from '@ember/service';
 
 export default class MissIndexController extends Controller {
+  @service auth;
   @cached
   get judged() {
     return Object.values(this.model.judge.miss).filter(
