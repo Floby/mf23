@@ -1,16 +1,38 @@
-{{page-title "Top"}}
-{{outlet}}
+{{page-title "Classement Général"}}
+
+<div class="header">
+  <h2>Classement Général</h2>
+  <p>
+  Classement par <a href="https://fr.wikipedia.org/wiki/Jugement_majoritaire" target="noopener noreferrer">Jugement Majoritaire</a>. 
+  Seuls les jugements complets sur toutes les miss sont pris en compte.
+  </p>
+  <ul class="legend">
+    {{#each this.mentions as |m|}}
+    <li class="mention mention-{{m}}">
+        {{mention-label m}}
+      </li>
+    {{/each}}
+  </ul>
+</div>
+
+<hr>
+
 
 <ul class="top">
-{{#each @model.top as |rank|}}
+{{#each @model.top as |rank index|}}
 <li class="rank">
-  <span class="miss" title={{mention-label rank.mention}}>
-    {{mention-emoji rank.mention}}
-    <LinkTo @route="miss.profile" @model={{rank.miss.id}}> {{rank.miss.région}}</LinkTo>
-  </span>
-  <span class="mentions" title={{list-join rank.mentions}}>
-    <MentionsRow @mentions={{rank.mentions}} />
-  </span>
+  <MissThumb @miss={{rank.miss}} @judgement={{rank}} />
+  <figure class="mentions" title={{list-join rank.mentions}}>
+    <figcaption>
+      <h4>{{add index 1}}e</h4>
+      <em>Jugement majoritaire :</em>
+      <strong class="mention">
+        {{mention-label rank.mention}}
+      </strong>
+    </figcaption>
+    <hr class="cursor" />
+    <MentionsRow class="row" @mentions={{rank.mentions}} />
+  </figure>
 </li>
 {{/each}}
 </ul>
