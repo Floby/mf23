@@ -199,12 +199,9 @@ export default class AuthService extends Service {
   }
 
   logout() {
-    // Clear access token and ID token from local storage
-    this.sessionStore.remove('access_token');
-    this.sessionStore.remove('id_token');
-    this.sessionStore.remove('expires_at');
+    this.sessionStore.remove('session');
     this.sessionStore.remove('userInfo');
-    this.getSession();
+    this.sessionStore.clearAll();
     window.location = AUTH_LOGOUT_URI.query({
       client_id: AUTH_CONFIG.clientId,
       returnTo: window.location.origin + '/',

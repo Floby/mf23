@@ -87,7 +87,7 @@ exports.Precondition = function Precondition(condition, schema = Joi.any()) {
       res.status(428);
       res.send({
         error: 'Precondition Required',
-        message: `This request is only allows with the ${condition} header`,
+        message: `This request is only allowed with the ${condition} header`,
       });
     }
   };
