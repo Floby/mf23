@@ -73,6 +73,15 @@ TODO
 
 --------- done -----------------
 
++ Classements
+  + classement général
+
+
+----------- done -------------
+
+- Classement personnel
+  - page pour ordonner ses plus hautes mentions
+
 - Release notes
   - page release notes avec version
   - rediriger vers la page de release notes quand pas encore vu
