@@ -57,6 +57,7 @@ module.exports = function (app) {
             yours: new Date(ifSince),
           },
         });
+        return;
       }
       await repo.save({ ...req.body, id });
       res.header('Last-Modified', new Date(req.body.updatedAt).toUTCString());

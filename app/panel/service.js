@@ -40,14 +40,16 @@ export default class PanelService extends Service {
 
   async getTop() {
     const misses = Miss.getAll();
-    const judges = (await this.#getAll()).filter(
+    const allJudges = await this.#getAll();
+    const judges = allJudges.filter(
       (j) => Object.keys(j.miss).length === misses.length
     );
-    console.log(judges);
     const top = misses
       .map((miss) => ({
         miss,
-        mentions: judges.map((j) => j.miss[miss.id].mention).sort(),
+        mentions: judges
+          .map((j) => (j.miss[miss.id] ? j.miss[miss.id].mention : 2))
+          .sort(),
       }))
       .map(({ miss, mentions }) => {
         const mention = Math.round(percentile(50, mentions));
