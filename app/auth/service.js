@@ -31,10 +31,13 @@ export default class AuthService extends Service {
     this.setupExpirationTimeout();
     this.checkRefresh();
   }
-  async login() {
+  async login(afterLogin) {
     const state = randomBytesAsBase64(8);
     const verifierPair = generateVerifierPair();
     this.stateStore.set(state, verifierPair);
+    if (afterLogin) {
+      this.stateStore.set(state + '-afterLogin', afterLogin);
+    }
     window.location = AUTH_AUTHORIZE_URI.query({
       code_challenge: verifierPair.challenge,
       code_challenge_method: 'S256',
@@ -52,8 +55,8 @@ export default class AuthService extends Service {
   async tryToAuthenticate(queryParams) {
     if (queryParams.code) {
       try {
-        const { verifier } = this.stateStore.get(queryParams.state);
-        this.stateStore.remove(queryParams.state);
+        const state = queryParams.state;
+        const { verifier } = this.stateStore.get(state);
         const response = await fetch(AUTH_TOKEN_URI, {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
@@ -75,7 +78,10 @@ export default class AuthService extends Service {
           await this.syncUserInfo(reply.access_token);
           this.eraseAuthParameters();
         }
-        this.stateStore.remove(queryParams.state);
+        const afterUrl = this.stateStore.get(state + '-afterLogin');
+        this.stateStore.remove(state);
+        this.stateStore.remove(state + '-afterLogin');
+        return afterUrl;
       } catch (error) {
         console.error(error);
         throw error;

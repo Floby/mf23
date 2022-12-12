@@ -22,6 +22,13 @@
           <span class="author">{{judgement.judge.nom}}</span>
         </figcaption>
       </li>
+    {{else}}
+      {{#unless this.auth.isAuthenticated}}
+        <li class="must-connect">
+          <LoginLink>Connecte-toi</LoginLink>
+          pour voir les jugements des autres juges.
+        </li>
+      {{/unless}}
     {{/each}}
   </ul>
 </section>

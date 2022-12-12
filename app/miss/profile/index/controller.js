@@ -4,6 +4,7 @@ import { service } from '@ember/service';
 
 export default class MissProfileIndexController extends Controller {
   @service panel;
+  @service auth;
 
   constructor(...args) {
     super(...args);

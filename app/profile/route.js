@@ -6,14 +6,19 @@ export default class ProfileRoute extends Route {
   @service auth;
   async beforeModel(transition) {
     try {
-      await this.auth.tryToAuthenticate(transition.to.queryParams || {});
+      const afterLogin = await this.auth.tryToAuthenticate(
+        transition.to.queryParams || {}
+      );
+      if (afterLogin) {
+        this.transitionTo(afterLogin);
+      }
     } catch (error) {
       alert('Désolé, mais erreur de login');
       console.error(error);
       this.transitionTo('index');
     }
     if (!this.auth.isAuthenticated) {
-      return this.auth.login();
+      return this.auth.login(transition.to.queryParams?.afterLogin);
     }
   }
 
@@ -21,7 +26,6 @@ export default class ProfileRoute extends Route {
     if (this.auth.userInfo) {
       return this.auth.userInfo;
     }
-    return this.auth.login();
   }
 
   @action

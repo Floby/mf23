@@ -29,7 +29,7 @@ export default class JudgeService extends Service {
   saveCurrent(judge) {
     this.store.set('me', {
       ...judge,
-      avatar: this.auth.userInfo.picture,
+      avatar: this.auth.userInfo?.picture,
       updatedAt: Date.now(),
     });
     this._current = judge;
