@@ -12,6 +12,7 @@ export default class MissProfileIndexController extends Controller {
 
   @resource
   async judgements() {
-    return this.panel.getJudgementsForMiss(this.model.miss);
+    const judgements = await this.panel.getJudgementsForMiss(this.model.miss);
+    return judgements.sort((a, b) => a.createdAt - b.createdAt);
   }
 }

@@ -80,7 +80,14 @@ TODO
 ----------- done -------------
 
 - Classement personnel
-  - page pour ordonner ses plus hautes mentions
+  - page pour ordonner ses plus hautes mentions (non dynamique)
+  - juger le top d'un autre juge
+
+- Judges comments
+  + invitation à se connecter à la place des commentaires des autres juges
+  + ordonnancement chrono inverse
+  - sticky exergue sur un juge pour les commentaires
+  - liker un commentaire
 
 - Release notes
   - page release notes avec version
