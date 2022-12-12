@@ -1,3 +1,10 @@
+<nav class="prevnext">
+  <LinkTo rel="previous" @route="miss.profile" @query={{hash preserveScrollPosition=true}} @model={{@model.miss.prev}}>&#x3008;</LinkTo>
+  <h2 class="region">
+    {{ @model.miss.région }}
+  </h2>
+  <LinkTo rel="next" @route="miss.profile" @query={{hash preserveScrollPosition=true}} @model={{@model.miss.next}}>&#x3009;</LinkTo>
+</nav>
 <section class="commentaires">
   <div class="comment own">
     <LinkTo @route="miss.profile.judge">
@@ -13,13 +20,25 @@
 
   <ul class="comments">
     {{#each this.judgements.value as |judgement|}}
-      <li class="comment">
+      <li class="comment {{if judgement.highlighted 'highlight'}}">
         <blockquote class="content">
           {{sanitize-html (markdown judgement.comment)}}
         </blockquote>
         <figcaption>
           <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>
-          <span class="author">{{judgement.judge.nom}}</span>
+          <LinkTo @query={{hash  
+              judge=(if judgement.highlighted null judgement.judge.nom)
+              preserveScrollPosition=true
+            }}
+            class="author">{{judgement.judge.nom}}
+            <span class="search">
+              {{#if judgement.highlighted}}
+                +
+              {{else}}
+                &#x26B2;
+              {{/if }}
+            </span>
+          </LinkTo>
         </figcaption>
       </li>
     {{else}}

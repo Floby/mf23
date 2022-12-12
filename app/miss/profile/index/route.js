@@ -14,4 +14,9 @@ export default class MissProfileIndexRoute extends Route {
       this.router.transitionTo('miss.profile.judge');
     }
   }
+  resetController(controller, isExiting) {
+    if (isExiting) {
+      controller.preserveScrollPosition = null;
+    }
+  }
 }
