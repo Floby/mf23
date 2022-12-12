@@ -18,36 +18,38 @@
     </LinkTo>
   </div>
 
-  <ul class="comments">
-    {{#each this.judgements.value as |judgement|}}
-      <li class="comment {{if judgement.highlighted 'highlight'}}">
-        <blockquote class="content">
-          {{sanitize-html (markdown judgement.comment)}}
-        </blockquote>
-        <figcaption>
-          <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>
-          <LinkTo @query={{hash  
-              judge=(if judgement.highlighted null judgement.judge.nom)
-              preserveScrollPosition=true
-            }}
-            class="author">{{judgement.judge.nom}}
-            <span class="search">
-              {{#if judgement.highlighted}}
-                +
-              {{else}}
-                &#x26B2;
-              {{/if }}
-            </span>
-          </LinkTo>
-        </figcaption>
-      </li>
-    {{else}}
-      {{#unless this.auth.isAuthenticated}}
-        <li class="must-connect">
-          <LoginLink>Connecte-toi</LoginLink>
-          pour voir les jugements des autres juges.
+  <HeightAdjust>
+    <ul class="comments">
+      {{#each this.judgements.value as |judgement|}}
+        <li class="comment {{if judgement.highlighted 'highlight'}}">
+          <blockquote class="content">
+            {{sanitize-html (markdown judgement.comment)}}
+          </blockquote>
+          <figcaption>
+            <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>
+            <LinkTo @query={{hash  
+                judge=(if judgement.highlighted null judgement.judge.nom)
+                preserveScrollPosition=true
+              }}
+              class="author">{{judgement.judge.nom}}
+              <span class="search">
+                {{#if judgement.highlighted}}
+                  +
+                {{else}}
+                  &#x26B2;
+                {{/if }}
+              </span>
+            </LinkTo>
+          </figcaption>
         </li>
-      {{/unless}}
-    {{/each}}
-  </ul>
+      {{else}}
+        {{#unless this.auth.isAuthenticated}}
+          <li class="must-connect">
+            <LoginLink>Connecte-toi</LoginLink>
+            pour voir les jugements des autres juges.
+          </li>
+        {{/unless}}
+      {{/each}}
+    </ul>
+  </HeightAdjust>
 </section>
