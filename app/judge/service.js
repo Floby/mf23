@@ -76,6 +76,13 @@ export default class JudgeService extends Service {
   }
 
   #reconcile(remote, local) {
+    if (!remote) {
+      return {
+        reconciled: local,
+        localChanges: true,
+        remoteChanges: false,
+      };
+    }
     let localChanges = false;
     let remoteChanges = false;
     const misses = {};
@@ -118,8 +125,12 @@ export default class JudgeService extends Service {
         Accept: 'application/json',
       },
     });
-    const json = await res.json();
-    return json;
+    if (res.ok) {
+      const json = await res.json();
+      return json;
+    } else {
+      return undefined;
+    }
   }
 
   migrateTo(target) {
