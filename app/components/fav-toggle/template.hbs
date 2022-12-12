@@ -1,0 +1,8 @@
+<span {{style-namespace 'fav-toggle'}} ...attributes>
+  <span class="count">{{if @count @count}}</span>
+  {{#if @active}}
+    &#x2605;
+  {{else}}
+    &#x2606;
+  {{/if}}
+</span>

@@ -32,10 +32,23 @@ export default class MissProfileIndexController extends Controller {
   async judgements() {
     const judge = this.judge;
     const judgements = await this.panel.getJudgementsForMiss(this.model.miss);
-    const highlightedJudgement = judgements
+    const favs = {};
+    for (const j of judgements) {
+      const jFavs = j.favs || [];
+      for (const f of jFavs) {
+        favs[f] = favs[f] || { count: 0, names: [] };
+        favs[f].count++;
+        favs[f].names.push(j.judge.nom);
+      }
+    }
+    const favved = judgements.map((j) => ({
+      ...j,
+      fav: favs[j.judge.id],
+    }));
+    const highlightedJudgement = favved
       .filter((j) => j.judge.nom === judge)
       .map((j) => ({ ...j, highlighted: true }));
-    const otherJudgements = judgements
+    const otherJudgements = favved
       .filter((j) => j.judge.nom !== judge)
       .sort((a, b) => b.createdAt - a.createdAt);
     return [...highlightedJudgement, ...otherJudgements];

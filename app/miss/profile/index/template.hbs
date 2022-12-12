@@ -24,6 +24,7 @@
         <li class="comment {{if judgement.highlighted 'highlight'}}">
           <blockquote class="content">
             {{sanitize-html (markdown judgement.comment)}}
+            <FavToggle class="toggle" @count={{judgement.fav.count}} />
           </blockquote>
           <figcaption>
             <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>
@@ -31,8 +32,7 @@
                 judge=(if judgement.highlighted null judgement.judge.nom)
                 preserveScrollPosition=true
               }}
-              class="author">{{judgement.judge.nom}}
-              <span class="search">
+              class="author">{{judgement.judge.nom}} <span class="search">
                 {{#if judgement.highlighted}}
                   +
                 {{else}}

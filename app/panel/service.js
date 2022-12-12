@@ -14,7 +14,10 @@ export default class PanelService extends Service {
       }
       const judgement = judge.miss[miss.id];
       if (judgement) {
-        judgements.push({ ...judgement, judge: { nom: judge.nom } });
+        judgements.push({
+          ...judgement,
+          judge: { id: judge.id, nom: judge.nom },
+        });
       }
     }
     return judgements;
