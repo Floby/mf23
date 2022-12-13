@@ -28,5 +28,6 @@ export default class MissProfileIndexRoute extends Route {
     const { miss } = this.modelFor('miss.profile.index');
     this.judge.toggleFav(miss, judgeId);
     this.refresh();
+    return false;
   }
 }

@@ -15,7 +15,9 @@
       <blockquote class="content">
         {{sanitize-html (markdown @model.judgement.comment)}}
         <FavToggle 
+            {{action 'toggleFav' jid}}
             class="toggle"
+            @names="Fav par {{(name-list (get favs 'names') (if (get this.ownFavs jid) 'Moi'))}}"
             @count={{add (get this.ownFavs jid) (get favs 'count')}}
             @active={{get this.ownFavs jid}} />
       </blockquote>
@@ -24,7 +26,7 @@
         <span class="author">Moi</span>
       </figcaption>
     </LinkTo>
-    {{/let}}
+/bin/bash: line 1: qa: command not found
     {{/let}}
   </div>
 
@@ -34,19 +36,17 @@
         <li class="comment {{if judgement.highlighted 'highlight'}}">
           {{#let judgement.judge.id as |jid|}}
           {{#let (get this.favs jid) as |favs|}}
-          <a href="" {{action 'toggleFav' jid}}
-            title="Fav par {{(name-list (get favs 'names') (if (get this.ownFavs jid) 'Moi'))}}"
-            >
 
 
             <blockquote class="content">
               {{sanitize-html (markdown judgement.comment)}}
               <FavToggle 
+                  {{action 'toggleFav' jid}}
                   class="toggle"
+                  @names="Fav par {{(name-list (get favs 'names') (if (get this.ownFavs jid) 'Moi'))}}"
                   @count={{add (get this.ownFavs jid) (get favs 'count')}}
                   @active={{get this.ownFavs jid}} />
             </blockquote>
-          </a>
           {{/let}}
           {{/let}}
           <figcaption>
