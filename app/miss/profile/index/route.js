@@ -1,13 +1,16 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
+import { action } from '@ember/object';
 
 export default class MissProfileIndexRoute extends Route {
   @service router;
   @service judge;
-  model() {
+  @service panel;
+  async model() {
     const miss = this.modelFor('miss.profile');
     const judgement = this.judge.getCurrentJudgementFor(miss.id);
-    return { judgement, miss };
+    const judgements = await this.panel.getJudgementsForMiss(miss);
+    return { judgement, judgements, miss };
   }
   redirect(model) {
     if (!model.judgement?.comment) {
@@ -18,5 +21,12 @@ export default class MissProfileIndexRoute extends Route {
     if (isExiting) {
       controller.preserveScrollPosition = null;
     }
+  }
+
+  @action
+  toggleFav(judgeId) {
+    const { miss } = this.modelFor('miss.profile.index');
+    this.judge.toggleFav(miss, judgeId);
+    this.refresh();
   }
 }

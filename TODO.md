@@ -79,11 +79,13 @@ TODO
 
 ----------- done -------------
 
-- Judges comments
++ Judges comments
   + invitation à se connecter à la place des commentaires des autres juges
   + ordonnancement chrono inverse
   + sticky exergue sur un juge pour les commentaires
-  - liker un commentaire
+  + liker un commentaire
+
+------------- Done --------------
 
 - Classement personnel
   - page pour ordonner ses plus hautes mentions (non dynamique)

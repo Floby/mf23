@@ -10,6 +10,12 @@
     <LinkTo @route="miss.profile.judge">
       <blockquote class="content">
         {{sanitize-html (markdown @model.judgement.comment)}}
+        {{#let this.auth.userInfo.sub as |jid|}}
+        <FavToggle 
+            class="toggle"
+            @count={{add (get this.ownFavs jid) (get this.favs jid)}}
+            @active={{get this.ownFavs jid}} />
+        {{/let}}
       </blockquote>
       <figcaption>
         <span class="mention" title={{mention-label @model.judgement.mention}}>{{mention-emoji @model.judgement.mention}}</span>
@@ -20,12 +26,19 @@
 
   <HeightAdjust>
     <ul class="comments">
-      {{#each this.judgements.value as |judgement|}}
+      {{#each this.judgements as |judgement|}}
         <li class="comment {{if judgement.highlighted 'highlight'}}">
-          <blockquote class="content">
-            {{sanitize-html (markdown judgement.comment)}}
-            <FavToggle class="toggle" @count={{judgement.fav.count}} />
-          </blockquote>
+          {{#let judgement.judge.id as |jid|}}
+          <a href="" {{action 'toggleFav' jid}}>
+            <blockquote class="content">
+              {{sanitize-html (markdown judgement.comment)}}
+              <FavToggle 
+                  class="toggle"
+                  @count={{add (get this.ownFavs jid) (get this.favs jid)}}
+                  @active={{get this.ownFavs jid}} />
+            </blockquote>
+          </a>
+          {{/let}}
           <figcaption>
             <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>
             <LinkTo @query={{hash  

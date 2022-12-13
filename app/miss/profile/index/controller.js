@@ -1,7 +1,7 @@
 import Controller from '@ember/controller';
 import { resource } from 'mf23/resources';
 import { service } from '@ember/service';
-import { tracked } from '@glimmer/tracking';
+import { tracked, cached } from '@glimmer/tracking';
 
 export default class MissProfileIndexController extends Controller {
   @service router;
@@ -28,29 +28,45 @@ export default class MissProfileIndexController extends Controller {
     super(...args);
   }
 
-  @resource
-  async judgements() {
-    const judge = this.judge;
-    const judgements = await this.panel.getJudgementsForMiss(this.model.miss);
+
+  get favs() {
+    const judgements = this.judgements;
+    if (!judgements) {
+      return {};
+    }
     const favs = {};
     for (const j of judgements) {
       const jFavs = j.favs || [];
       for (const f of jFavs) {
-        favs[f] = favs[f] || { count: 0, names: [] };
-        favs[f].count++;
-        favs[f].names.push(j.judge.nom);
+        favs[f] = favs[f] || 0;
+        favs[f]++;
       }
     }
-    const favved = judgements.map((j) => ({
-      ...j,
-      fav: favs[j.judge.id],
-    }));
-    const highlightedJudgement = favved
+    return favs;
+  }
+
+  get ownFavs() {
+    return (this.model.judgement.favs || []).reduce(
+      (favs, id) => ({
+        ...favs,
+        [id]: 1,
+      }),
+      {}
+    );
+  }
+
+  get judgements() {
+    const judge = this.judge;
+    const judgements = this.model.judgements;
+
+    const highlightedJudgement = judgements
       .filter((j) => j.judge.nom === judge)
       .map((j) => ({ ...j, highlighted: true }));
-    const otherJudgements = favved
+
+    const otherJudgements = judgements
       .filter((j) => j.judge.nom !== judge)
       .sort((a, b) => b.createdAt - a.createdAt);
+
     return [...highlightedJudgement, ...otherJudgements];
   }
 }

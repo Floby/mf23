@@ -41,6 +41,15 @@ export default class JudgeService extends Service {
     return current.miss[id];
   }
 
+  toggleFav(miss, judgeId) {
+    const current = this.getCurrent();
+    const set = new Set(current.miss[miss.id].favs || []);
+    set.has(judgeId) ? set.delete(judgeId) : set.add(judgeId);
+    current.miss[miss.id].favs = [...set];
+    current.miss[miss.id].updatedAt = Date.now();
+    this.saveCurrent({ ...current });
+  }
+
   @debounce(ms('5 second'))
   scheduleSync() {
     this.syncChanges();
