@@ -22,6 +22,7 @@
 & > .commentaires {
   .comment {
     .padded();
+    blockquote a,
     > a {
       display: block;
       color: inherit;
@@ -43,11 +44,8 @@
         color: inherit;
       }
 
-      blockquote {
-        padding-left: 1em;
-        margin-left: 1em;
-        border-left: 1px solid var(--color-text);
-      }
+      user-select: none;
+
       .toggle {
         display: block;
         text-align: right;
@@ -107,6 +105,40 @@
     .sensible();
     text-align: center;
     padding: 3em;
+  }
+
+
+
+  .tooltip[title] {
+    position: relative;
+    .accent();
+    background: initial;
+    color: initial;
+    &::before {
+      .shadow();
+      content: attr(title);
+      color: var(--color-text);
+      display: block;
+      position: absolute;
+      background: var(--color-bg);
+      bottom: calc(100% + .3em);
+      padding: .3em .5em;
+      .rounded();
+      left: 40%;
+      text-align:center;
+      font-size: var(--txt-s);
+    }
+    &::after {
+      content: "";
+      width: 0px;
+      height: 0px;
+      position: absolute;
+      border-left: .4em solid transparent;
+      border-right: .4em solid transparent;
+      border-top: .8em solid var(--color-bg);
+      bottom: calc(100% - .5em);
+      left: calc(50% - 1em);
+    }
   }
 }
 

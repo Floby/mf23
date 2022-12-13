@@ -7,21 +7,25 @@
 </nav>
 <section class="commentaires">
   <div class="comment own">
-    <LinkTo @route="miss.profile.judge">
+    {{#let this.auth.userInfo.sub as |jid|}}
+    {{#let (get this.favs jid) as |favs|}}
+    <LinkTo @route="miss.profile.judge"
+       title="Fav par {{(name-list (get favs 'names') (if (get this.ownFavs jid) 'Moi'))}}"
+       >
       <blockquote class="content">
         {{sanitize-html (markdown @model.judgement.comment)}}
-        {{#let this.auth.userInfo.sub as |jid|}}
         <FavToggle 
             class="toggle"
-            @count={{add (get this.ownFavs jid) (get this.favs jid)}}
+            @count={{add (get this.ownFavs jid) (get favs 'count')}}
             @active={{get this.ownFavs jid}} />
-        {{/let}}
       </blockquote>
       <figcaption>
         <span class="mention" title={{mention-label @model.judgement.mention}}>{{mention-emoji @model.judgement.mention}}</span>
         <span class="author">Moi</span>
       </figcaption>
     </LinkTo>
+    {{/let}}
+    {{/let}}
   </div>
 
   <HeightAdjust>
@@ -29,15 +33,21 @@
       {{#each this.judgements as |judgement|}}
         <li class="comment {{if judgement.highlighted 'highlight'}}">
           {{#let judgement.judge.id as |jid|}}
-          <a href="" {{action 'toggleFav' jid}}>
+          {{#let (get this.favs jid) as |favs|}}
+          <a href="" {{action 'toggleFav' jid}}
+            title="Fav par {{(name-list (get favs 'names') (if (get this.ownFavs jid) 'Moi'))}}"
+            >
+
+
             <blockquote class="content">
               {{sanitize-html (markdown judgement.comment)}}
               <FavToggle 
                   class="toggle"
-                  @count={{add (get this.ownFavs jid) (get this.favs jid)}}
+                  @count={{add (get this.ownFavs jid) (get favs 'count')}}
                   @active={{get this.ownFavs jid}} />
             </blockquote>
           </a>
+          {{/let}}
           {{/let}}
           <figcaption>
             <span class="mention" title={{mention-label judgement.mention}}>{{mention-emoji judgement.mention}}</span>

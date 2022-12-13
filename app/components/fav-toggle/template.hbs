@@ -1,4 +1,8 @@
-<span {{style-namespace 'fav-toggle'}} ...attributes>
+<span 
+  {{style-namespace 'fav-toggle'}} 
+  title={{@names}}
+  ...attributes
+>
   <span class="count">{{if @count @count}}</span>
   {{#if @active}}
     &#x2605;

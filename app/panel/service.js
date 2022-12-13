@@ -6,6 +6,9 @@ export default class PanelService extends Service {
   @service auth;
 
   async getJudgementsForMiss(miss) {
+    if (!this.auth.isAuthenticated) {
+      return [];
+    }
     const json = await this.#getAll();
     const judgements = [];
     for (const judge of json) {

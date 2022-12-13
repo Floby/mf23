@@ -21,14 +21,14 @@ export default class MissProfileIndexController extends Controller {
     },
   ];
 
-  @tracked preserveScrollPosition = null;
+  @tracked preserveScrollPosition = true;
   @tracked judge = null;
 
   constructor(...args) {
     super(...args);
   }
 
-
+  @cached
   get favs() {
     const judgements = this.judgements;
     if (!judgements) {
@@ -38,13 +38,15 @@ export default class MissProfileIndexController extends Controller {
     for (const j of judgements) {
       const jFavs = j.favs || [];
       for (const f of jFavs) {
-        favs[f] = favs[f] || 0;
-        favs[f]++;
+        favs[f] = favs[f] || { count: 0, names: [] };
+        favs[f].count++;
+        favs[f].names.push(j.judge.nom);
       }
     }
     return favs;
   }
 
+  @cached
   get ownFavs() {
     return (this.model.judgement.favs || []).reduce(
       (favs, id) => ({
