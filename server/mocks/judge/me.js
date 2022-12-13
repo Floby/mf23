@@ -77,6 +77,7 @@ const JudgeValidator = Joi.object({
     mapObject(Miss, () =>
       Joi.object({
         comment: Joi.string().max(1000),
+        favs: Joi.array().optional().items(Joi.string()),
         mention: Joi.number().valid(0, 1, 2, 3, 4, 5, 6),
         version: Joi.number().integer().min(1),
         updatedAt: Joi.number().integer().description('Javascript epoch'),
