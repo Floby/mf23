@@ -7,6 +7,7 @@ export default class MissProfileJudgeController extends Controller {
   @tracked _model = null;
   @tracked mention = 0;
   @tracked comment = '';
+  @tracked preserveScrollPosition = true;
 
   set model(judgement) {
     this._model = judgement || {
