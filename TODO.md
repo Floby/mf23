@@ -87,10 +87,16 @@ TODO
 
 ------------- Done --------------
 
+
 - Classement personnel
   - page pour ordonner ses plus hautes mentions (non dynamique)
   - juger le top d'un autre juge
 
++ Classement des juges
+  + trier par nombre de likes
+  + indiquer le plus grand fan
+
+--------------------------------
 
 - Release notes
   - page release notes avec version

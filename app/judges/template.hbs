@@ -2,7 +2,7 @@
 <h2>Le panel</h2>
 
 <ul class="judges">
-  {{#each @model.judges as |judge|}}
+  {{#each this.judges as |judge|}}
     <li class="judge">
       <div class="avatar">
         <img src={{judge.avatar}} data-altsrc={{boring-avatar judge.nom}} role="none">
@@ -13,6 +13,16 @@
         <dd>{{percent judge.progress}}</dd>
         <dt>Médiane</dt>
         <dd>{{mention-emoji judge.median}} <small>{{mention-label judge.median}}</small></dd>
+        <dt>Likes</dt>
+        <dd>&#x2605; {{judge.favTotal}}</dd>
+        {{#if judge.fan}}
+          <dt>Fan</dt>
+          <dd>&#x2606; {{judge.fan.favs}} {{judge.fan.nom}}</dd>
+        {{/if}}
+        {{#if judge.favourite}}
+          <dt>Favoris</dt>
+          <dd>&#x2606; {{judge.favourite.favs}} {{judge.favourite.nom}}</dd>
+        {{/if}}
       </dl>
     </li>
   {{/each}}
