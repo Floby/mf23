@@ -28,7 +28,6 @@ export default class PanelService extends Service {
 
   async getJudgesStats() {
     const json = await this.#getAll();
-    const favs = {};
     const allFavs = [];
     for (const j of json) {
       await noblock();
@@ -36,9 +35,6 @@ export default class PanelService extends Service {
       for (const [miss, m] of Object.entries(j.miss)) {
         for (const favvee of m.favs || []) {
           allFavs.push({ favvee, favver, miss });
-          favs[favvee] = favs[favvee] || {};
-          favs[favvee][favver] = favs[favvee][favver] || 0;
-          favs[favvee][favver] += 1;
         }
       }
     }
