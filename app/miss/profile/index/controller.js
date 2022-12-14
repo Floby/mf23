@@ -21,7 +21,7 @@ export default class MissProfileIndexController extends Controller {
     },
   ];
 
-  @tracked preserveScrollPosition = true;
+  @tracked preserveScrollPosition = null;
   @tracked judge = null;
 
   constructor(...args) {
