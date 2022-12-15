@@ -1,4 +1,6 @@
-<div 
+<LinkTo 
+  @route="miss.profile" 
+  @model={{ @miss }} 
   {{ style-namespace 'miss-thumb-small' }}
   class={{if @judgement 'done' 'todo'}}
   {{region-css @miss.id}}
@@ -9,4 +11,4 @@
   </div>
   <span class="mention">{{mention-emoji (get @judgement 'mention') }}</span>
 
-</div>
+</LinkTo>
