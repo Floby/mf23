@@ -10,14 +10,27 @@
       <button type="submit">Réinitialiser</button>
   </form>
 
-  <GridList class="preview" @onSort={{this.onTopSorted}} @list={{@model.top}} as |miss|>
-      <MissThumb @miss={{miss}} @judgement={{miss}}/>
-  </GridList>
+  <ol class="top" {{sortable-group onChange=(fn (action 'saveTop'))}}>
+    {{#each @model.top as |miss index|}}
+      <li class="item" {{sortable-item spacing=10 model=miss}}>
+        <MissThumbSmall class="portrait" @miss={{miss}} @judgement={{miss}}/>
+        <div class="legend">
+          <h3 class="region"><strong>{{add index 1}}.</strong> {{miss.région}}</h3>
+          <h4 class="nom">{{miss.nom}}</h4>
+          <p class="draggable">
+            <span class="handle" {{sortable-handle}}>
+              &#x2195;
+            </span>
+          </p>
+        </div>
+      </li>
+    {{/each}}
+  </ol>
 
 {{else}}
 
 
-<form class="init" {{action 'initTop' this.missAboveMin on="submit"}}>
+<form class="init" {{action 'saveTop' this.missAboveMin on="submit"}}>
   <fieldset class="mention-min">
     <legend>Pas de top défini. Initialiser mon top.</legend>
     <label for="minimum">Minimum</label>

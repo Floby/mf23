@@ -1,0 +1,47 @@
+@import 'mixin.less';
+
+& {
+  .sensible();
+  margin: 0;
+  display: block;
+  aspect-ratio: ~'1 / 1';
+  overflow: hidden;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  .primary();
+  .shadow();
+  .rounded();
+
+  .portrait {
+    display: block;
+    .vignette();
+    line-height: 0;
+    width: 100%;
+    aspect-ratio: ~'1 / 1';
+    position: relative;
+    overflow: hidden;
+    img {
+      width: 300%;
+      position: relative;
+      right: 107%;
+      top: -74%;
+
+
+      &:is(.todo .portrait img) {
+        filter: grayscale(1) contrast(110%)
+      }
+      &:is(.done .portrait img) {
+        filter: saturate(100%);
+      }
+    }
+  }
+  .mention {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: .4rem;
+  }
+}
+

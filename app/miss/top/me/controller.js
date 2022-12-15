@@ -1,5 +1,6 @@
 import Controller from '@ember/controller';
 import { cached, tracked } from '@glimmer/tracking';
+import { action } from '@ember/object';
 
 export default class MissTopMeController extends Controller {
   @tracked minimum = 4;
@@ -16,7 +17,8 @@ export default class MissTopMeController extends Controller {
     }
   }
 
-  onTopSorted(newTop, moved) {
-    debugger;
+  @action
+  saveTop(newTop) {
+    this.target.send('saveTop', newTop);
   }
 }

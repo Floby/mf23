@@ -17,10 +17,11 @@ export default class MissTopMeRoute extends Route {
   }
 
   @action
-  initTop(misses) {
+  saveTop(misses) {
     this.judge.saveTop(misses);
     this.refresh();
   }
+
 
   @action
   resetTop() {
