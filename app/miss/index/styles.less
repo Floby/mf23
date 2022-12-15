@@ -48,18 +48,4 @@
     margin-bottom: 1em;
   }
 
-  .misses {
-    display: grid;
-    list-style-type: none;
-    grid-template-columns: 1fr 1fr 1fr;
-    @media (orientation: landscape) {
-      grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
-    @media (max-width: 23rem) {
-      grid-template-columns: 1fr 1fr;
-    }
-    grid-gap: var(--gutter);
-
-    > li { }
-  }
 }

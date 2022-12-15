@@ -73,6 +73,10 @@ const JudgeValidator = Joi.object({
   nom: Joi.string().required().max(100).description('The name of the judge'),
   avatar: Joi.string().uri({ scheme: ['https'] }),
   updatedAt: Joi.number().required().integer().description('Javascript epoch'),
+  top: Joi.object({
+    updatedAt: Joi.number().integer().description('Javascript epoch'),
+    miss: Joi.array().items(Joi.string().valid(...Object.keys(Miss))),
+  }),
   miss: Joi.object(
     mapObject(Miss, () =>
       Joi.object({

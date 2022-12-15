@@ -1,0 +1,31 @@
+@import "mixin.less";
+
+& {
+  display: grid;
+  list-style-type: none;
+  grid-template-columns: 1fr 1fr 1fr;
+  @media (orientation: landscape) {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+  @media (max-width: 23rem) {
+    grid-template-columns: 1fr 1fr;
+  }
+  grid-gap: var(--gutter);
+
+  > li {
+    --index: 0;
+    animation: fade-in;
+    animation-duration: 300ms;
+    animation-fill-mode: backwards;
+    animation-delay: calc(50ms * var(--index))
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

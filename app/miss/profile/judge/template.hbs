@@ -5,16 +5,7 @@
   </div>
   <fieldset class="mention">
     <label for="mention">Jugement</label>
-    <Input @type="range" id="mention" @value={{ this.mention }} name="mention" min="0" max="6" class="heart-slider slider" />
-    <ul class="mention-emojis">
-      {{#each this.mentions as |mention|}}
-        <li>
-          <label {{on "click" (fn this.selectMention mention)}} for="mention" class="reaction" title={{mention-label mention}}>
-            {{mention-emoji mention}}
-          </label>
-        </li>
-      {{/each}}
-    </ul>
+    <MentionPicker @value={{this.mention}} @onChange={{fn (mut this.mention)}} id="mention"/>
   </fieldset>
   <fieldset class="add-comment">
     <Textarea required {{input-autosize}} @value={{ this.comment }} placeholder="Ici, la motivation de votre jugement." id="comment" name="comment" cols="40" rows="2" />

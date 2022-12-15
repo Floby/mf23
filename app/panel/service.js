@@ -119,6 +119,11 @@ export default class PanelService extends Service {
     return top;
   }
 
+  async getJudgeTop(judgeId) {
+    const judges = await this.#getAll();
+    return judges.find((j) => j.id === judgeId);
+  }
+
   async #getAll() {
     const url = `/api/judge`;
     const token = this.auth.accessToken;

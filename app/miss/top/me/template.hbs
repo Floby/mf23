@@ -1,0 +1,35 @@
+{{page-title "Mon Top"}}
+
+<div class="header">
+  <h2>Mon Top</h2>
+</div>
+
+{{#if @model.top.length}}
+  <form class="top-actions">
+      <legend>Glisser les miss pour les ordonner</legend>
+      <button type="submit">Réinitialiser</button>
+  </form>
+
+  <GridList class="preview" @onSort={{this.onTopSorted}} @list={{@model.top}} as |miss|>
+      <MissThumb @miss={{miss}} @judgement={{miss}}/>
+  </GridList>
+
+{{else}}
+
+
+<form class="init" {{action 'initTop' this.missAboveMin on="submit"}}>
+  <fieldset class="mention-min">
+    <legend>Pas de top défini. Initialiser mon top.</legend>
+    <label for="minimum">Minimum</label>
+    <MentionPicker @value={{this.minimum}} @onChange={{fn (mut this.minimum)}}/>
+  </fieldset>
+
+  <button type="submit">Séléctionner {{this.missAboveMin.length}} miss pour mon top</button>
+  <GridList class="preview" @list={{this.missAboveMin}} as |miss|>
+      <MissThumb @miss={{miss}} @judgement={{get @model.judge.miss miss.id}}/>
+  </GridList>
+</form>
+
+
+
+{{/if}}

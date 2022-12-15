@@ -1,0 +1,10 @@
+<ol 
+  {{ style-namespace 'grid-list' }}
+  ...attributes>
+
+  {{#each @list as |item index|}}
+  <li {{css-var index=index}}>
+    {{yield item index}}
+  </li>
+  {{/each}}
+</ol>

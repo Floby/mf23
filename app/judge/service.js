@@ -10,7 +10,7 @@ export default class JudgeService extends Service {
   @service auth;
   constructor(...args) {
     super(...args);
-    const schemaVersion = 2;
+    const schemaVersion = 3;
     this.migrateTo(schemaVersion);
     this.store = this.getStore(schemaVersion);
   }
@@ -48,6 +48,15 @@ export default class JudgeService extends Service {
     current.miss[miss.id].favs = [...set];
     current.miss[miss.id].updatedAt = Date.now();
     this.saveCurrent({ ...current });
+  }
+
+  saveTop(misses) {
+    const judge = this.getCurrent();
+    judge.top = {
+      updatedAt: Date.now(),
+      miss: misses.map((m) => m.id),
+    };
+    this.saveCurrent(judge);
   }
 
   @debounce(ms('5 second'))
@@ -116,7 +125,7 @@ export default class JudgeService extends Service {
         remoteChanges = true;
       }
     }
-    const freshest = local.updatedAt > remote.updatedAt ? local : remote;
+    const freshest = local.updatedAt >= remote.updatedAt ? local : remote;
     const reconciled = {
       ...freshest,
       miss: misses,
@@ -148,16 +157,14 @@ export default class JudgeService extends Service {
     while (current < target) {
       const migrationName = `migrate_${current}_to_${current + 1}`;
       if (typeof this[migrationName] === 'function') {
-        this[migrationName]();
+        this[migrationName](this.getStore(current), this.getStore(current + 1));
       }
       current++;
     }
     migrationStore.set('current', current);
   }
 
-  migrate_1_to_2() {
-    const v1 = this.getStore(1);
-    const v2 = this.getStore(2);
+  migrate_1_to_2(v1, v2) {
     const judge = v1.get('me');
     if (!judge) {
       return;
@@ -170,6 +177,25 @@ export default class JudgeService extends Service {
       miss.version = 1;
     }
     v2.set('me', judge);
+  }
+
+  migrate_2_to_3(v2, v3) {
+    const judge = v2.get('me');
+    if (!judge) {
+      return;
+    }
+    judge.top = {
+      updatedAt: Date.now(),
+      miss: [],
+    };
+    const newJudge = {
+      ...judge,
+      top: {
+        miss: [],
+        updatedAt: Date.now(),
+      },
+    };
+    v3.set('me', newJudge);
   }
 }
 

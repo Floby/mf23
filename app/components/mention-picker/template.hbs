@@ -1,0 +1,12 @@
+<div {{ style-namespace 'mention-picker' }}>
+  <ul class="mention-emojis">
+    {{#each this.mentions as |mention|}}
+      <li>
+        <label {{on "click" (fn this.selectMention mention)}} for="mention" class="reaction" title={{mention-label mention}}>
+          {{mention-emoji mention}}
+        </label>
+      </li>
+    {{/each}}
+  </ul>
+  <Input @type="range" @value={{ @value }} min="0" max="6" class="heart-slider slider" ...attributes />
+</div>

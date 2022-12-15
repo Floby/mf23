@@ -1,0 +1,47 @@
+@import 'mixin.less';
+
+& {
+  .padded();
+  .header {
+    .sensible();
+    margin-bottom: 1em;
+  }
+
+
+
+  .top-actions {
+    display: flex;
+    gap: var(--gutter);
+    align-items: baseline;
+    justify-content: space-between;
+    button {
+      .button();
+      .secondary();
+    }
+    margin-bottom: 1em;
+  }
+
+
+
+  .init {
+    .mention-min {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      align-items: center;
+      grid-gap: var(--gutter);
+
+      legend {
+        margin-bottom: 1em;
+      }
+    }
+
+    button[type=submit] {
+      .button();
+      .accent();
+    }
+
+    .preview {
+      margin-top: 1em;
+    }
+  }
+}

@@ -13,11 +13,7 @@
       {{/if}}
   </small></legend>
 </div>
-<ul class="misses">
-  {{#each this.model.misses as |miss|}}
-  <li>
+<GridList @list={{this.model.misses}} as |miss|>
     <MissThumb @miss={{miss}} @judgement={{get @model.judge.miss miss.id}}/>
-  </li>
-  {{/each}}
-</ul>
+</GridList>
 {{outlet}}

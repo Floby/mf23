@@ -1,7 +1,7 @@
 import Route from '@ember/routing/route';
 import { service } from '@ember/service';
 
-export default class MissTopRoute extends Route {
+export default class MissTopIndexRoute extends Route {
   @service panel;
   @service judge;
 
