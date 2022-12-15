@@ -5,7 +5,7 @@
 </div>
 
 {{#if @model.top.length}}
-  <form class="top-actions">
+  <form class="top-actions" {{action 'resetTop' on='submit'}}>
       <legend>Glisser les miss pour les ordonner</legend>
       <button type="submit">Réinitialiser</button>
   </form>
