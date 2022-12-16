@@ -96,7 +96,13 @@ TODO
   + trier par nombre de likes
   + indiquer le plus grand fan
 
---------------------------------
+------------- Done -------------------
+
++ Classements
+  + classement général
+  + classement personnel
+
+----------------------------------
 
 - Release notes
   - page release notes avec version
@@ -106,8 +112,5 @@ TODO
   - un lien vers Instagram
   - la 3e photo maillot
 
-- Classements
-  - classement général
-  - classement personnel
 
 

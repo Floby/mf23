@@ -5,9 +5,6 @@
     <progress max={{this.total}} value={{this.judged}}></progress>
     <legend><small>
           Encore {{this.todo}} miss à juger
-          {{#if this.auth.isAuthenticated}}
-            <LinkTo @route="miss.top">Classement général</LinkTo>
-          {{/if}}
     </small></legend>
   {{else}}
   <NavMiss @isAuthenticated={{this.auth.isAuthenticated}}/>
