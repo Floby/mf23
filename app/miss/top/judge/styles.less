@@ -1,1 +1,54 @@
 @import "mixin.less";
+
+& {
+  .header {
+    .padded();
+    .sensible();
+    h2 {
+      margin-bottom: 1em;
+    }
+
+    .avatar {
+      width: 6em;
+      aspect-ratio: ~"1/1";
+      float: right;
+      margin: 1em;
+      margin-top: 0;
+      border-radius: 100%;
+      .shadow();
+    }
+  }
+
+  .top {
+    list-style-type: none;
+    display: block;
+    align-items: start;
+    .item {
+      .primary();
+      box-sizing: border-box;
+      position: relative;
+      width: 100%;
+      display: flex;
+      align-items: stretch;
+      flex-direction: row;
+      gap: 1em;
+      padding: calc(0.5 * var(--gutter)) var(--gutter);
+      > .portrait {
+        flex-grow: 0;
+        width: calc(100% * 2/7)
+      }
+
+      > .legend {
+        flex-grow: 1;
+        .region {
+          .text-elegant();
+          margin-bottom: .5em;
+          strong {
+            font-weight: bold;
+            margin-right: .5em;
+          }
+        }
+      }
+    }
+  }
+}

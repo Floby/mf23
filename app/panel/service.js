@@ -5,6 +5,15 @@ import Miss from '../models/miss';
 export default class PanelService extends Service {
   @service auth;
 
+  async getById(id) {
+    const panel = await this.#getAll();
+    const judge = panel.find((j) => j.id === id);
+    if (judge) {
+      return judge;
+    }
+    throw Error('Could not find judge');
+  }
+
   async getJudgementsForMiss(miss) {
     if (!this.auth.isAuthenticated) {
       return [];

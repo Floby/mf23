@@ -1,3 +1,22 @@
-{{page-title "Judge"}}
-Coucou
-{{outlet}}
+{{page-title (concat "Le top de " @model.judge.nom)}}
+<div class="header">
+  <img class="avatar" src={{@model.judge.avatar}} alt={{@model.judge.nom}}>
+  <h2>Le top de {{@model.judge.nom}}</h2>
+  {{#if @model.top.length}}
+    <p>{{@model.judge.nom}} a publié le top ci-dessous.</p>
+  {{else}}
+    <p>Désolé, {{@model.judge.nom}} n&apos;a pas encore publié de top.</p>
+  {{/if}}
+</div>
+
+<ol class="top">
+  {{#each @model.top as |miss index|}}
+    <li class="item">
+      <MissThumbSmall class="portrait" @miss={{miss}} @judgement={{miss}}/>
+      <div class="legend">
+        <h3 class="region"><strong>{{add index 1}}.</strong> {{miss.région}}</h3>
+        <h4 class="nom">{{miss.nom}}</h4>
+      </div>
+    </li>
+  {{/each}}
+</ol>

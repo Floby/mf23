@@ -3,10 +3,10 @@ import { service } from '@ember/service';
 
 export default class MissTopJudgeRoute extends Route {
   @service panel;
-  model({ judge_id }) {
-    const judge = this.panel;
-    const misses = this.modelFor('miss');
-    const top = judge.top.misses.map((missId) => ({
+  async model({ judge_id }) {
+    const misses = this.modelFor('miss').misses.getAll()
+    const judge = await this.panel.getById(judge_id);
+    const top = (judge.top?.miss || []).map((missId) => ({
       ...misses.find((m) => m.id === missId),
       mention: judge.miss[missId].mention,
       comment: judge.miss[missId].comment,
