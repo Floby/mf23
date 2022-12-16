@@ -1,11 +1,20 @@
-<p>Certaines fonctionnalités arrivent bientôt !</p>
-<ul>
-  <li>✔️  <LinkTo @route="miss">Consulter les profils des miss</LinkTo></li>
-  <li>✔️  Commenter une miss</li>
-  <li>✔️  Juger une miss</li>
-  <li>✔️  <LinkTo @route="profile">S'identifier et changer son pseudo</LinkTo> </li>
-  <li>✔️  <LinkTo @route="judges">Découvrir le panel de juges</LinkTo> </li>
-  <li>✔️ Voir les jugements des autres juges</li>
-  <li>✔️ <LinkTo @route="miss.top.me">Créer son top personnel</LinkTo></li>
-  <li>🔜 Consulter le classement général</li>
-</ul>
+<menu>
+  <li>
+    <LinkTo class="miss" @route="miss">Les<br>Miss</LinkTo>
+  </li>
+  <li>
+    <LinkTo class="judges" @route="judges">Les<br>Juges</LinkTo>
+  </li>
+  <li>
+    <LinkTo class="profile" @route="profile">
+      Mon<br>Profil
+    </LinkTo>
+  </li>
+  <li>
+    {{#if @model.isDone}}
+    <LinkTo class="top" @route="miss.top.index">
+      Le<br>Top
+    </LinkTo>
+    {{/if}}
+  </li>
+</menu>

@@ -1,9 +1,57 @@
 @import 'mixin.less';
 
 &  {
-  .sensible();
-  padding: var(--gutter);
-  ul {
+  .padded();
+
+  menu {
     list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 1rem;
+
+    li {
+      aspect-ratio: ~"4/5";
+
+      > a {
+        .rounded();
+        .shadow();
+        text-decoration: none;
+        color: inherit;
+        display: flex;
+        height: 100%;
+        width: 100%;
+        box-sizing: border-box;
+        padding: 1rem;
+        font-size: var(--txt-xxl);
+        font-weight: bolder;
+        letter-spacing: -0.1em;
+        line-height: .9em;
+
+        &.miss {
+          .accent();
+          align-items: start;
+          justify-content: start;
+          text-align: left;
+        }
+        &.judges {
+          .secondary();
+          align-items: start;
+          justify-content: end;
+          text-align: right;
+        }
+        &.profile {
+          .primary(true);
+          align-items: end;
+          justify-content: start;
+          text-align: left;
+        }
+        &.top {
+          .accent(true);
+          align-items: end;
+          justify-content: end;
+          text-align: right;
+        }
+      }
+    }
   }
 }
