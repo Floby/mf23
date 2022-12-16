@@ -7,7 +7,6 @@ export default class MissTopIndexRoute extends Route {
 
   async model() {
     const top = await this.panel.getTop();
-    console.log(top);
     return { top, judge: this.judge.getCurrent() };
   }
 }

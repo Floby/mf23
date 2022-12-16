@@ -1,6 +1,7 @@
 import Service, { service } from '@ember/service';
 import percentile from 'percentile';
 import Miss from '../models/miss';
+import { InsertSort } from '../lib/insert-sort';
 
 export default class PanelService extends Service {
   @service auth;
@@ -105,29 +106,27 @@ export default class PanelService extends Service {
     const judges = allJudges.filter(
       (j) => Object.keys(j.miss).length === misses.length
     );
-    const top = misses
-      .map((miss) => ({
+    const top2 = new InsertSort(compareTopRank);
+    for (const miss of misses) {
+      await noblock();
+      const mentions = judges.map((j) => j.miss[miss.id]?.mention || 2).sort();
+      const mention = Math.round(percentile(50, mentions));
+      await noblock();
+      const proponents = mentions.filter((m) => m > mention).length;
+      const opponents = mentions.filter((m) => m < mention).length;
+      const rank = {
+        région: miss.région,
         miss,
-        mentions: judges
-          .map((j) => (j.miss[miss.id] ? j.miss[miss.id].mention : 2))
-          .sort(),
-      }))
-      .map(({ miss, mentions }) => {
-        const mention = Math.round(percentile(50, mentions));
-        const proponents = mentions.filter((m) => m > mention).length;
-        const opponents = mentions.filter((m) => m < mention).length;
-        return {
-          région: miss.région,
-          miss,
-          mention,
-          mentions,
-          proponents,
-          opponents,
-        };
-      })
-      .filter((r) => r.mention >= 0)
-      .sort(compareTopRank);
-    return top;
+        mention,
+        mentions,
+        proponents,
+        opponents,
+      };
+      top2.push(rank);
+    }
+    await noblock();
+    await delay(1500);
+    return [...top2];
   }
 
   async getJudgeTop(judgeId) {
