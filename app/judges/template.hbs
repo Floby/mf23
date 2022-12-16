@@ -5,7 +5,7 @@
   {{#each this.judges as |judge|}}
     <li class="judge">
       <div class="avatar">
-        <img src={{judge.avatar}} data-altsrc={{boring-avatar judge.nom}} role="none">
+        <img alt="" src={{judge.avatar}} data-altsrc={{boring-avatar judge.nom}} role="none">
         <h3>{{ judge.nom }}</h3>
       </div>
       <dl class="stats">
@@ -22,6 +22,12 @@
         {{#if judge.favourite}}
           <dt>Favoris</dt>
           <dd>&#x2606; {{judge.favourite.favs}} {{judge.favourite.nom}}</dd>
+        {{/if}}
+        {{#if judge.hasTop}}
+        <dt>
+          <LinkTo @route="miss.top.judge" @model={{judge.id}}>Voir le top</LinkTo>
+        </dt>
+        <dd></dd>
         {{/if}}
       </dl>
     </li>

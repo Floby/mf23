@@ -51,6 +51,8 @@ export default class PanelService extends Service {
     for (const j of json) {
       await noblock();
       stats.push({
+        id: j.id,
+        hasTop: Boolean(j.top?.miss.length),
         nom: j.nom,
         avatar: j.avatar,
         since: Math.min(...Object.values(j.miss).map((m) => m.createdAt)),
