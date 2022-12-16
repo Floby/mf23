@@ -1,9 +1,11 @@
 import Controller from '@ember/controller';
 import { cached, tracked } from '@glimmer/tracking';
+import { service } from '@ember/service';
 import { action } from '@ember/object';
 
 export default class MissTopMeController extends Controller {
   @tracked minimum = 4;
+  @service auth;
 
   @cached
   get missAboveMin() {

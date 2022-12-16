@@ -68,24 +68,24 @@
   }
 }
 
-.primary() {
-  --color-bg: var(--color-bg-primary);
-  --color-text: var(--color-text-primary);
-  background: var(--color-bg-primary);
-  color: var(--color-text-primary);
+.primary(@invert: false) {
+  --color-bg: if(@invert = true, var(--color-text-primary), var(--color-bg-primary));
+  --color-text: if(@invert = true, var(--color-bg-primary), var(--color-text-primary));
+  background: var(--color-bg);
+  color: var(--color-text);
 }
-.secondary() {
-  --color-bg: var(--color-bg-secondary);
-  --color-text: var(--color-text-secondary);
-  background: var(--color-bg-secondary);
-  color: var(--color-text-secondary);
+.secondary(@invert: false) {
+  --color-bg: if(@invert = true, var(--color-text-secondary), var(--color-bg-secondary));
+  --color-text: if(@invert = true, var(--color-bg-secondary), var(--color-text-secondary));
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
-.accent() {
-  --color-bg: var(--color-bg-accent);
-  --color-text: var(--color-text-accent);
-  background: var(--color-bg-accent);
-  color: var(--color-text-accent);
+.accent(@invert: false) {
+  --color-bg: if(@invert = true, var(--color-text-accent), var(--color-bg-accent));
+  --color-text: if(@invert = true, var(--color-bg-accent), var(--color-text-accent));
+  background: var(--color-bg);
+  color: var(--color-text);
 }
 
 .vignette () {
@@ -112,7 +112,7 @@
   font-family: inherit;
   text-align: center;
   user-select: none;
-  font-weight:regular;
+  font-weight: normal;
   letter-spacing: initial;
   word-spacing: initial;
   line-height: initial;

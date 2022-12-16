@@ -2,6 +2,7 @@
 
 <div class="header">
   <h2>Mon Top</h2>
+  <NavMiss @isAuthenticated={{this.auth.isAuthenticated}}/>
 </div>
 
 {{#if @model.top.length}}

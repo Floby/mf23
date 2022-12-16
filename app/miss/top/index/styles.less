@@ -4,8 +4,16 @@
   .header {
     .sensible();
     margin-bottom: 1em;
+    display: grid;
+    grid-template-columns: 3fr 5fr;
+    grid-gap: 0 var(--gutter);
+    align-items: start;
 
+    .description {
+      grid-column: ~"1 / span 2";
+    }
     .legend {
+      grid-column: ~"1 / span 2";
       font-size: var(--txt-s);
       list-style-type: none;
       display: flex;

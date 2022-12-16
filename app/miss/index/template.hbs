@@ -1,17 +1,17 @@
 {{page-title "Les Miss"}}
 <div class="header">
   <h2>Toutes les miss</h2>
-  <progress max={{this.total}} value={{this.judged}}></progress>
-  <legend><small>
-      {{#if this.todo}}
-        Encore {{this.todo}} miss à juger
-      {{else}}
-      🎉 Terminé !
-        {{#if this.auth.isAuthenticated}}
-          <LinkTo @route="miss.top">Classement général</LinkTo>
-        {{/if}}
-      {{/if}}
-  </small></legend>
+  {{#if this.todo}}
+    <progress max={{this.total}} value={{this.judged}}></progress>
+    <legend><small>
+          Encore {{this.todo}} miss à juger
+          {{#if this.auth.isAuthenticated}}
+            <LinkTo @route="miss.top">Classement général</LinkTo>
+          {{/if}}
+    </small></legend>
+  {{else}}
+  <NavMiss @isAuthenticated={{this.auth.isAuthenticated}}/>
+  {{/if}}
 </div>
 <GridList @list={{this.model.misses}} as |miss|>
     <MissThumb @miss={{miss}} @judgement={{get @model.judge.miss miss.id}}/>

@@ -2,7 +2,8 @@
 
 <div class="header">
   <h2>Classement Général</h2>
-  <p>
+  <NavMiss @isAuthenticated={{this.auth.isAuthenticated}}/>
+  <p class="description">
   Classement par <a href="https://fr.wikipedia.org/wiki/Jugement_majoritaire" target="noopener noreferrer">Jugement Majoritaire</a>. 
   Seuls les jugements complets sur toutes les miss sont pris en compte.
   </p>

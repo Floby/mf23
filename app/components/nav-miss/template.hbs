@@ -1,0 +1,7 @@
+<nav {{ style-namespace 'nav-miss' }}>
+  <LinkTo class="tab" @route="miss.index">Toutes</LinkTo>
+  <LinkTo class="tab" @route="miss.top.me">Mon top</LinkTo>
+  {{#if @isAuthenticated}}
+    <LinkTo class="tab" @route="miss.top.index">Classement Général</LinkTo>
+  {{/if}}
+</nav>
