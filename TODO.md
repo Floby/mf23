@@ -88,8 +88,8 @@ TODO
 ------------- Done --------------
 
 
-- Classement personnel
-  - page pour ordonner ses plus hautes mentions (non dynamique)
++ Classement personnel
+  + page pour ordonner ses plus hautes mentions (non dynamique)
   - juger le top d'un autre juge
 
 + Classement des juges
