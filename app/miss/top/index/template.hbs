@@ -16,23 +16,23 @@
   </ul>
 </div>
 
-<hr>
-
 
 <ul class="top">
 {{#each @model.top as |rank index|}}
 <li class="rank">
-  <MissThumb @miss={{rank.miss}} @judgement={{rank}} />
+  <MissThumbSmall @miss={{rank.miss}} @judgement={{rank}} />
   <figure class="mentions" title={{list-join rank.mentions}}>
     <figcaption>
-      <h4>{{add index 1}}e</h4>
-      <em>Jugement majoritaire :</em>
+      <h3 class="region"><strong>{{add index 1}}.</strong> {{rank.région}}</h3>
+      <h4 class="nom">{{rank.miss.nom}}</h4>
       <strong class="mention">
         → &nbsp;{{mention-label rank.mention}}
       </strong>
     </figcaption>
-    <hr class="cursor" />
-    <MentionsRow class="row" @mentions={{rank.mentions}} />
+    <div class="figure">
+      <hr class="cursor" />
+      <MentionsRow class="row" @mentions={{rank.mentions}} />
+    </div>
   </figure>
 </li>
 {{/each}}

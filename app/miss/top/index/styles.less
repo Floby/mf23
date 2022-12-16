@@ -50,49 +50,55 @@
     display: grid;
     grid-template-columns: 2fr 5fr;
     grid-gap: 1em;
-    align-items: end;
+    align-items: auto;
 
     .mentions { 
       margin-bottom: 1px;
-      h4 {
-        margin-bottom: .5em;
-        font-weight: bold;
-      }
-      .row {
-        font-size: 200%;
-      }
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+
       figcaption {
-        margin-bottom: 1em;
-        em {
-          display: block;
+        .region {
+          .text-elegant();
           margin-bottom: .5em;
+          strong {
+            font-weight: bold;
+            margin-right: .5em;
+          }
         }
-        strong {
-          font-size: var(--txt-l);
-          font-weight: 300;
-          letter-spacing: -0.06em;
+        .mention {
+          margin-top: .2rem;
+          display: block;
+          .text-elegant();
           .shadow();
         }
 
       }
-      .cursor {
-        border: none;
-        overflow: visible;
-        box-sizing: border-box;
-        background: none;
-        outline: none;
-        position: relative;
-        margin: .5em 0;
-        border-bottom: 1px solid var(--color-text-primary);
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        &::after {
-          content: '▼';
-          //content: '\2665\FE0E';
+      .figure {
+        .row {
+          font-size: 110%;
+        }
+        .cursor {
+          border: none;
+          overflow: visible;
+          box-sizing: border-box;
+          background: none;
+          outline: none;
           position: relative;
-          color: var(--color-bg-accent);
-          top: .5em;
+          margin: .5em 0;
+          margin-top: 0;
+          border-bottom: 1px solid var(--color-text-primary);
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          &::after {
+            content: '▼';
+            //content: '\2665\FE0E';
+            position: relative;
+            color: var(--color-bg-accent);
+            top: .5em;
+          }
         }
       }
     }
