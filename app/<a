@@ -1,0 +1,13 @@
+@impor "mixin.less";
+
+& {
+  color: red;
+  > svg {
+    display: block;
+    shape-rendering: auto;
+    color: var(--color-glamour);
+    width: 50%;
+    margin: auto;
+    margin-top: 50%;
+  }
+}

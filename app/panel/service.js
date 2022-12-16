@@ -125,7 +125,6 @@ export default class PanelService extends Service {
       top2.push(rank);
     }
     await noblock();
-    await delay(1500);
     return [...top2];
   }
 

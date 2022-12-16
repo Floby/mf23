@@ -1,8 +1,8 @@
 <LinkTo 
+  {{ style-namespace 'miss-thumb-small' }}
   @route="miss.profile" 
   @model={{ @miss }} 
-  {{ style-namespace 'miss-thumb-small' }}
-  class={{if @judgement 'done' 'todo'}}
+  class="{{style-namespace 'miss-thumb-small'}} {{if @judgement 'done' 'todo'}}"
   {{region-css @miss.id}}
   ...attributes
 >

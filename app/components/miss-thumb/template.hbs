@@ -2,7 +2,7 @@
   @route="miss.profile" 
   @model={{ @miss }} 
   {{ style-namespace 'miss-thumb' }}
-  class={{if @judgement 'done' 'todo'}}
+  class="{{style-namespace 'miss-thumb'}} {{if @judgement 'done' 'todo'}}"
   {{region-css @miss.id}}
   ...attributes
 >
