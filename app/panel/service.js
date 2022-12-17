@@ -109,7 +109,7 @@ export default class PanelService extends Service {
     const top2 = new InsertSort(compareTopRank);
     for (const miss of misses) {
       await noblock();
-      const mentions = judges.map((j) => j.miss[miss.id]?.mention || 2).sort();
+      const mentions = judges.map((j) => j.miss[miss.id]?.mention || 0).sort();
       const mention = Math.round(percentile(50, mentions));
       await noblock();
       const proponents = mentions.filter((m) => m > mention).length;
