@@ -11,8 +11,14 @@
       <dl class="stats">
         <dt>Progression</dt>
         <dd>{{percent judge.progress}}</dd>
-        <dt>Médiane</dt>
-        <dd>{{mention-emoji judge.median}} <small>{{mention-label judge.median}}</small></dd>
+
+        {{#let (safe-get this.awards judge.nom) as |award|}}
+          {{#if award}}
+              <dt>🏆</dt>
+              <dd><a {{on 'click' (fn this.displayAward award judge.nom )}} href="#">{{award.title}}</a></dd>
+          {{/if}}
+        {{/let}}
+
         <dt>Likes</dt>
         <dd>&#x2605; {{judge.favTotal}}</dd>
         {{#if judge.fan}}

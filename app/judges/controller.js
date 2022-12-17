@@ -1,4 +1,5 @@
 import Controller from '@ember/controller';
+import Awards from '../models/awards';
 
 export default class JudgesController extends Controller {
   get judges() {
@@ -14,5 +15,14 @@ export default class JudgesController extends Controller {
       }
       return a.since - b.since;
     });
+  }
+
+  get awards() {
+    return {};
+    return Awards;
+  }
+
+  displayAward(award, nom) {
+    window.alert(`${nom} est ${award.title} !\n\n${award.description}`);
   }
 }
