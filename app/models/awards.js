@@ -25,15 +25,15 @@ const awards = {
   },
   Florent: {
     title: 'Subtil et nuancé',
-    description: `Ça vous fera marrer autant que vous voudrez, mais Florent s'est illustré par sa nuance et sa subtilité faisant montre de l'utilisation la plus variée des différentes mentions à sa disposition`,
+    description: `Ça vous fera marrer autant que vous voudrez, mais Florent s'est illustré par sa nuance et sa subtilité, faisant montre de l'utilisation la plus variée des différentes mentions à sa disposition`,
   },
-  "Edouard C.": {
+  'Edouard C.': {
     title: 'Spammer',
     description: `Avec Edouard, c'est tout ou rien. C'est le juge qui a utilisé le moins grand éventail de mentions à sa disposition (et je vous cache pas que la moyenne est plutôt vers le bas)`,
   },
   Subsonic06: {
     title: 'Chauvin du sud',
-    description: `Il aime le sud et il n'a pas honte ! Dans ce pays où tout ce qui est vaguement bien est appelé exceptionnel, tel la taille du poisson que Marius a pêché pas plus tard qu'hier, Romain donne des mentions aussi démesurées que le nez de miss côte d'azur`,
+    description: `Il aime le sud et il n'a pas honte ! Dans ce pays où tout ce qui est vaguement bien est appelé exceptionnel, telle la taille du poisson que Marius a pêché pas plus tard qu'hier, Romain donne des mentions aussi démesurées que le nez de miss côte d'azur`,
   },
   Aurore: {
     title: 'Laconique',

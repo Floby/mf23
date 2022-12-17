@@ -18,7 +18,6 @@ export default class JudgesController extends Controller {
   }
 
   get awards() {
-    return {};
     return Awards;
   }
 
