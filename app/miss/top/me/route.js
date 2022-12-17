@@ -8,7 +8,7 @@ export default class MissTopMeRoute extends Route {
   model() {
     const judge = this.judge.getCurrent();
     const misses = this.modelFor('miss').misses.getAll();
-    const top = judge.top.miss.map((id) => ({
+    const top = (judge.top?.miss || []).map((id) => ({
       ...misses.find((m) => m.id === id),
       mention: judge.miss[id].mention,
       comment: judge.miss[id].comment,
