@@ -1,0 +1,392 @@
+{
+  "alsace": {
+    "nom": "Camille Sedira",
+    "age": 21,
+    "taille": 1.75,
+    "région": "Alsace",
+    "photos": {
+      "pied": "/miss/alsace/pied.jpg",
+      "portrait": "/miss/alsace/portrait.jpg",
+      "maillotPied": "/miss/alsace/maillot-pied.jpg",
+      "maillotAssis": "/miss/alsace/maillot-assis.jpg",
+      "maillotPortrait": "/miss/alsace/maillot-portrait.jpg"
+    }
+  },
+  "aquitaine": {
+    "nom": "Orianne Galvez Soto",
+    "age": 23,
+    "taille": 1.76,
+    "région": "Aquitaine",
+    "photos": {
+      "pied": "/miss/aquitaine/pied.jpg",
+      "portrait": "/miss/aquitaine/portrait.jpg",
+      "maillotPied": "/miss/aquitaine/maillot-pied.jpg",
+      "maillotAssis": "/miss/aquitaine/maillot-assis.jpg",
+      "maillotPortrait": "/miss/aquitaine/maillot-portrait.jpg"
+    }
+  },
+  "auvergne": {
+    "nom": "Alissia Ladeveze",
+    "age": 21,
+    "taille": 1.84,
+    "région": "Auvergne",
+    "photos": {
+      "pied": "/miss/auvergne/pied.jpg",
+      "portrait": "/miss/auvergne/portrait.jpg",
+      "maillotPied": "/miss/auvergne/maillot-pied.jpg",
+      "maillotAssis": "/miss/auvergne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/auvergne/maillot-portrait.jpg"
+    }
+  },
+  "bourgogne": {
+    "nom": "Lara Lebretton",
+    "age": 23,
+    "taille": 1.76,
+    "région": "Bourgogne",
+    "photos": {
+      "pied": "/miss/bourgogne/pied.jpg",
+      "portrait": "/miss/bourgogne/portrait.jpg",
+      "maillotPied": "/miss/bourgogne/maillot-pied.jpg",
+      "maillotAssis": "/miss/bourgogne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/bourgogne/maillot-portrait.jpg"
+    }
+  },
+  "bretagne": {
+    "nom": "Enora Moal",
+    "age": 21,
+    "taille": 1.71,
+    "région": "Bretagne",
+    "photos": {
+      "pied": "/miss/bretagne/pied.jpg",
+      "portrait": "/miss/bretagne/portrait.jpg",
+      "maillotPied": "/miss/bretagne/maillot-pied.jpg",
+      "maillotAssis": "/miss/bretagne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/bretagne/maillot-portrait.jpg"
+    }
+  },
+  "centre-val-de-loire": {
+    "nom": "Coraline Lerasle",
+    "age": 23,
+    "taille": 1.77,
+    "région": "Centre-Val de Loire",
+    "photos": {
+      "pied": "/miss/centre-val-de-loire/pied.jpg",
+      "portrait": "/miss/centre-val-de-loire/portrait.jpg",
+      "maillotPied": "/miss/centre-val-de-loire/maillot-pied.jpg",
+      "maillotAssis": "/miss/centre-val-de-loire/maillot-assis.jpg",
+      "maillotPortrait": "/miss/centre-val-de-loire/maillot-portrait.jpg"
+    }
+  },
+  "champagne-ardenne": {
+    "nom": "Solène Scholer",
+    "age": 21,
+    "taille": 1.80,
+    "région": "Champagne-Ardenne",
+    "photos": {
+      "pied": "/miss/champagne-ardenne/pied.jpg",
+      "portrait": "/miss/champagne-ardenne/portrait.jpg",
+      "maillotPied": "/miss/champagne-ardenne/maillot-pied.jpg",
+      "maillotAssis": "/miss/champagne-ardenne/maillot-assis.jpg",
+      "maillotPortrait": "/miss/champagne-ardenne/maillot-portrait.jpg"
+    }
+  },
+  "corse": {
+    "nom": "Orianne Meloni",
+    "age": 22,
+    "taille": 1.83,
+    "région": "Corse",
+    "photos": {
+      "pied": "/miss/corse/pied.jpg",
+      "portrait": "/miss/corse/portrait.jpg",
+      "maillotPied": "/miss/corse/maillot-pied.jpg",
+      "maillotAssis": "/miss/corse/maillot-assis.jpg",
+      "maillotPortrait": "/miss/corse/maillot-portrait.jpg"
+    }
+  },
+  "cote-d-azur": {
+    "nom": "Flavy Barla",
+    "age": 19,
+    "taille": 1.72,
+    "région": "Côte-d'Azur",
+    "photos": {
+      "pied": "/miss/cote-d-azur/pied.jpg",
+      "portrait": "/miss/cote-d-azur/portrait.jpg",
+      "maillotPied": "/miss/cote-d-azur/maillot-pied.jpg",
+      "maillotAssis": "/miss/cote-d-azur/maillot-assis.jpg",
+      "maillotPortrait": "/miss/cote-d-azur/maillot-portrait.jpg"
+    }
+  },
+  "franche-comte": {
+    "nom": "Marion Navarro",
+    "age": 19,
+    "taille": 1.73,
+    "région": "Franche-Comté",
+    "photos": {
+      "pied": "/miss/franche-comte/pied.jpg",
+      "portrait": "/miss/franche-comte/portrait.jpg",
+      "maillotPied": "/miss/franche-comte/maillot-pied.jpg",
+      "maillotAssis": "/miss/franche-comte/maillot-assis.jpg",
+      "maillotPortrait": "/miss/franche-comte/maillot-portrait.jpg"
+    }
+  },
+  "guadeloupe": {
+    "nom": "Indira Ampiot",
+    "age": 18,
+    "taille": 1.77,
+    "région": "Guadeloupe",
+    "photos": {
+      "pied": "/miss/guadeloupe/pied.jpg",
+      "portrait": "/miss/guadeloupe/portrait.jpg",
+      "maillotPied": "/miss/guadeloupe/maillot-pied.jpg",
+      "maillotAssis": "/miss/guadeloupe/maillot-assis.jpg",
+      "maillotPortrait": "/miss/guadeloupe/maillot-portrait.jpg"
+    }
+  },
+  "guyane": {
+    "nom": "Shaïna Robin",
+    "age": 21,
+    "taille": 1.73,
+    "région": "Guyane",
+    "photos": {
+      "pied": "/miss/guyane/pied.jpg",
+      "portrait": "/miss/guyane/portrait.jpg",
+      "maillotPied": "/miss/guyane/maillot-pied.jpg",
+      "maillotAssis": "/miss/guyane/maillot-assis.jpg",
+      "maillotPortrait": "/miss/guyane/maillot-portrait.jpg"
+    }
+  },
+  "ile-de-france": {
+    "nom": "Adèle Bonnamour",
+    "age": 18,
+    "taille": 1.86,
+    "région": "Île-de-France",
+    "photos": {
+      "pied": "/miss/ile-de-france/pied.jpg",
+      "portrait": "/miss/ile-de-france/portrait.jpg",
+      "maillotPied": "/miss/ile-de-france/maillot-pied.jpg",
+      "maillotAssis": "/miss/ile-de-france/maillot-assis.jpg",
+      "maillotPortrait": "/miss/ile-de-france/maillot-portrait.jpg"
+    }
+  },
+  "languedoc": {
+    "nom": "Cameron Vallière",
+    "age": 23,
+    "taille": 1.74,
+    "région": "Languedoc",
+    "photos": {
+      "pied": "/miss/languedoc/pied.jpg",
+      "portrait": "/miss/languedoc/portrait.jpg",
+      "maillotPied": "/miss/languedoc/maillot-pied.jpg",
+      "maillotAssis": "/miss/languedoc/maillot-assis.jpg",
+      "maillotPortrait": "/miss/languedoc/maillot-portrait.jpg"
+    }
+  },
+  "limousin": {
+    "nom": "Salomé Maud",
+    "age": 23,
+    "taille": 1.74,
+    "région": "Limousin",
+    "photos": {
+      "pied": "/miss/limousin/pied.jpg",
+      "portrait": "/miss/limousin/portrait.jpg",
+      "maillotPied": "/miss/limousin/maillot-pied.jpg",
+      "maillotAssis": "/miss/limousin/maillot-assis.jpg",
+      "maillotPortrait": "/miss/limousin/maillot-portrait.jpg"
+    }
+  },
+  "lorraine": {
+    "nom": "Sarah Aoutar",
+    "age": 26,
+    "taille": 1.73,
+    "région": "Lorraine",
+    "photos": {
+      "pied": "/miss/lorraine/pied.jpg",
+      "portrait": "/miss/lorraine/portrait.jpg",
+      "maillotPied": "/miss/lorraine/maillot-pied.jpg",
+      "maillotAssis": "/miss/lorraine/maillot-assis.jpg",
+      "maillotPortrait": "/miss/lorraine/maillot-portrait.jpg"
+    }
+  },
+  "martinique": {
+    "nom": "Axelle René",
+    "age": 21,
+    "taille": 1.77,
+    "région": "Martinique",
+    "photos": {
+      "pied": "/miss/martinique/pied.jpg",
+      "portrait": "/miss/martinique/portrait.jpg",
+      "maillotPied": "/miss/martinique/maillot-pied.jpg",
+      "maillotAssis": "/miss/martinique/maillot-assis.jpg",
+      "maillotPortrait": "/miss/martinique/maillot-portrait.jpg"
+    }
+  },
+  "midi-pyrenees": {
+    "nom": "Florence Demortier",
+    "age": 23,
+    "taille": 1.71,
+    "région": "Midi-Pyrénées",
+    "photos": {
+      "pied": "/miss/midi-pyrenees/pied.jpg",
+      "portrait": "/miss/midi-pyrenees/portrait.jpg",
+      "maillotPied": "/miss/midi-pyrenees/maillot-pied.jpg",
+      "maillotAssis": "/miss/midi-pyrenees/maillot-assis.jpg",
+      "maillotPortrait": "/miss/midi-pyrenees/maillot-portrait.jpg"
+    }
+  },
+  "nord-pas-de-calais": {
+    "nom": "Agathe Cauet",
+    "age": 24,
+    "taille": 1.79,
+    "région": "Nord-Pas-de-Calais",
+    "photos": {
+      "pied": "/miss/nord-pas-de-calais/pied.jpg",
+      "portrait": "/miss/nord-pas-de-calais/portrait.jpg",
+      "maillotPied": "/miss/nord-pas-de-calais/maillot-pied.jpg",
+      "maillotAssis": "/miss/nord-pas-de-calais/maillot-assis.jpg",
+      "maillotPortrait": "/miss/nord-pas-de-calais/maillot-portrait.jpg"
+    }
+  },
+  "normandie": {
+    "nom": "Perrine Prunier",
+    "age": 22,
+    "taille": 1.71,
+    "région": "Normandie",
+    "photos": {
+      "pied": "/miss/normandie/pied.jpg",
+      "portrait": "/miss/normandie/portrait.jpg",
+      "maillotPied": "/miss/normandie/maillot-pied.jpg",
+      "maillotAssis": "/miss/normandie/maillot-assis.jpg",
+      "maillotPortrait": "/miss/normandie/maillot-portrait.jpg"
+    }
+  },
+  "nouvelle-caledonie": {
+    "nom": "Océane Le Goff",
+    "age": 26,
+    "taille": 1.73,
+    "région": "Nouvelle-Calédonie",
+    "photos": {
+      "pied": "/miss/nouvelle-caledonie/pied.jpg",
+      "portrait": "/miss/nouvelle-caledonie/portrait.jpg",
+      "maillotPied": "/miss/nouvelle-caledonie/maillot-pied.jpg",
+      "maillotAssis": "/miss/nouvelle-caledonie/maillot-assis.jpg",
+      "maillotPortrait": "/miss/nouvelle-caledonie/maillot-portrait.jpg"
+    }
+  },
+  "pays-de-la-loire": {
+    "nom": "Emma Guibert",
+    "age": 20,
+    "taille": 1.76,
+    "région": "Pays de la Loire",
+    "photos": {
+      "pied": "/miss/pays-de-la-loire/pied.jpg",
+      "portrait": "/miss/pays-de-la-loire/portrait.jpg",
+      "maillotPied": "/miss/pays-de-la-loire/maillot-pied.jpg",
+      "maillotAssis": "/miss/pays-de-la-loire/maillot-assis.jpg",
+      "maillotPortrait": "/miss/pays-de-la-loire/maillot-portrait.jpg"
+    }
+  },
+  "picardie": {
+    "nom": "Bérénice Legendre",
+    "age": 26,
+    "taille": 1.71,
+    "région": "Picardie",
+    "photos": {
+      "pied": "/miss/picardie/pied.jpg",
+      "portrait": "/miss/picardie/portrait.jpg",
+      "maillotPied": "/miss/picardie/maillot-pied.jpg",
+      "maillotAssis": "/miss/picardie/maillot-assis.jpg",
+      "maillotPortrait": "/miss/picardie/maillot-portrait.jpg"
+    }
+  },
+  "poitou-charentes": {
+    "nom": "Marine Paulais",
+    "age": 20,
+    "taille": 1.75,
+    "région": "Poitou-Charentes",
+    "photos": {
+      "pied": "/miss/poitou-charentes/pied.jpg",
+      "portrait": "/miss/poitou-charentes/portrait.jpg",
+      "maillotPied": "/miss/poitou-charentes/maillot-pied.jpg",
+      "maillotAssis": "/miss/poitou-charentes/maillot-assis.jpg",
+      "maillotPortrait": "/miss/poitou-charentes/maillot-portrait.jpg"
+    }
+  },
+  "provence": {
+    "nom": "Chana Goyons",
+    "age": 18,
+    "taille": 1.80,
+    "région": "Provence",
+    "photos": {
+      "pied": "/miss/provence/pied.jpg",
+      "portrait": "/miss/provence/portrait.jpg",
+      "maillotPied": "/miss/provence/maillot-pied.jpg",
+      "maillotAssis": "/miss/provence/maillot-assis.jpg",
+      "maillotPortrait": "/miss/provence/maillot-portrait.jpg"
+    }
+  },
+  "reunion": {
+    "nom": "Marion Marimoutou",
+    "age": 18,
+    "taille": 1.72,
+    "région": "Réunion",
+    "photos": {
+      "pied": "/miss/reunion/pied.jpg",
+      "portrait": "/miss/reunion/portrait.jpg",
+      "maillotPied": "/miss/reunion/maillot-pied.jpg",
+      "maillotAssis": "/miss/reunion/maillot-assis.jpg",
+      "maillotPortrait": "/miss/reunion/maillot-portrait.jpg"
+    }
+  },
+  "rhone-alpes": {
+    "nom": "Esther Coutin",
+    "age": 24,
+    "taille": 1.71,
+    "région": "Rhône-Alpes",
+    "photos": {
+      "pied": "/miss/rhone-alpes/pied.jpg",
+      "portrait": "/miss/rhone-alpes/portrait.jpg",
+      "maillotPied": "/miss/rhone-alpes/maillot-pied.jpg",
+      "maillotAssis": "/miss/rhone-alpes/maillot-assis.jpg",
+      "maillotPortrait": "/miss/rhone-alpes/maillot-portrait.jpg"
+    }
+  },
+  "roussillon": {
+    "nom": "Chiara Fontaine",
+    "age": 20,
+    "taille": 1.74,
+    "région": "Roussillon",
+    "photos": {
+      "pied": "/miss/roussillon/pied.jpg",
+      "portrait": "/miss/roussillon/portrait.jpg",
+      "maillotPied": "/miss/roussillon/maillot-pied.jpg",
+      "maillotAssis": "/miss/roussillon/maillot-assis.jpg",
+      "maillotPortrait": "/miss/roussillon/maillot-portrait.jpg"
+    }
+  },
+  "saint-martin-saint-barthelemy": {
+    "nom": "Inès Tessier",
+    "age": 20,
+    "taille": 1.70,
+    "région": "Saint-Martin-Saint-Barthélemy",
+    "photos": {
+      "pied": "/miss/saint-martin-saint-barthelemy/pied.jpg",
+      "portrait": "/miss/saint-martin-saint-barthelemy/portrait.jpg",
+      "maillotPied": "/miss/saint-martin-saint-barthelemy/maillot-pied.jpg",
+      "maillotAssis": "/miss/saint-martin-saint-barthelemy/maillot-assis.jpg",
+      "maillotPortrait": "/miss/saint-martin-saint-barthelemy/maillot-portrait.jpg"
+    }
+  },
+  "tahiti": {
+    "nom": "Herenui Tuheiava",
+    "age": 24,
+    "taille": 1.77,
+    "région": "Tahiti",
+    "photos": {
+      "pied": "/miss/tahiti/pied.jpg",
+      "portrait": "/miss/tahiti/portrait.jpg",
+      "maillotPied": "/miss/tahiti/maillot-pied.jpg",
+      "maillotAssis": "/miss/tahiti/maillot-assis.jpg",
+      "maillotPortrait": "/miss/tahiti/maillot-portrait.jpg"
+    }
+  }
+}

@@ -1,5 +1,4 @@
 import ref from './miss.referential';
-import bio from './bio.referential';
 
 const Miss = {
   get(id) {
@@ -7,7 +6,6 @@ const Miss = {
     if (!id) return null;
     return {
       ...miss,
-      bio: bio[id],
       id,
       prev: this.getPreviousId(id),
       next: this.getNextId(id),

@@ -10,7 +10,7 @@
   </div>
   <h3 class="nom"><strong>{{ @model.nom }}</strong>, <small>{{ @model.age }} ans, {{ this.taille }}m</small></h3>
   <p class="bio">
-    {{@model.bio}}
+    {{sanitize-html @model.bio}}
   </p>
   &nbsp;
 </section>

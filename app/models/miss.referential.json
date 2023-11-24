@@ -1,392 +1,422 @@
 {
   "alsace": {
-    "nom": "Camille Sedira",
-    "age": 21,
-    "taille": 1.75,
+    "id": "alsace",
     "région": "Alsace",
+    "nom": "Adeline Vetter",
+    "age": 27,
+    "taille": 1.7,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/adelinevetter.off/?hl=fr",
     "photos": {
-      "pied": "/miss/alsace/pied.jpg",
-      "portrait": "/miss/alsace/portrait.jpg",
-      "maillotPied": "/miss/alsace/maillot-pied.jpg",
-      "maillotAssis": "/miss/alsace/maillot-assis.jpg",
-      "maillotPortrait": "/miss/alsace/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/01a99160-c719-41b8-a8d0-d23fe55ec1c7_Alsace.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/c57bf68d-4be6-4078-ac1d-430348110907_Alsace-miss-france-2024-adeline-vetter-733c63-0_1x.jpg?auto=format,compress"
     }
   },
   "aquitaine": {
-    "nom": "Orianne Galvez Soto",
-    "age": 23,
-    "taille": 1.76,
+    "id": "aquitaine",
     "région": "Aquitaine",
+    "nom": "Lola Turpin",
+    "age": 19,
+    "taille": 1.72,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/lola.turpinoff/?hl=fr",
     "photos": {
-      "pied": "/miss/aquitaine/pied.jpg",
-      "portrait": "/miss/aquitaine/portrait.jpg",
-      "maillotPied": "/miss/aquitaine/maillot-pied.jpg",
-      "maillotAssis": "/miss/aquitaine/maillot-assis.jpg",
-      "maillotPortrait": "/miss/aquitaine/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/c40d9133-e9e7-4800-9b4e-6572c32d2291_aquitaine-miss-france-2024-lola-turpin-40893b-0_1x.jpg?auto=format,compress"
     }
   },
   "auvergne": {
-    "nom": "Alissia Ladeveze",
-    "age": 21,
-    "taille": 1.84,
+    "id": "auvergne",
     "région": "Auvergne",
+    "nom": "Oriane Mallet",
+    "age": 22,
+    "taille": 1.82,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/orianemalletoff/?hl=fr",
     "photos": {
-      "pied": "/miss/auvergne/pied.jpg",
-      "portrait": "/miss/auvergne/portrait.jpg",
-      "maillotPied": "/miss/auvergne/maillot-pied.jpg",
-      "maillotAssis": "/miss/auvergne/maillot-assis.jpg",
-      "maillotPortrait": "/miss/auvergne/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/b5f7d711-2643-4fb0-b239-87dab65e1ab9_Auvergne.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/0e9e2f77-ccd1-46fb-9992-3fbfa93426de_auvergne-miss-france-2024-alissia-ladeveze-e45786-1%401x.jpg?auto=format,compress"
     }
   },
   "bourgogne": {
-    "nom": "Lara Lebretton",
-    "age": 23,
-    "taille": 1.76,
+    "id": "bourgogne",
     "région": "Bourgogne",
+    "nom": "Luna Lacharme",
+    "age": 18,
+    "taille": 1.76,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/lunalacharmeoff/?hl=fr",
     "photos": {
-      "pied": "/miss/bourgogne/pied.jpg",
-      "portrait": "/miss/bourgogne/portrait.jpg",
-      "maillotPied": "/miss/bourgogne/maillot-pied.jpg",
-      "maillotAssis": "/miss/bourgogne/maillot-assis.jpg",
-      "maillotPortrait": "/miss/bourgogne/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/d4b6e4c9-40ab-44d8-bb93-8410febce82b_Bourgogne.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/5c324653-a380-495d-bed5-6a17bd80e829_bourgone-miss-france-2024-luna-lacharme-03b800-1%401x.jpg?auto=format,compress"
     }
   },
   "bretagne": {
-    "nom": "Enora Moal",
-    "age": 21,
-    "taille": 1.71,
+    "id": "bretagne",
     "région": "Bretagne",
+    "nom": "Noémie Le Bras",
+    "age": 21,
+    "taille": 1.74,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/noemielebrasoff/?hl=fr",
     "photos": {
-      "pied": "/miss/bretagne/pied.jpg",
-      "portrait": "/miss/bretagne/portrait.jpg",
-      "maillotPied": "/miss/bretagne/maillot-pied.jpg",
-      "maillotAssis": "/miss/bretagne/maillot-assis.jpg",
-      "maillotPortrait": "/miss/bretagne/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/336bab2c-113d-43d1-b441-6785b0fac2af_Bretagne.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/2f48efd2-bce6-459a-9081-c2ce2e1ce53e_bretagne-miss-france-2024-noemie-le-bras-2eba79-0%401x.jpg?auto=format,compress"
     }
   },
   "centre-val-de-loire": {
-    "nom": "Coraline Lerasle",
-    "age": 23,
-    "taille": 1.77,
+    "id": "centre-val-de-loire",
     "région": "Centre-Val de Loire",
+    "nom": "Emmy Gisclon",
+    "age": 22,
+    "taille": 1.76,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/emmygisclon.off/?hl=fr",
     "photos": {
-      "pied": "/miss/centre-val-de-loire/pied.jpg",
-      "portrait": "/miss/centre-val-de-loire/portrait.jpg",
-      "maillotPied": "/miss/centre-val-de-loire/maillot-pied.jpg",
-      "maillotAssis": "/miss/centre-val-de-loire/maillot-assis.jpg",
-      "maillotPortrait": "/miss/centre-val-de-loire/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/914b808b-71ae-40da-ba61-2f982b5520d2_Centre+val+de+loire.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/9f6f5505-3d33-4421-be6b-fa37cbc0d8aa_centre-val-de-loire-miss-france-2024-emmy-gisclon-7ec359-0%401x.jpg?auto=format,compress"
     }
   },
   "champagne-ardenne": {
-    "nom": "Solène Scholer",
-    "age": 21,
-    "taille": 1.80,
+    "id": "champagne-ardenne",
     "région": "Champagne-Ardenne",
+    "nom": "Noa Dutitre",
+    "age": 21,
+    "taille": 1.7,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/noadutitreoff/?hl=fr",
     "photos": {
-      "pied": "/miss/champagne-ardenne/pied.jpg",
-      "portrait": "/miss/champagne-ardenne/portrait.jpg",
-      "maillotPied": "/miss/champagne-ardenne/maillot-pied.jpg",
-      "maillotAssis": "/miss/champagne-ardenne/maillot-assis.jpg",
-      "maillotPortrait": "/miss/champagne-ardenne/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/5d573dd0-839a-437a-91bc-43ae2ea833f5_Champagne+ardenne.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/29fb0468-6ba5-4c33-8d5f-a19d21a99833_champagne-ardenne-miss-france-2024-72bf16-0%401x.jpg?auto=format,compress"
     }
   },
   "corse": {
-    "nom": "Orianne Meloni",
-    "age": 22,
-    "taille": 1.83,
+    "id": "corse",
     "région": "Corse",
+    "nom": "Sandra Bak",
+    "age": 23,
+    "taille": 1.71,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
     "photos": {
-      "pied": "/miss/corse/pied.jpg",
-      "portrait": "/miss/corse/portrait.jpg",
-      "maillotPied": "/miss/corse/maillot-pied.jpg",
-      "maillotAssis": "/miss/corse/maillot-assis.jpg",
-      "maillotPortrait": "/miss/corse/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/89b1760c-b8df-448a-8829-cbc485fc8457_corse-miss-france-2024-sandra-bak-9262f0-0%401x.jpg?auto=format,compress"
     }
   },
   "cote-d-azur": {
-    "nom": "Flavy Barla",
-    "age": 19,
-    "taille": 1.72,
+    "id": "cote-d-azur",
     "région": "Côte-d'Azur",
+    "nom": "Karla Bchir",
+    "age": 19,
+    "taille": 1.75,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
     "photos": {
-      "pied": "/miss/cote-d-azur/pied.jpg",
-      "portrait": "/miss/cote-d-azur/portrait.jpg",
-      "maillotPied": "/miss/cote-d-azur/maillot-pied.jpg",
-      "maillotAssis": "/miss/cote-d-azur/maillot-assis.jpg",
-      "maillotPortrait": "/miss/cote-d-azur/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/7d4f4724-f476-4e54-9c34-501630b3a64f_Cote+dazur.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/91212472-e215-4f1f-9922-8dcefb33d4d1_cote-d-azur-miss-france-2024-karla-bchir-8559c3-0%401x.jpg?auto=format,compress"
     }
   },
-  "franche-comte": {
-    "nom": "Marion Navarro",
-    "age": 19,
-    "taille": 1.73,
-    "région": "Franche-Comté",
+  "franche-compte": {
+    "id": "franche-compte",
+    "région": "Franche-Compté",
+    "nom": "Sonia Coutant",
+    "age": 24,
+    "taille": 1.72,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/soniacoutantoff/?hl=fr",
     "photos": {
-      "pied": "/miss/franche-comte/pied.jpg",
-      "portrait": "/miss/franche-comte/portrait.jpg",
-      "maillotPied": "/miss/franche-comte/maillot-pied.jpg",
-      "maillotAssis": "/miss/franche-comte/maillot-assis.jpg",
-      "maillotPortrait": "/miss/franche-comte/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/8e9ca6a8-d628-4d1d-bbd3-02a9b5c20490_Franche+comte.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/75b45c48-f537-422b-a98f-6d2eef8271a7_franche-comte-miss-france-2024-sonia-coutant-58b0ce-0%401x.jpg?auto=format,compress"
     }
   },
   "guadeloupe": {
-    "nom": "Indira Ampiot",
-    "age": 18,
-    "taille": 1.77,
+    "id": "guadeloupe",
     "région": "Guadeloupe",
+    "nom": "Jalylane Maës",
+    "age": 18,
+    "taille": 1.73,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/jalylanemaes.off/?hl=fr",
     "photos": {
-      "pied": "/miss/guadeloupe/pied.jpg",
-      "portrait": "/miss/guadeloupe/portrait.jpg",
-      "maillotPied": "/miss/guadeloupe/maillot-pied.jpg",
-      "maillotAssis": "/miss/guadeloupe/maillot-assis.jpg",
-      "maillotPortrait": "/miss/guadeloupe/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/ba495fa4-42cc-411f-9e25-fb76e973b8fc_Guadeloupe.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/1b98d1bd-801e-4a3e-8302-4446fc813543_guadeloupe-miss-france-2024-jalylane-maes-8826f2-0%401x.jpg?auto=format,compress"
     }
   },
   "guyane": {
-    "nom": "Shaïna Robin",
-    "age": 21,
-    "taille": 1.73,
+    "id": "guyane",
     "région": "Guyane",
+    "nom": "Audrey Ho-Wen-Tsaï",
+    "age": 18,
+    "taille": 1.73,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/audreyhowentsaioff/?hl=fr",
     "photos": {
-      "pied": "/miss/guyane/pied.jpg",
-      "portrait": "/miss/guyane/portrait.jpg",
-      "maillotPied": "/miss/guyane/maillot-pied.jpg",
-      "maillotAssis": "/miss/guyane/maillot-assis.jpg",
-      "maillotPortrait": "/miss/guyane/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/ba1ce1d7-f561-4685-95f2-13d9a11b3ccb_Guyane.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/5b2f8add-fdf7-426a-a107-c9b134d3e018_guyane-miss-france-2024-audrey-ho-wen-tsai-eb7bbb-0%401x.jpg?auto=format,compress"
     }
   },
   "ile-de-france": {
-    "nom": "Adèle Bonnamour",
-    "age": 18,
-    "taille": 1.86,
+    "id": "ile-de-france",
     "région": "Île-de-France",
+    "nom": "Elena Faliez",
+    "age": 28,
+    "taille": 1.73,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/elenafaliez/?hl=fr",
     "photos": {
-      "pied": "/miss/ile-de-france/pied.jpg",
-      "portrait": "/miss/ile-de-france/portrait.jpg",
-      "maillotPied": "/miss/ile-de-france/maillot-pied.jpg",
-      "maillotAssis": "/miss/ile-de-france/maillot-assis.jpg",
-      "maillotPortrait": "/miss/ile-de-france/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/990bb455-c28b-41c0-9995-1e228fe4d5d8_Ile+de+france.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/31114157-f5df-4b55-981c-fa4b68aaeffd_ile-de-france-miss-france-2024-elena-falize-f16d96-1%401x.jpg?auto=format,compress"
     }
   },
   "languedoc": {
-    "nom": "Cameron Vallière",
-    "age": 23,
-    "taille": 1.74,
+    "id": "languedoc",
     "région": "Languedoc",
+    "nom": "Maxime Teissier",
+    "age": 20,
+    "taille": 1.73,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/maximeteissieroff/?hl=fr",
     "photos": {
-      "pied": "/miss/languedoc/pied.jpg",
-      "portrait": "/miss/languedoc/portrait.jpg",
-      "maillotPied": "/miss/languedoc/maillot-pied.jpg",
-      "maillotAssis": "/miss/languedoc/maillot-assis.jpg",
-      "maillotPortrait": "/miss/languedoc/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/2b9d97cf-1296-4c36-a9ed-1971c3777995_languedoc-miss-france-2024-maxime-tessier-32130e-1%401x.jpg?auto=format,compress"
     }
   },
   "limousin": {
-    "nom": "Salomé Maud",
-    "age": 23,
-    "taille": 1.74,
+    "id": "limousin",
     "région": "Limousin",
+    "nom": "Agathe Toullieu",
+    "age": 22,
+    "taille": 1.76,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/agathe.toullieu/?hl=fr",
     "photos": {
-      "pied": "/miss/limousin/pied.jpg",
-      "portrait": "/miss/limousin/portrait.jpg",
-      "maillotPied": "/miss/limousin/maillot-pied.jpg",
-      "maillotAssis": "/miss/limousin/maillot-assis.jpg",
-      "maillotPortrait": "/miss/limousin/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/a3885f38-3ee7-44ea-b7dd-323db287a72c_limousin.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/3ea57576-02f6-4a3e-922f-bc060cf5334a_limousin-miss-france-2024-agathe-toullieu-603f9f-0%401x.jpg?auto=format,compress"
     }
   },
   "lorraine": {
-    "nom": "Sarah Aoutar",
-    "age": 26,
-    "taille": 1.73,
+    "id": "lorraine",
     "région": "Lorraine",
+    "nom": "Angéline Aron-Clauss",
+    "age": 26,
+    "taille": 1.71,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/angelinearonclauss.off/?hl=fr",
     "photos": {
-      "pied": "/miss/lorraine/pied.jpg",
-      "portrait": "/miss/lorraine/portrait.jpg",
-      "maillotPied": "/miss/lorraine/maillot-pied.jpg",
-      "maillotAssis": "/miss/lorraine/maillot-assis.jpg",
-      "maillotPortrait": "/miss/lorraine/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/48469d29-0d21-4e59-9839-a6b07c092bff_Lorraine.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/c188be1e-a796-4566-b63c-0454ea28d874_lorraine-miss-france-2024-angeline-aron-clauss-1c8b09-0%401x.jpg?auto=format,compress"
     }
   },
   "martinique": {
-    "nom": "Axelle René",
-    "age": 21,
-    "taille": 1.77,
+    "id": "martinique",
     "région": "Martinique",
+    "nom": "Chléo Modestine",
+    "age": 21,
+    "taille": 1.75,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/chleomodestineoff/?hl=fr",
     "photos": {
-      "pied": "/miss/martinique/pied.jpg",
-      "portrait": "/miss/martinique/portrait.jpg",
-      "maillotPied": "/miss/martinique/maillot-pied.jpg",
-      "maillotAssis": "/miss/martinique/maillot-assis.jpg",
-      "maillotPortrait": "/miss/martinique/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/ce651142-885b-468c-88dc-6d7dedd82799_martinique-miss-france-2024-chloe-modestine-6b60a7-0_1x.jpg?auto=format,compress"
+    }
+  },
+  "mayotte": {
+    "id": "mayotte",
+    "région": "Mayotte",
+    "nom": "Houdayifa Chibaco",
+    "age": 22,
+    "taille": 1.72,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/houdayifachibacooff/?hl=fr",
+    "photos": {
+      "pied": "https://images.prismic.io/mfu24/17bdf2cd-dbee-4666-950d-c40b20b62477_Mayotte.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/3ecf195a-c24e-456f-828b-121743566c7c_mayotte-miss-france-2024-houdayifa-chibaco-6de5fc-0_1x.jpg?auto=format,compress"
     }
   },
   "midi-pyrenees": {
-    "nom": "Florence Demortier",
+    "id": "midi-pyrenees",
+    "région": "Midi-Pyrénées",
+    "nom": "Nadine Benaboud",
     "age": 23,
     "taille": 1.71,
-    "région": "Midi-Pyrénées",
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/nadinebenaboudoff/?hl=fr",
     "photos": {
-      "pied": "/miss/midi-pyrenees/pied.jpg",
-      "portrait": "/miss/midi-pyrenees/portrait.jpg",
-      "maillotPied": "/miss/midi-pyrenees/maillot-pied.jpg",
-      "maillotAssis": "/miss/midi-pyrenees/maillot-assis.jpg",
-      "maillotPortrait": "/miss/midi-pyrenees/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/e00436f8-b834-4b43-98e2-7c944405c457_midi-pyrenees-miss-france-2024-nadine-benaboud-5f98eb-0_1x.jpg?auto=format,compress"
     }
   },
   "nord-pas-de-calais": {
-    "nom": "Agathe Cauet",
-    "age": 24,
-    "taille": 1.79,
+    "id": "nord-pas-de-calais",
     "région": "Nord-Pas-de-Calais",
+    "nom": "Eve Gilles",
+    "age": 20,
+    "taille": 1.71,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/evegillesoff/?hl=fr",
     "photos": {
-      "pied": "/miss/nord-pas-de-calais/pied.jpg",
-      "portrait": "/miss/nord-pas-de-calais/portrait.jpg",
-      "maillotPied": "/miss/nord-pas-de-calais/maillot-pied.jpg",
-      "maillotAssis": "/miss/nord-pas-de-calais/maillot-assis.jpg",
-      "maillotPortrait": "/miss/nord-pas-de-calais/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/c2d063d2-53d1-46b8-b581-37e28f9609e0_nord-pas-de-calais-miss-france-2024-eve-gilles-ce14c0-0_1x.jpg?auto=format,compress"
     }
   },
   "normandie": {
-    "nom": "Perrine Prunier",
-    "age": 22,
-    "taille": 1.71,
+    "id": "normandie",
     "région": "Normandie",
+    "nom": "Wissem Morel",
+    "age": 21,
+    "taille": 1.76,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/wissemmoreloff/?hl=fr",
     "photos": {
-      "pied": "/miss/normandie/pied.jpg",
-      "portrait": "/miss/normandie/portrait.jpg",
-      "maillotPied": "/miss/normandie/maillot-pied.jpg",
-      "maillotAssis": "/miss/normandie/maillot-assis.jpg",
-      "maillotPortrait": "/miss/normandie/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/f4d92bc3-88dc-472c-8667-40fbf39beb72_normandie-miss-france-2024-wissem-morel-df7ecd-0_1x.jpg?auto=format,compress"
     }
   },
   "nouvelle-caledonie": {
-    "nom": "Océane Le Goff",
-    "age": 26,
-    "taille": 1.73,
+    "id": "nouvelle-caledonie",
     "région": "Nouvelle-Calédonie",
+    "nom": "Emma Grousset",
+    "age": 21,
+    "taille": 1.8,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/emmagroussetoff/?hl=fr",
     "photos": {
-      "pied": "/miss/nouvelle-caledonie/pied.jpg",
-      "portrait": "/miss/nouvelle-caledonie/portrait.jpg",
-      "maillotPied": "/miss/nouvelle-caledonie/maillot-pied.jpg",
-      "maillotAssis": "/miss/nouvelle-caledonie/maillot-assis.jpg",
-      "maillotPortrait": "/miss/nouvelle-caledonie/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/bb749471-035f-4324-be2a-9555b81e7139_nouvelle-caledonie-miss-france-2024-emma-grousset-e5ab75-0_1x.jpg?auto=format,compress"
     }
   },
   "pays-de-la-loire": {
-    "nom": "Emma Guibert",
-    "age": 20,
-    "taille": 1.76,
+    "id": "pays-de-la-loire",
     "région": "Pays de la Loire",
+    "nom": "Clémence Ménard",
+    "age": 26,
+    "taille": 1.75,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/clemence.menard/?hl=fr",
     "photos": {
-      "pied": "/miss/pays-de-la-loire/pied.jpg",
-      "portrait": "/miss/pays-de-la-loire/portrait.jpg",
-      "maillotPied": "/miss/pays-de-la-loire/maillot-pied.jpg",
-      "maillotAssis": "/miss/pays-de-la-loire/maillot-assis.jpg",
-      "maillotPortrait": "/miss/pays-de-la-loire/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/c28ef52f-4a2b-4e2b-a049-5641776efe9b_Pays+de+la+loire.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/ac6721bf-95b5-4c80-9769-57a6c85bb14f_pays-de-la-loire-miss-france-2024-clemence-menard-246805-0%401x.jpg?auto=format,compress"
     }
   },
   "picardie": {
-    "nom": "Bérénice Legendre",
-    "age": 26,
-    "taille": 1.71,
+    "id": "picardie",
     "région": "Picardie",
+    "nom": "Charlotte Cresson",
+    "age": 23,
+    "taille": 1.71,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/charlottecressonoff/?hl=fr",
     "photos": {
-      "pied": "/miss/picardie/pied.jpg",
-      "portrait": "/miss/picardie/portrait.jpg",
-      "maillotPied": "/miss/picardie/maillot-pied.jpg",
-      "maillotAssis": "/miss/picardie/maillot-assis.jpg",
-      "maillotPortrait": "/miss/picardie/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/9d7e2a8b-4b28-462f-a824-f614154b3fc8_Picardie.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/32f65657-b68b-4447-acf4-3a5adff71599_picardie-miss-france-2024-charlotte-cresson-67d0bf-0%401x.jpg?auto=format,compress"
     }
   },
   "poitou-charentes": {
-    "nom": "Marine Paulais",
-    "age": 20,
-    "taille": 1.75,
+    "id": "poitou-charentes",
     "région": "Poitou-Charentes",
+    "nom": "Lounès Texier",
+    "age": 19,
+    "taille": 1.73,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/lounestexieroff/?hl=fr",
     "photos": {
-      "pied": "/miss/poitou-charentes/pied.jpg",
-      "portrait": "/miss/poitou-charentes/portrait.jpg",
-      "maillotPied": "/miss/poitou-charentes/maillot-pied.jpg",
-      "maillotAssis": "/miss/poitou-charentes/maillot-assis.jpg",
-      "maillotPortrait": "/miss/poitou-charentes/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/97c1aa05-0949-42a3-9541-072309584cb1_Poitou+Charente.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/2fcd83e4-b8d7-4f6f-8b3d-6e0cadf655e8_poitou-charentes-miss-france-2024-lounes-texier-629144-0%401x.jpg?auto=format,compress"
     }
   },
   "provence": {
-    "nom": "Chana Goyons",
-    "age": 18,
-    "taille": 1.80,
+    "id": "provence",
     "région": "Provence",
+    "nom": "Adélina Blanc",
+    "age": 25,
+    "taille": 1.74,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/adelinablanc_/?hl=fr",
     "photos": {
-      "pied": "/miss/provence/pied.jpg",
-      "portrait": "/miss/provence/portrait.jpg",
-      "maillotPied": "/miss/provence/maillot-pied.jpg",
-      "maillotAssis": "/miss/provence/maillot-assis.jpg",
-      "maillotPortrait": "/miss/provence/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/b3c23e88-caf7-43bb-8908-500e117e0aa4_Provence.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/fb1705b1-7024-459f-988e-9cb2d05e8416_provence-miss-france-2024-adeline-blanc-e78b40-0%401x.jpg?auto=format,compress"
     }
   },
   "reunion": {
-    "nom": "Marion Marimoutou",
-    "age": 18,
-    "taille": 1.72,
+    "id": "reunion",
     "région": "Réunion",
+    "nom": "Mélanie Odules",
+    "age": 20,
+    "taille": 1.77,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/melanieodulesoff/?hl=fr",
     "photos": {
-      "pied": "/miss/reunion/pied.jpg",
-      "portrait": "/miss/reunion/portrait.jpg",
-      "maillotPied": "/miss/reunion/maillot-pied.jpg",
-      "maillotAssis": "/miss/reunion/maillot-assis.jpg",
-      "maillotPortrait": "/miss/reunion/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/c9172cc7-cd14-4b7e-9b32-7ae21f7775fa_reunion-miss-france-2024-melanie-odules-897c38-0%401x.jpg?auto=format,compress"
     }
   },
   "rhone-alpes": {
-    "nom": "Esther Coutin",
-    "age": 24,
-    "taille": 1.71,
+    "id": "rhone-alpes",
     "région": "Rhône-Alpes",
+    "nom": "Alizée Bidaut",
+    "age": 22,
+    "taille": 1.74,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/alizee.bidaut/?hl=fr",
     "photos": {
-      "pied": "/miss/rhone-alpes/pied.jpg",
-      "portrait": "/miss/rhone-alpes/portrait.jpg",
-      "maillotPied": "/miss/rhone-alpes/maillot-pied.jpg",
-      "maillotAssis": "/miss/rhone-alpes/maillot-assis.jpg",
-      "maillotPortrait": "/miss/rhone-alpes/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/722da8d9-2e27-4419-b852-4be4b9fcfa99_rhone-alpes-miss-france-2024-alizee-bidaut-34677a-0_1x.jpg?auto=format,compress"
     }
   },
   "roussillon": {
-    "nom": "Chiara Fontaine",
-    "age": 20,
-    "taille": 1.74,
+    "id": "roussillon",
     "région": "Roussillon",
+    "nom": "Elise Aquilina",
+    "age": 21,
+    "taille": 1.71,
+    "chapo": "",
+    "bio": "",
+    "instagramUrl": "https://www.instagram.com/eliseaquilinaoff/?hl=fr",
     "photos": {
-      "pied": "/miss/roussillon/pied.jpg",
-      "portrait": "/miss/roussillon/portrait.jpg",
-      "maillotPied": "/miss/roussillon/maillot-pied.jpg",
-      "maillotAssis": "/miss/roussillon/maillot-assis.jpg",
-      "maillotPortrait": "/miss/roussillon/maillot-portrait.jpg"
-    }
-  },
-  "saint-martin-saint-barthelemy": {
-    "nom": "Inès Tessier",
-    "age": 20,
-    "taille": 1.70,
-    "région": "Saint-Martin-Saint-Barthélemy",
-    "photos": {
-      "pied": "/miss/saint-martin-saint-barthelemy/pied.jpg",
-      "portrait": "/miss/saint-martin-saint-barthelemy/portrait.jpg",
-      "maillotPied": "/miss/saint-martin-saint-barthelemy/maillot-pied.jpg",
-      "maillotAssis": "/miss/saint-martin-saint-barthelemy/maillot-assis.jpg",
-      "maillotPortrait": "/miss/saint-martin-saint-barthelemy/maillot-portrait.jpg"
+      "pied": null,
+      "portrait": "https://images.prismic.io/mfu24/ef54392b-2d2f-4846-8351-288c4942d78e_roussillon-miss-france-2024-elise-aquilina-abf596-0_1x.jpg?auto=format,compress"
     }
   },
   "tahiti": {
-    "nom": "Herenui Tuheiava",
-    "age": 24,
-    "taille": 1.77,
+    "id": "tahiti",
     "région": "Tahiti",
+    "nom": "Ravahere Silloux",
+    "age": 25,
+    "taille": 1.72,
+    "chapo": "",
+    "bio": "<p>Elle aime le soleil et le surf et c&#39;est cool. <em>(à revoir)</em></p>",
+    "instagramUrl": "https://www.instagram.com/ravaheresillouxoff/?hl=fr",
     "photos": {
-      "pied": "/miss/tahiti/pied.jpg",
-      "portrait": "/miss/tahiti/portrait.jpg",
-      "maillotPied": "/miss/tahiti/maillot-pied.jpg",
-      "maillotAssis": "/miss/tahiti/maillot-assis.jpg",
-      "maillotPortrait": "/miss/tahiti/maillot-portrait.jpg"
+      "pied": "https://images.prismic.io/mfu24/4f05dfa7-6505-44d8-8da5-61a26b1d52fe_tahiti.png?auto=format,compress",
+      "portrait": "https://images.prismic.io/mfu24/df18fd2f-7e82-48c4-b519-9b7542bfec31_tahiti-miss-france-2024-ravahere-silloux-90ff12-0_1x.jpg?auto=format,compress"
     }
   }
 }
