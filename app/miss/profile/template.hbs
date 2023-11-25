@@ -8,7 +8,12 @@
     </h2>
     <LinkTo rel="next" @route="miss.profile" @model={{@model.next}}>&#x3009;</LinkTo>
   </div>
-  <h3 class="nom"><strong>{{ @model.nom }}</strong>, <small>{{ @model.age }} ans, {{ this.taille }}m</small></h3>
+  <h3 class="nom">
+    <span><strong>{{ @model.nom }}</strong>, <small>{{ @model.age }} ans, {{ this.taille }}m</small></span>
+    <a rel="instagram" target="_blank" href={{ @model.instagramUrl }} >
+      <InstagramIcon/>
+    </a>
+  </h3>
   <p class="bio">
     {{sanitize-html @model.bio}}
   </p>

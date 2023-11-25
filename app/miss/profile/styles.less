@@ -27,11 +27,14 @@
     }
   }
   .nom {
-    .padded();
     margin: 0 var(--gutter);
+    padding-bottom: var(--gutter);
     font-weight: 400;
     font-size: var(--txt-l);
     border-bottom: 3px solid var(--color-bg-accent);
+
+    display:  flex;
+    justify-content: space-between;
   }
 
   .bio {
