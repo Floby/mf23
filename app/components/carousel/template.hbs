@@ -1,6 +1,7 @@
 <section {{style-namespace 'carousel'}} ...attributes>
   <div class="carousel-wrapper" 
        {{did-insert this.onInsert}}
+       {{children-changed this.onInsert}}
        {{on 'resize' this.updateMeter}}
        {{on 'scroll' this.updateMeter}} >
     {{yield}}

@@ -27,11 +27,11 @@ async function main() {
 
 function sortKeys(source) {
   const dest = {};
-  const keys = Object.keys(source).sort()
+  const keys = Object.keys(source).sort();
   for (const key of keys) {
-    dest[key] = source[key]
+    dest[key] = source[key];
   }
-  return dest
+  return dest;
 }
 
 main().catch((err) => {
