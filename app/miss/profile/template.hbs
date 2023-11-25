@@ -17,10 +17,10 @@
 
 <section class="photos {{@model.id}}">
   <Carousel class="carousel">
-    <Picture loading="lazy" class="picture" title="Portrait" src={{ @model.photos.portrait}} alt="" role="none" />
-    <Picture loading="lazy" class="picture" title="Pied" src={{ @model.photos.pied}} alt="" role="none" />
-    <Picture loading="lazy" class="picture" title="MaillotPied" src={{ @model.photos.maillotPied}} alt="" role="none" />
-    <Picture loading="lazy" class="picture" title="MaillotAssis" src={{ @model.photos.maillotAssis}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="Portrait" @src={{ @model.photos.portrait}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="Pied" @src={{ @model.photos.pied}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="MaillotPied" @src={{ @model.photos.maillotPied}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="MaillotAssis" @src={{ @model.photos.maillotAssis}} alt="" role="none" />
   </Carousel>
 </section>
 

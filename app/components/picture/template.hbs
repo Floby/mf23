@@ -1,3 +1,7 @@
+{{#if @src}}
+
 <div {{ style-namespace 'picture' }}>
-  <img ...attributes />
+  <img src={{@src}} ...attributes />
 </div>
+
+{{/if}}
