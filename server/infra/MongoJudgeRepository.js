@@ -1,7 +1,7 @@
 module.exports = class MongoJudgeRepository {
   constructor(db) {
     this.db = db;
-    this.collection = this.db.collection('judge');
+    this.collection = this.db.collection('judge_2024');
   }
   async get(id) {
     const doc = await this.collection.findOne({ _id: id });
