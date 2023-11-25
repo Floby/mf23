@@ -111,6 +111,9 @@ TODO
 - Plus de photos
   - un lien vers Instagram
   - la 3e photo maillot
+  - une selection de photo instagram
 
-
+- Awards
+  - awards automatiques
+  - affichage sans window.alert des awards
 
