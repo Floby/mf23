@@ -17,10 +17,10 @@
 
 <section class="photos {{@model.id}}">
   <Carousel class="carousel">
-    <Picture loading="lazy" class="picture" title="Portrait" src={{ @model.photos.portrait}} alt="" role="none" />
-    <Picture loading="lazy" class="picture" title="Pied" src={{ @model.photos.pied}} alt="" role="none" />
-    <Picture loading="lazy" class="picture" title="MaillotPied" src={{ @model.photos.maillotPied}} alt="" role="none" />
-    <Picture loading="lazy" class="picture" title="MaillotAssis" src={{ @model.photos.maillotAssis}} alt="" role="none" />
+    <Picture loading="lazy" class="picture" title="Portrait" src={{ @model.photos.portrait}} alt="Portrait de Miss {{@model.région}}" role="none" />
+    <Picture loading="lazy" class="picture" title="Pied" src={{ @model.photos.pied}} alt="Portrait en pied de Miss {{@model.région}}" role="none" />
+    <Picture loading="lazy" class="picture" title="MaillotPied" src={{ @model.photos.maillotPied}} alt="Photo en pied de Miss {{@model.région}} en maillot de bain" role="none" />
+    <Picture loading="lazy" class="picture" title="MaillotAssis" src={{ @model.photos.maillotAssis}} alt="Portrait assis de Miss {{@model.région}} en maillot de bain" role="none" />
   </Carousel>
 </section>
 
