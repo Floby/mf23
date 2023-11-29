@@ -17,8 +17,12 @@ async function main() {
       bio: asHTML(miss.data.bio),
       instagramUrl: asLink(miss.data.instagram),
       photos: {
-        pied: asImageSrc(miss.data.studio_pied),
         portrait: asImageSrc(miss.data.studio_portrait),
+        pied: asImageSrc(miss.data.studio_pied),
+        maillotPortrait: asImageSrc(miss.data.maillot_portrait),
+        maillotPied: asImageSrc(miss.data.maillot_pied),
+        maillotAssis: asImageSrc(miss.data.maillot_assis),
+        insta: asImageSrc(miss.data.photo_insta_1),
       },
     };
   }

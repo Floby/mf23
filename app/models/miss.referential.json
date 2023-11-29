@@ -9,8 +9,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/adelinevetter.off/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/c57bf68d-4be6-4078-ac1d-430348110907_Alsace-miss-france-2024-adeline-vetter-733c63-0_1x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/01a99160-c719-41b8-a8d0-d23fe55ec1c7_Alsace.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/c57bf68d-4be6-4078-ac1d-430348110907_Alsace-miss-france-2024-adeline-vetter-733c63-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/debffb57-aff1-4125-8699-a2ca69971ffb_Alsace+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/e63ca6ce-965c-415e-8bd3-57ad2b5d7a01_Alsace.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "aquitaine": {
@@ -19,12 +23,16 @@
     "nom": "Lola Turpin",
     "age": 19,
     "taille": 1.72,
-    "chapo": "",
+    "chapo": "Bachelor en Marketing et Communication",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/lola.turpinoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/c40d9133-e9e7-4800-9b4e-6572c32d2291_aquitaine-miss-france-2024-lola-turpin-40893b-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/c40d9133-e9e7-4800-9b4e-6572c32d2291_aquitaine-miss-france-2024-lola-turpin-40893b-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/1e328653-16df-4935-b9f1-2871b5bf3afc_Aquitaine+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/f9ef262c-0c5d-45b8-b197-475a1c38f74b_Aquitaine.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/7b0273d8-d679-4fb6-8864-ca93c9ec0e6d_Aquitaine.png?auto=format,compress"
     }
   },
   "auvergne": {
@@ -37,8 +45,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/orianemalletoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/0e9e2f77-ccd1-46fb-9992-3fbfa93426de_auvergne-miss-france-2024-alissia-ladeveze-e45786-1%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/b5f7d711-2643-4fb0-b239-87dab65e1ab9_Auvergne.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/0e9e2f77-ccd1-46fb-9992-3fbfa93426de_auvergne-miss-france-2024-alissia-ladeveze-e45786-1%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/5bcea5c0-f771-4621-af05-8bc35212ca35_Auvergne+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/fae56f97-b665-46b6-ba4c-168590b007aa_Auvergne.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "bourgogne": {
@@ -51,8 +63,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/lunalacharmeoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/5c324653-a380-495d-bed5-6a17bd80e829_bourgone-miss-france-2024-luna-lacharme-03b800-1%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/d4b6e4c9-40ab-44d8-bb93-8410febce82b_Bourgogne.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/5c324653-a380-495d-bed5-6a17bd80e829_bourgone-miss-france-2024-luna-lacharme-03b800-1%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/93c1b0ef-97b4-4967-84fd-8a484c401bf5_Bourgogne+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/b1e458ba-5156-4440-abb4-136b37a42750_Bourgogne.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "bretagne": {
@@ -65,8 +81,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/noemielebrasoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/2f48efd2-bce6-459a-9081-c2ce2e1ce53e_bretagne-miss-france-2024-noemie-le-bras-2eba79-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/336bab2c-113d-43d1-b441-6785b0fac2af_Bretagne.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/2f48efd2-bce6-459a-9081-c2ce2e1ce53e_bretagne-miss-france-2024-noemie-le-bras-2eba79-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/48112bb4-f663-4036-81f6-6a3eb23b7841_Bretagne+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/937a6f1a-ac16-4cd3-a347-9c95193bb151_Bretagne.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "centre-val-de-loire": {
@@ -79,8 +99,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/emmygisclon.off/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/9f6f5505-3d33-4421-be6b-fa37cbc0d8aa_centre-val-de-loire-miss-france-2024-emmy-gisclon-7ec359-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/914b808b-71ae-40da-ba61-2f982b5520d2_Centre+val+de+loire.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/9f6f5505-3d33-4421-be6b-fa37cbc0d8aa_centre-val-de-loire-miss-france-2024-emmy-gisclon-7ec359-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/80ded67c-13a6-4d3d-8633-5183007b8c97_centre+val+de+loire+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/794371ec-d08c-4c5e-a40a-2f4380b398c4_centre+val+de+loire.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "champagne-ardenne": {
@@ -93,8 +117,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/noadutitreoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/29fb0468-6ba5-4c33-8d5f-a19d21a99833_champagne-ardenne-miss-france-2024-72bf16-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/5d573dd0-839a-437a-91bc-43ae2ea833f5_Champagne+ardenne.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/29fb0468-6ba5-4c33-8d5f-a19d21a99833_champagne-ardenne-miss-france-2024-72bf16-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/ea425e7b-0834-431d-8a50-66902a98516a_Champagne+ardenne+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/cec8eef4-b3ff-43f1-a970-05ff4edda778_Champagne+ardenne.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "corse": {
@@ -107,8 +135,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/89b1760c-b8df-448a-8829-cbc485fc8457_corse-miss-france-2024-sandra-bak-9262f0-0%401x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/89b1760c-b8df-448a-8829-cbc485fc8457_corse-miss-france-2024-sandra-bak-9262f0-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/3d73970e-f4c2-41de-b07d-a0d84d749749_Corse+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/53abd548-1846-41bc-81bb-055a062339ed_Corse.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/f9ef01ef-742d-430a-90c4-789549f89783_Corse.png?auto=format,compress"
     }
   },
   "cote-d-azur": {
@@ -121,8 +153,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/91212472-e215-4f1f-9922-8dcefb33d4d1_cote-d-azur-miss-france-2024-karla-bchir-8559c3-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/7d4f4724-f476-4e54-9c34-501630b3a64f_Cote+dazur.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/91212472-e215-4f1f-9922-8dcefb33d4d1_cote-d-azur-miss-france-2024-karla-bchir-8559c3-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/71b8b8dd-2a48-4013-b060-f029b43f584f_cote+d+azure.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/925120b0-8c04-4f4d-9c4f-9b05bfe22b47_cote+d+azure+2.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "franche-compte": {
@@ -135,8 +171,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/soniacoutantoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/75b45c48-f537-422b-a98f-6d2eef8271a7_franche-comte-miss-france-2024-sonia-coutant-58b0ce-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/8e9ca6a8-d628-4d1d-bbd3-02a9b5c20490_Franche+comte.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/75b45c48-f537-422b-a98f-6d2eef8271a7_franche-comte-miss-france-2024-sonia-coutant-58b0ce-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": null,
+      "maillotPied": null,
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "guadeloupe": {
@@ -149,8 +189,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/jalylanemaes.off/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/1b98d1bd-801e-4a3e-8302-4446fc813543_guadeloupe-miss-france-2024-jalylane-maes-8826f2-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/ba495fa4-42cc-411f-9e25-fb76e973b8fc_Guadeloupe.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/1b98d1bd-801e-4a3e-8302-4446fc813543_guadeloupe-miss-france-2024-jalylane-maes-8826f2-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/b7604b7a-1bcc-4e88-8be5-c8e3d027e433_guadeloupe+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/f9613c23-e3f5-4187-9952-974244c0d204_guadeloupe.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "guyane": {
@@ -163,8 +207,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/audreyhowentsaioff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/5b2f8add-fdf7-426a-a107-c9b134d3e018_guyane-miss-france-2024-audrey-ho-wen-tsai-eb7bbb-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/ba1ce1d7-f561-4685-95f2-13d9a11b3ccb_Guyane.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/5b2f8add-fdf7-426a-a107-c9b134d3e018_guyane-miss-france-2024-audrey-ho-wen-tsai-eb7bbb-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/a567dc3b-452d-4e2f-9473-969246f7f87d_Guyane+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/21985916-5d24-4348-b027-10ae600d6497_Guyane.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "ile-de-france": {
@@ -177,8 +225,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/elenafaliez/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/31114157-f5df-4b55-981c-fa4b68aaeffd_ile-de-france-miss-france-2024-elena-falize-f16d96-1%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/990bb455-c28b-41c0-9995-1e228fe4d5d8_Ile+de+france.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/31114157-f5df-4b55-981c-fa4b68aaeffd_ile-de-france-miss-france-2024-elena-falize-f16d96-1%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/16de0263-a3e2-42a0-b3b6-1f4fbd6c32cf_IdF+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/4ad42fed-2e5b-435c-aaab-b6bfd9684d7b_IdF.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "languedoc": {
@@ -191,8 +243,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/maximeteissieroff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/2b9d97cf-1296-4c36-a9ed-1971c3777995_languedoc-miss-france-2024-maxime-tessier-32130e-1%401x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/2b9d97cf-1296-4c36-a9ed-1971c3777995_languedoc-miss-france-2024-maxime-tessier-32130e-1%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/2fd68b9e-bd1e-4e67-b9ae-12992844d227_Languedoc+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/d42f137e-688c-4fc7-9451-063c92373bde_Languedoc.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "limousin": {
@@ -205,8 +261,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/agathe.toullieu/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/3ea57576-02f6-4a3e-922f-bc060cf5334a_limousin-miss-france-2024-agathe-toullieu-603f9f-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/a3885f38-3ee7-44ea-b7dd-323db287a72c_limousin.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/3ea57576-02f6-4a3e-922f-bc060cf5334a_limousin-miss-france-2024-agathe-toullieu-603f9f-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/63385937-c8b7-40e1-8805-517af36ce6c6_Limousin+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/3ae16e0a-faf0-416d-8f1b-e7b3319e8af4_Limousin.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "lorraine": {
@@ -219,8 +279,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/angelinearonclauss.off/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/c188be1e-a796-4566-b63c-0454ea28d874_lorraine-miss-france-2024-angeline-aron-clauss-1c8b09-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/48469d29-0d21-4e59-9839-a6b07c092bff_Lorraine.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/c188be1e-a796-4566-b63c-0454ea28d874_lorraine-miss-france-2024-angeline-aron-clauss-1c8b09-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/006bebc0-3f84-47dd-948c-84e89202aaa9_Lorraine+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/570cc85b-1545-4222-9f3f-3d7e14383d35_Lorraine.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "martinique": {
@@ -233,8 +297,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/chleomodestineoff/?hl=fr",
     "photos": {
-      "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/ce651142-885b-468c-88dc-6d7dedd82799_martinique-miss-france-2024-chloe-modestine-6b60a7-0_1x.jpg?auto=format,compress"
+      "portrait": "https://images.prismic.io/mfu24/ce651142-885b-468c-88dc-6d7dedd82799_martinique-miss-france-2024-chloe-modestine-6b60a7-0_1x.jpg?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/20e3e6b5-820b-4dc7-9c4b-8e67afb8d8c0_Martinique+2.webp?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/ed5beae4-4fcb-4059-8975-8d933886e92c_Martinique.webp?auto=format,compress",
+      "maillotPied": null,
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "mayotte": {
@@ -247,8 +315,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/houdayifachibacooff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/3ecf195a-c24e-456f-828b-121743566c7c_mayotte-miss-france-2024-houdayifa-chibaco-6de5fc-0_1x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/17bdf2cd-dbee-4666-950d-c40b20b62477_Mayotte.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/3ecf195a-c24e-456f-828b-121743566c7c_mayotte-miss-france-2024-houdayifa-chibaco-6de5fc-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/70189a01-1fbb-4459-84a3-7b7aee47313f_mayotte+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/36ce1f4f-4659-4ad4-ac4f-1aef464d3ac4_mayotte.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "midi-pyrenees": {
@@ -257,12 +329,16 @@
     "nom": "Nadine Benaboud",
     "age": 23,
     "taille": 1.71,
-    "chapo": "",
+    "chapo": "Be yourself with me ✨",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/nadinebenaboudoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/e00436f8-b834-4b43-98e2-7c944405c457_midi-pyrenees-miss-france-2024-nadine-benaboud-5f98eb-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/e00436f8-b834-4b43-98e2-7c944405c457_midi-pyrenees-miss-france-2024-nadine-benaboud-5f98eb-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/81833a65-44d3-4ed5-94d4-900867bff941_Midi+Pyrenees.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/a2324f65-aa57-4fe7-bc4c-2404d80b59de_Midi+Pyrenees+2.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/995663cc-ec2a-4020-8a78-fd124ac269c4_Midi+pyrennees.png?auto=format,compress"
     }
   },
   "nord-pas-de-calais": {
@@ -275,8 +351,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/evegillesoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/c2d063d2-53d1-46b8-b581-37e28f9609e0_nord-pas-de-calais-miss-france-2024-eve-gilles-ce14c0-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/c2d063d2-53d1-46b8-b581-37e28f9609e0_nord-pas-de-calais-miss-france-2024-eve-gilles-ce14c0-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/258c1eaf-b455-433a-a674-a10f678af296_nord+pas+de+calais+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/a43624dc-0c87-4b51-9252-116841932874_nord+pas+de+calais.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/dc1df012-5391-4519-acec-3da85f9105d8_NPDC.png?auto=format,compress"
     }
   },
   "normandie": {
@@ -285,12 +365,16 @@
     "nom": "Wissem Morel",
     "age": 21,
     "taille": 1.76,
-    "chapo": "",
+    "chapo": "Licence de Biologie / elitemodelworld",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/wissemmoreloff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/f4d92bc3-88dc-472c-8667-40fbf39beb72_normandie-miss-france-2024-wissem-morel-df7ecd-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/f4d92bc3-88dc-472c-8667-40fbf39beb72_normandie-miss-france-2024-wissem-morel-df7ecd-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/31696779-15fe-41b1-a74c-61a9956abc0c_Normandie+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/7b157d90-774c-44d9-8ac7-b0215c94ecb1_Normandie.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/4ed988e2-1b26-4130-9da7-9c1d4a7b7575_Normandie.png?auto=format,compress"
     }
   },
   "nouvelle-caledonie": {
@@ -299,12 +383,16 @@
     "nom": "Emma Grousset",
     "age": 21,
     "taille": 1.8,
-    "chapo": "",
+    "chapo": "1m80 de joie 🌞",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/emmagroussetoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/bb749471-035f-4324-be2a-9555b81e7139_nouvelle-caledonie-miss-france-2024-emma-grousset-e5ab75-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/bb749471-035f-4324-be2a-9555b81e7139_nouvelle-caledonie-miss-france-2024-emma-grousset-e5ab75-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/199a012f-1bcb-4694-808c-8c15aedfec50_nouvelle+caledonie+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/24c82558-3ad6-41b7-9b4c-e6fec71353ab_nouvelle+caledonie.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/21c4ce9c-6176-4a7f-b178-a7b551b62c0a_New+caledonia.png?auto=format,compress"
     }
   },
   "pays-de-la-loire": {
@@ -317,8 +405,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/clemence.menard/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/ac6721bf-95b5-4c80-9769-57a6c85bb14f_pays-de-la-loire-miss-france-2024-clemence-menard-246805-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/c28ef52f-4a2b-4e2b-a049-5641776efe9b_Pays+de+la+loire.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/ac6721bf-95b5-4c80-9769-57a6c85bb14f_pays-de-la-loire-miss-france-2024-clemence-menard-246805-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/acbbc65f-c20c-407e-a3dc-9d810df5712f_pays+de+la+loire+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/cb912cbb-e2f1-443c-a93c-aedadc591771_pays+de+la+loire.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "picardie": {
@@ -331,8 +423,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/charlottecressonoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/32f65657-b68b-4447-acf4-3a5adff71599_picardie-miss-france-2024-charlotte-cresson-67d0bf-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/9d7e2a8b-4b28-462f-a824-f614154b3fc8_Picardie.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/32f65657-b68b-4447-acf4-3a5adff71599_picardie-miss-france-2024-charlotte-cresson-67d0bf-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/55e7c4c8-cbce-439f-be98-80766ed22bc8_Picardie.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/34c1aba5-4e67-45d9-8fc9-b8e0d56d3bdb_Picardie+2.webp?auto=format,compress",
+      "maillotAssis": "https://images.prismic.io/mfu24/71c174ba-0178-4074-a812-ac7e3861255b_Picardie.png?auto=format,compress",
+      "insta": null
     }
   },
   "poitou-charentes": {
@@ -345,8 +441,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/lounestexieroff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/2fcd83e4-b8d7-4f6f-8b3d-6e0cadf655e8_poitou-charentes-miss-france-2024-lounes-texier-629144-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/97c1aa05-0949-42a3-9541-072309584cb1_Poitou+Charente.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/2fcd83e4-b8d7-4f6f-8b3d-6e0cadf655e8_poitou-charentes-miss-france-2024-lounes-texier-629144-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/c158cc50-877f-42e4-bb70-d1bee2c214c9_Poitou+charente+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/da24740f-a8f5-4642-aef8-daa3da894e50_Poitou+charente.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "provence": {
@@ -359,8 +459,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/adelinablanc_/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/fb1705b1-7024-459f-988e-9cb2d05e8416_provence-miss-france-2024-adeline-blanc-e78b40-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/b3c23e88-caf7-43bb-8908-500e117e0aa4_Provence.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/fb1705b1-7024-459f-988e-9cb2d05e8416_provence-miss-france-2024-adeline-blanc-e78b40-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/a6b528cc-b393-43b3-8aef-169176fe2793_Provence.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/5954b507-3298-48ff-a734-2a61500b6d4e_Provence+2.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "reunion": {
@@ -373,8 +477,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/melanieodulesoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/c9172cc7-cd14-4b7e-9b32-7ae21f7775fa_reunion-miss-france-2024-melanie-odules-897c38-0%401x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/c9172cc7-cd14-4b7e-9b32-7ae21f7775fa_reunion-miss-france-2024-melanie-odules-897c38-0%401x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/4fb4f1ce-9d3f-4e58-93b1-9f53df0356ff_reunion+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/8a85a4ee-64b4-4437-aa5c-ebe61b5bb23a_reunion.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/ee63821e-1f3f-40a2-add0-e076f42372a7_R%C3%A9union.png?auto=format,compress"
     }
   },
   "rhone-alpes": {
@@ -387,8 +495,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/alizee.bidaut/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/722da8d9-2e27-4419-b852-4be4b9fcfa99_rhone-alpes-miss-france-2024-alizee-bidaut-34677a-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/722da8d9-2e27-4419-b852-4be4b9fcfa99_rhone-alpes-miss-france-2024-alizee-bidaut-34677a-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/c2a73065-f074-4673-9517-ffaec0a7097f_Rhone+alpe+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/48586fb2-6905-42b4-8313-134dcd1e5d70_Rhone+alpe.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "roussillon": {
@@ -401,8 +513,12 @@
     "bio": "",
     "instagramUrl": "https://www.instagram.com/eliseaquilinaoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/ef54392b-2d2f-4846-8351-288c4942d78e_roussillon-miss-france-2024-elise-aquilina-abf596-0_1x.jpg?auto=format,compress",
       "pied": null,
-      "portrait": "https://images.prismic.io/mfu24/ef54392b-2d2f-4846-8351-288c4942d78e_roussillon-miss-france-2024-elise-aquilina-abf596-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/6f9ad437-e89a-4079-a1d4-bfdfb57f1013_Roussillon.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/cc486742-6d86-4e55-a5dd-e34830fc1006_Roussillon+2.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   },
   "tahiti": {
@@ -415,8 +531,12 @@
     "bio": "<p>Elle aime le soleil et le surf et c&#39;est cool. <em>(à revoir)</em></p>",
     "instagramUrl": "https://www.instagram.com/ravaheresillouxoff/?hl=fr",
     "photos": {
+      "portrait": "https://images.prismic.io/mfu24/df18fd2f-7e82-48c4-b519-9b7542bfec31_tahiti-miss-france-2024-ravahere-silloux-90ff12-0_1x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/4f05dfa7-6505-44d8-8da5-61a26b1d52fe_tahiti.png?auto=format,compress",
-      "portrait": "https://images.prismic.io/mfu24/df18fd2f-7e82-48c4-b519-9b7542bfec31_tahiti-miss-france-2024-ravahere-silloux-90ff12-0_1x.jpg?auto=format,compress"
+      "maillotPortrait": "https://images.prismic.io/mfu24/1592c86c-e68e-4ba7-b52d-a9d8828453ae_Tahiti+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/554461c4-6f8f-42d8-8d67-bad8c8ae916d_Tahiti.webp?auto=format,compress",
+      "maillotAssis": null,
+      "insta": null
     }
   }
 }
