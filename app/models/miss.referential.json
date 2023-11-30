@@ -5,8 +5,8 @@
     "nom": "Adeline Vetter",
     "age": 27,
     "taille": 1.7,
-    "chapo": "",
-    "bio": "",
+    "chapo": "a remporté la première place du test de culture G avec un score de 42,5 points sur 60",
+    "bio": "<p>Doyenne du concours, diplômée en pharmacie</p>",
     "instagramUrl": "https://www.instagram.com/adelinevetter.off/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/c57bf68d-4be6-4078-ac1d-430348110907_Alsace-miss-france-2024-adeline-vetter-733c63-0_1x.jpg?auto=format,compress",
@@ -14,7 +14,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/debffb57-aff1-4125-8699-a2ca69971ffb_Alsace+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/e63ca6ce-965c-415e-8bd3-57ad2b5d7a01_Alsace.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/2b0162bf-a165-47d6-afa5-af9628390160_Alsace.png?auto=format,compress"
     }
   },
   "aquitaine": {
@@ -23,8 +23,8 @@
     "nom": "Lola Turpin",
     "age": 19,
     "taille": 1.72,
-    "chapo": "Bachelor en Marketing et Communication",
-    "bio": "",
+    "chapo": "Bachelor en Marketing et Communication (selon son insta)",
+    "bio": "<p>étudiante en marketing international<br />Lola Turpin marchera dans les pas de sa mère, Virginie. Cette dernière a participé au concours de beauté en 2002, en tant que Miss Berry, lors de la cérémonie qui a vu triompher Sylvie Tellier.</p>",
     "instagramUrl": "https://www.instagram.com/lola.turpinoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/c40d9133-e9e7-4800-9b4e-6572c32d2291_aquitaine-miss-france-2024-lola-turpin-40893b-0_1x.jpg?auto=format,compress",
@@ -41,8 +41,8 @@
     "nom": "Oriane Mallet",
     "age": 22,
     "taille": 1.82,
-    "chapo": "",
-    "bio": "",
+    "chapo": "en master en marketing et communication",
+    "bio": "<p>J’ai intégré le CREPS de Vichy en sport études basket et j’ai poursuivi mes études en Bourgogne, à Chalon-sur-Saône en centre de formation, puis à Roanne après mon baccalauréat, et enfin en Espagne. Je suis actuellement en master en marketing et communication. Vous l’avez deviné, j’ai eu l’occasion de beaucoup voyager !</p>",
     "instagramUrl": "https://www.instagram.com/orianemalletoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/0e9e2f77-ccd1-46fb-9992-3fbfa93426de_auvergne-miss-france-2024-alissia-ladeveze-e45786-1%401x.jpg?auto=format,compress",
@@ -50,7 +50,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/5bcea5c0-f771-4621-af05-8bc35212ca35_Auvergne+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/fae56f97-b665-46b6-ba4c-168590b007aa_Auvergne.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/4187a1a0-4994-4c54-be8a-c3c6f9da0f0e_Auvergne.png?auto=format,compress"
     }
   },
   "bourgogne": {
@@ -59,15 +59,15 @@
     "nom": "Luna Lacharme",
     "age": 18,
     "taille": 1.76,
-    "chapo": "",
-    "bio": "",
+    "chapo": "étudiante en première année en Bachelor communication à l’ESP de Lyon. ",
+    "bio": "<p>Le sport prend une grande place dans mon quotidien et j’ai pratiqué la danse pendant 10 ans et le basket pendant 9 ans au niveau régional. J’aime aussi le shopping, la mode, les sorties entre amis, ma famille et la nourriture !</p>",
     "instagramUrl": "https://www.instagram.com/lunalacharmeoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/5c324653-a380-495d-bed5-6a17bd80e829_bourgone-miss-france-2024-luna-lacharme-03b800-1%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/d4b6e4c9-40ab-44d8-bb93-8410febce82b_Bourgogne.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/93c1b0ef-97b4-4967-84fd-8a484c401bf5_Bourgogne+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/b1e458ba-5156-4440-abb4-136b37a42750_Bourgogne.webp?auto=format,compress",
-      "maillotAssis": null,
+      "maillotAssis": "https://images.prismic.io/mfu24/73dbef2b-bf08-4104-8360-2eb0809f08c3_Bourgogne.png?auto=format,compress",
       "insta": null
     }
   },
@@ -77,7 +77,7 @@
     "nom": "Noémie Le Bras",
     "age": 21,
     "taille": 1.74,
-    "chapo": "",
+    "chapo": "Apprentie en 1ère année de Master Gestion des Ressources Humaines",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/noemielebrasoff/?hl=fr",
     "photos": {
@@ -86,7 +86,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/48112bb4-f663-4036-81f6-6a3eb23b7841_Bretagne+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/937a6f1a-ac16-4cd3-a347-9c95193bb151_Bretagne.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/c5f3a30e-e883-4d9a-a0ab-7f6f6634377a_Bretagne.png?auto=format,compress"
     }
   },
   "centre-val-de-loire": {
@@ -95,7 +95,7 @@
     "nom": "Emmy Gisclon",
     "age": 22,
     "taille": 1.76,
-    "chapo": "",
+    "chapo": "directrice en direction artistique",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/emmygisclon.off/?hl=fr",
     "photos": {
@@ -104,7 +104,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/80ded67c-13a6-4d3d-8633-5183007b8c97_centre+val+de+loire+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/794371ec-d08c-4c5e-a40a-2f4380b398c4_centre+val+de+loire.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/880d805c-7186-4cbc-9cef-740b4a8c1215_Centre+val+de+loire.png?auto=format,compress"
     }
   },
   "champagne-ardenne": {
@@ -113,7 +113,7 @@
     "nom": "Noa Dutitre",
     "age": 21,
     "taille": 1.7,
-    "chapo": "",
+    "chapo": "Passionnée par la mode, la jeune étudiante en langues étrangères espère un jour intégrer une école internationale de marketing de luxe. ",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/noadutitreoff/?hl=fr",
     "photos": {
@@ -122,7 +122,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/ea425e7b-0834-431d-8a50-66902a98516a_Champagne+ardenne+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/cec8eef4-b3ff-43f1-a970-05ff4edda778_Champagne+ardenne.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/cc98001d-749b-4a21-8a28-822a1e56d08f_Champagne+ardenne.png?auto=format,compress"
     }
   },
   "corse": {
@@ -131,8 +131,8 @@
     "nom": "Sandra Bak",
     "age": 23,
     "taille": 1.71,
-    "chapo": "",
-    "bio": "",
+    "chapo": "diplômée d'un master métier de l'enseignement, de l'éducation et de la formation pour devenir professeur des écoles. ",
+    "bio": "<p>elle souhaite faire de l&#39;inclusion à l&#39;école sa cause principale</p>",
     "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/89b1760c-b8df-448a-8829-cbc485fc8457_corse-miss-france-2024-sandra-bak-9262f0-0%401x.jpg?auto=format,compress",
@@ -149,8 +149,8 @@
     "nom": "Karla Bchir",
     "age": 19,
     "taille": 1.75,
-    "chapo": "",
-    "bio": "",
+    "chapo": "en formation immobilière spécialisée dans le domaine du luxe. Lors d'une année de césure, elle s'est lancée dans le mannequinat, ayant posé pour plusieurs marques",
+    "bio": "<p>Harcelée lors de son adolescence en raison de sa grande taille, la victoire à l&#39;élection régionale est une revanche pour la jeune femme<br />La communication et le partage sont des valeurs très importantes à mes yeux et dans le métier que j&#39;exerce, ce sont des valeurs fondamentales</p>",
     "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/91212472-e215-4f1f-9922-8dcefb33d4d1_cote-d-azur-miss-france-2024-karla-bchir-8559c3-0%401x.jpg?auto=format,compress",
@@ -158,7 +158,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/71b8b8dd-2a48-4013-b060-f029b43f584f_cote+d+azure.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/925120b0-8c04-4f4d-9c4f-9b05bfe22b47_cote+d+azure+2.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/75929f2c-efc2-4447-aa8a-8cc4ace1e6cf_Cote+dazure.png?auto=format,compress"
     }
   },
   "franche-compte": {
@@ -167,16 +167,16 @@
     "nom": "Sonia Coutant",
     "age": 24,
     "taille": 1.72,
-    "chapo": "",
-    "bio": "",
+    "chapo": "a remporté le concours de culture générale",
+    "bio": "<p>Ancienne gendarme, elle est désormais aide-soignante en Ehpad. Elle a souhaité faire ce métier après avoir été atteinte d&#39;endométriose. Elle explique avoir la volonté de &quot;serrer la main de ses patients comme on a serré la sienne durant la maladie&quot;. </p>",
     "instagramUrl": "https://www.instagram.com/soniacoutantoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/75b45c48-f537-422b-a98f-6d2eef8271a7_franche-comte-miss-france-2024-sonia-coutant-58b0ce-0%401x.jpg?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/8e9ca6a8-d628-4d1d-bbd3-02a9b5c20490_Franche+comte.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/05a83cb3-81ac-4afe-ab5d-0e94c33d9ad6_Franche+comte+2.webp?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/3422ab38-2a94-49ff-814e-3fa7c7285c80_Franche+comte.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/74a7baca-82e5-436d-8165-b9ba9c311897_franche+comte.png?auto=format,compress"
     }
   },
   "guadeloupe": {
@@ -185,8 +185,8 @@
     "nom": "Jalylane Maës",
     "age": 18,
     "taille": 1.73,
-    "chapo": "",
-    "bio": "",
+    "chapo": "en licence administrative, économique et sociale dans l'objectif de fonder son \"entreprise dans le domaine de l'événementiel\"",
+    "bio": "<p><em>&quot;S&#39;il y a bien une cause qui me tient à cœur, c&#39;est celle de l&#39;orientation et l&#39;insertion professionnelle de nos jeunes&quot;</em></p>",
     "instagramUrl": "https://www.instagram.com/jalylanemaes.off/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/1b98d1bd-801e-4a3e-8302-4446fc813543_guadeloupe-miss-france-2024-jalylane-maes-8826f2-0%401x.jpg?auto=format,compress",
@@ -194,7 +194,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/b7604b7a-1bcc-4e88-8be5-c8e3d027e433_guadeloupe+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/f9613c23-e3f5-4187-9952-974244c0d204_guadeloupe.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/5ab2941b-24bb-4bfc-892a-0676f8410196_Gwada.png?auto=format,compress"
     }
   },
   "guyane": {
@@ -203,8 +203,8 @@
     "nom": "Audrey Ho-Wen-Tsaï",
     "age": 18,
     "taille": 1.73,
-    "chapo": "",
-    "bio": "",
+    "chapo": "La jeune femme souhaite devenir agent dans le marketing durable et vert",
+    "bio": "<p>Elle est passionnée par la danse, le chant, les voyages et les réseaux sociaux.</p>",
     "instagramUrl": "https://www.instagram.com/audreyhowentsaioff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/5b2f8add-fdf7-426a-a107-c9b134d3e018_guyane-miss-france-2024-audrey-ho-wen-tsai-eb7bbb-0%401x.jpg?auto=format,compress",
@@ -212,7 +212,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/a567dc3b-452d-4e2f-9473-969246f7f87d_Guyane+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/21985916-5d24-4348-b027-10ae600d6497_Guyane.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/c37bca77-f148-4a0a-906a-6a6132defc6f_Guyane.png?auto=format,compress"
     }
   },
   "ile-de-france": {
@@ -221,8 +221,8 @@
     "nom": "Elena Faliez",
     "age": 28,
     "taille": 1.73,
-    "chapo": "",
-    "bio": "",
+    "chapo": "travaille à La Défense en tant que consultante pour la cybersécurité",
+    "bio": "<p>Née en Seine-Saint-Denis, elle avait été élue Miss Paris précédemment. Grâce au changement de règles, la francilienne de 28 ans a pu se présenter aux élections de Miss France.</p>",
     "instagramUrl": "https://www.instagram.com/elenafaliez/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/31114157-f5df-4b55-981c-fa4b68aaeffd_ile-de-france-miss-france-2024-elena-falize-f16d96-1%401x.jpg?auto=format,compress",
@@ -230,7 +230,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/16de0263-a3e2-42a0-b3b6-1f4fbd6c32cf_IdF+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/4ad42fed-2e5b-435c-aaab-b6bfd9684d7b_IdF.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/a6b77ef5-f592-429d-9666-217da746ea53_Idf.png?auto=format,compress"
     }
   },
   "languedoc": {
@@ -239,8 +239,8 @@
     "nom": "Maxime Teissier",
     "age": 20,
     "taille": 1.73,
-    "chapo": "",
-    "bio": "",
+    "chapo": "devenir vétérinaire chirurgicale",
+    "bio": "<p>Passionnée d&#39;<strong>équitation</strong>, la jeune femme est sportive. Pratiquante de ce sport à haut niveau depuis dix ans, <strong>elle concourt pour son pays</strong> à l&#39;étranger &quot;depuis maintenant cinq ans&quot;, principalement en Espagne. En effet, elle est <strong>étudiante en troisième année d&#39;école vétérinaire à Madrid</strong>. &quot;Avec mon cheval de tête, on fait toutes les représentations et les échéances à l’étranger comme en France tout au long de l’année&quot;, explique-t-elle. C&#39;est également <strong>une défenseure des droits des animaux</strong>.</p>",
     "instagramUrl": "https://www.instagram.com/maximeteissieroff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/2b9d97cf-1296-4c36-a9ed-1971c3777995_languedoc-miss-france-2024-maxime-tessier-32130e-1%401x.jpg?auto=format,compress",
@@ -248,7 +248,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/2fd68b9e-bd1e-4e67-b9ae-12992844d227_Languedoc+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/d42f137e-688c-4fc7-9451-063c92373bde_Languedoc.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/ebad3bee-8f67-4764-bf3a-2bea07e10e94_languedoc.png?auto=format,compress"
     }
   },
   "limousin": {
@@ -257,8 +257,8 @@
     "nom": "Agathe Toullieu",
     "age": 22,
     "taille": 1.76,
-    "chapo": "",
-    "bio": "",
+    "chapo": "fait des études dans le domaine de la finance et est passionnée de musique. ",
+    "bio": "<p>Elle a été bénévole pour les Restos du Cœur et est également marraine de la Ligue contre le cancer de son département.</p>",
     "instagramUrl": "https://www.instagram.com/agathe.toullieu/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/3ea57576-02f6-4a3e-922f-bc060cf5334a_limousin-miss-france-2024-agathe-toullieu-603f9f-0%401x.jpg?auto=format,compress",
@@ -266,7 +266,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/63385937-c8b7-40e1-8805-517af36ce6c6_Limousin+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/3ae16e0a-faf0-416d-8f1b-e7b3319e8af4_Limousin.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/c99ff50a-9efb-4e5d-88e9-0c30a1c09778_Limousin.png?auto=format,compress"
     }
   },
   "lorraine": {
@@ -276,7 +276,7 @@
     "age": 26,
     "taille": 1.71,
     "chapo": "",
-    "bio": "",
+    "bio": "<p>une jeune entrepreneuse qui a fondé sa propre société de maquillage. En parallèle, elle donne également des cours et anime des conférences.</p>",
     "instagramUrl": "https://www.instagram.com/angelinearonclauss.off/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/c188be1e-a796-4566-b63c-0454ea28d874_lorraine-miss-france-2024-angeline-aron-clauss-1c8b09-0%401x.jpg?auto=format,compress",
@@ -284,7 +284,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/006bebc0-3f84-47dd-948c-84e89202aaa9_Lorraine+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/570cc85b-1545-4222-9f3f-3d7e14383d35_Lorraine.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/8b5bf694-5444-4524-a132-1aac28f54ede_lorraine.png?auto=format,compress"
     }
   },
   "martinique": {
@@ -293,8 +293,8 @@
     "nom": "Chléo Modestine",
     "age": 21,
     "taille": 1.75,
-    "chapo": "",
-    "bio": "",
+    "chapo": "Elle est née dans l'Essone, a grandi en Bretagne et va fièrement représenter la Martinique",
+    "bio": "<p>Actuellement en BTS commerce international, Chléo Modestine a de grandes ambitions professionnelles : elle aspire à devenir officière dans les renseignements linguistiques</p>",
     "instagramUrl": "https://www.instagram.com/chleomodestineoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/ce651142-885b-468c-88dc-6d7dedd82799_martinique-miss-france-2024-chloe-modestine-6b60a7-0_1x.jpg?auto=format,compress",
@@ -302,7 +302,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/ed5beae4-4fcb-4059-8975-8d933886e92c_Martinique.webp?auto=format,compress",
       "maillotPied": null,
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/ac33191c-e2e5-487e-8ccd-dd61a9c49374_Martinique.png?auto=format,compress"
     }
   },
   "mayotte": {
@@ -311,8 +311,8 @@
     "nom": "Houdayifa Chibaco",
     "age": 22,
     "taille": 1.72,
-    "chapo": "",
-    "bio": "",
+    "chapo": "études en psychologie",
+    "bio": "<p>son prénom signifie petit canard</p>",
     "instagramUrl": "https://www.instagram.com/houdayifachibacooff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/3ecf195a-c24e-456f-828b-121743566c7c_mayotte-miss-france-2024-houdayifa-chibaco-6de5fc-0_1x.jpg?auto=format,compress",
@@ -320,7 +320,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/70189a01-1fbb-4459-84a3-7b7aee47313f_mayotte+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/36ce1f4f-4659-4ad4-ac4f-1aef464d3ac4_mayotte.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/46330dcc-b2d3-4c88-8e8d-9112bd2e1321_mayotte.png?auto=format,compress"
     }
   },
   "midi-pyrenees": {
@@ -329,8 +329,8 @@
     "nom": "Nadine Benaboud",
     "age": 23,
     "taille": 1.71,
-    "chapo": "Be yourself with me ✨",
-    "bio": "",
+    "chapo": "cette chargée de clientèle dans une concession automobile est passionnée de voyages, de randonnées et de sports d'hiver.",
+    "bio": "<p> D&#39;origine marocaine, elle est née à Tarbes, et a finalement vécu sept années en Norvège. En cause ? L&#39;affectation professionnelle de ses parents. Grâce à son expatriation scandinave, celle qui<strong> </strong>se décrit comme bosseuse, déterminée et ambitieuse,<strong> </strong>parle le norvégien et le suédois. Mais pas seulement, puisqu&#39;elle maîtrise également l&#39;arabe, et bien sûr le français.</p>",
     "instagramUrl": "https://www.instagram.com/nadinebenaboudoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/e00436f8-b834-4b43-98e2-7c944405c457_midi-pyrenees-miss-france-2024-nadine-benaboud-5f98eb-0_1x.jpg?auto=format,compress",
@@ -347,7 +347,7 @@
     "nom": "Eve Gilles",
     "age": 20,
     "taille": 1.71,
-    "chapo": "",
+    "chapo": "étudiante en deuxième année de licence MIASHS (Mathématiques et informatique appliquées aux sciences humaines et sociales). Elle aimerait devenir statisticienne. Elle se passionne pour la danse et l’équitation.",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/evegillesoff/?hl=fr",
     "photos": {
@@ -365,8 +365,8 @@
     "nom": "Wissem Morel",
     "age": 21,
     "taille": 1.76,
-    "chapo": "Licence de Biologie / elitemodelworld",
-    "bio": "",
+    "chapo": "étudiante en licence de biologie",
+    "bio": "<p>elle a remporté le concours national de mannequinat Elite Model Look en 2017. Elle était alors âgée de 15 ans. Après cette victoire, elle s’était envolée pour l’Italie en vue de participer au concours international organisé par l’agence de mannequins. Issue d’une famille d’agriculteurs, la nouvelle Miss Normandie s’est déclarée “<em> très proche des animaux et de la nature”.</em></p>",
     "instagramUrl": "https://www.instagram.com/wissemmoreloff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/f4d92bc3-88dc-472c-8667-40fbf39beb72_normandie-miss-france-2024-wissem-morel-df7ecd-0_1x.jpg?auto=format,compress",
@@ -383,8 +383,8 @@
     "nom": "Emma Grousset",
     "age": 21,
     "taille": 1.8,
-    "chapo": "1m80 de joie 🌞",
-    "bio": "",
+    "chapo": "1m80 de joie 🌞/ professeure remplaçante de SVT",
+    "bio": "<p>Mardi 12 septembre, le comité de la Nouvelle-Calédonie a demandé à Mathilde Lelong de rendre sa couronne, en raison d&#39;une erreur commise par l&#39;huissier de justice. En effet, après avoir réexaminé les votes, il s&#39;est avéré que la jeune femme était arrivée quatrième des votes. L&#39;écharpe de Miss Nouvelle-Calédonie a finalement été attribuée à Emma Grousset</p>",
     "instagramUrl": "https://www.instagram.com/emmagroussetoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/bb749471-035f-4324-be2a-9555b81e7139_nouvelle-caledonie-miss-france-2024-emma-grousset-e5ab75-0_1x.jpg?auto=format,compress",
@@ -401,8 +401,8 @@
     "nom": "Clémence Ménard",
     "age": 26,
     "taille": 1.75,
-    "chapo": "",
-    "bio": "",
+    "chapo": "infirmière",
+    "bio": "<p>infirmière, un métier qui la passionne, et parcourt le territoire pour l&#39;HAD (Hospitalisation à domicile, ndlr). Très sportive, la jolie brune a aussi vu du pays puisqu&#39;elle a notamment passé du temps en Nouvelle Zélande et en Australie.</p>",
     "instagramUrl": "https://www.instagram.com/clemence.menard/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/ac6721bf-95b5-4c80-9769-57a6c85bb14f_pays-de-la-loire-miss-france-2024-clemence-menard-246805-0%401x.jpg?auto=format,compress",
@@ -410,7 +410,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/acbbc65f-c20c-407e-a3dc-9d810df5712f_pays+de+la+loire+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/cb912cbb-e2f1-443c-a93c-aedadc591771_pays+de+la+loire.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/e56a76e4-f3a5-4709-adb0-b3dace28dfd2_Pays+de+loire.png?auto=format,compress"
     }
   },
   "picardie": {
@@ -419,7 +419,7 @@
     "nom": "Charlotte Cresson",
     "age": 23,
     "taille": 1.71,
-    "chapo": "",
+    "chapo": "La nouvelle Miss Picardie a obtenu une licence en optométrie et contactologie et est aujourd’hui opticienne de profession.",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/charlottecressonoff/?hl=fr",
     "photos": {
@@ -427,7 +427,7 @@
       "pied": "https://images.prismic.io/mfu24/9d7e2a8b-4b28-462f-a824-f614154b3fc8_Picardie.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/55e7c4c8-cbce-439f-be98-80766ed22bc8_Picardie.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/34c1aba5-4e67-45d9-8fc9-b8e0d56d3bdb_Picardie+2.webp?auto=format,compress",
-      "maillotAssis": "https://images.prismic.io/mfu24/71c174ba-0178-4074-a812-ac7e3861255b_Picardie.png?auto=format,compress",
+      "maillotAssis": "https://images.prismic.io/mfu24/71c174ba-0178-4074-a812-ac7e3861255b_Picardie.png?auto=format%2Ccompress&rect=0%2C0%2C762%2C952&w=762&h=952",
       "insta": null
     }
   },
@@ -437,8 +437,8 @@
     "nom": "Lounès Texier",
     "age": 19,
     "taille": 1.73,
-    "chapo": "",
-    "bio": "",
+    "chapo": "est passionnée de maquillage et fait des études en Arts du spectacle à Poitiers. ",
+    "bio": "<p>Si elle est tant investie dans le concours, c&#39;est pour elle mais avant tout pour sa petite soeur Romane, porteuse de trisomie 21.</p>",
     "instagramUrl": "https://www.instagram.com/lounestexieroff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/2fcd83e4-b8d7-4f6f-8b3d-6e0cadf655e8_poitou-charentes-miss-france-2024-lounes-texier-629144-0%401x.jpg?auto=format,compress",
@@ -446,7 +446,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/c158cc50-877f-42e4-bb70-d1bee2c214c9_Poitou+charente+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/da24740f-a8f5-4642-aef8-daa3da894e50_Poitou+charente.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/ee19afb2-1c4e-47c5-be3f-5b3e7e476403_Poitou-Charente.png?auto=format,compress"
     }
   },
   "provence": {
@@ -455,8 +455,8 @@
     "nom": "Adélina Blanc",
     "age": 25,
     "taille": 1.74,
-    "chapo": "",
-    "bio": "",
+    "chapo": "elle officie comme dentiste après des études menées en Belgique.",
+    "bio": "<p>passionnée d&#39;équitation et de voyages</p>",
     "instagramUrl": "https://www.instagram.com/adelinablanc_/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/fb1705b1-7024-459f-988e-9cb2d05e8416_provence-miss-france-2024-adeline-blanc-e78b40-0%401x.jpg?auto=format,compress",
@@ -464,7 +464,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/a6b528cc-b393-43b3-8aef-169176fe2793_Provence.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/5954b507-3298-48ff-a734-2a61500b6d4e_Provence+2.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/3230ac19-7e31-458f-9063-62820e0abfab_Provence.png?auto=format,compress"
     }
   },
   "reunion": {
@@ -473,8 +473,8 @@
     "nom": "Mélanie Odules",
     "age": 20,
     "taille": 1.77,
-    "chapo": "",
-    "bio": "",
+    "chapo": "ambitionne de devenir hôtesse de l’air ou de reprendre ses études de médecine pour devenir infirmière",
+    "bio": "<p>une association qui lutte contre le mal logement</p>",
     "instagramUrl": "https://www.instagram.com/melanieodulesoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/c9172cc7-cd14-4b7e-9b32-7ae21f7775fa_reunion-miss-france-2024-melanie-odules-897c38-0%401x.jpg?auto=format,compress",
@@ -491,7 +491,7 @@
     "nom": "Alizée Bidaut",
     "age": 22,
     "taille": 1.74,
-    "chapo": "",
+    "chapo": "a \"obtenu un Bac Pro CGESCF (Conduite et gestion d'une entreprise du secteur canin et félin)\" pour devenir une soigneuse animalière qui \"travaille également dans la recherche médicale depuis 2 ans\"",
     "bio": "",
     "instagramUrl": "https://www.instagram.com/alizee.bidaut/?hl=fr",
     "photos": {
@@ -500,7 +500,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/c2a73065-f074-4673-9517-ffaec0a7097f_Rhone+alpe+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/48586fb2-6905-42b4-8313-134dcd1e5d70_Rhone+alpe.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/3d5fdc1b-148d-4f9c-8de0-0889e010c437_rhone+alpe.png?auto=format,compress"
     }
   },
   "roussillon": {
@@ -509,16 +509,16 @@
     "nom": "Elise Aquilina",
     "age": 21,
     "taille": 1.71,
-    "chapo": "",
-    "bio": "",
+    "chapo": "en Master II Droit public général à Toulouse",
+    "bio": "<p>J&#39;ai été élue 4e dauphine. À l&#39;époque, l&#39;élection concernait encore la région Languedoc-Roussillon. Depuis, on a scindé (Miss Languedoc et Miss Roussillon, ndlr). On m&#39;a donc proposé de participer à Miss Roussillon.</p>",
     "instagramUrl": "https://www.instagram.com/eliseaquilinaoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/ef54392b-2d2f-4846-8351-288c4942d78e_roussillon-miss-france-2024-elise-aquilina-abf596-0_1x.jpg?auto=format,compress",
-      "pied": null,
+      "pied": "https://images.prismic.io/mfu24/1468549e-fb53-46e2-8c8b-be757b80eecd_Roussillon.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/6f9ad437-e89a-4079-a1d4-bfdfb57f1013_Roussillon.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/cc486742-6d86-4e55-a5dd-e34830fc1006_Roussillon+2.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/020c43dd-22ec-48c3-b97a-263269f36f8c_Roussillon.png?auto=format,compress"
     }
   },
   "tahiti": {
@@ -527,8 +527,8 @@
     "nom": "Ravahere Silloux",
     "age": 25,
     "taille": 1.72,
-    "chapo": "",
-    "bio": "<p>Elle aime le soleil et le surf et c&#39;est cool. <em>(à revoir)</em></p>",
+    "chapo": "Elle aime le soleil et le surf et c'est cool. (à revoir)",
+    "bio": "<p><strong>étudiante en Master 1 de marketing digital. </strong>Elle souhaite par la suite lancer sa propre agence de communication et partager sa vie entre Tahiti et l’Afrique. Il faut dire que la jeune femme est fascinée par le continent africain, elle qui se décrit comme véritable globe-trotteuse. Elle effectue un voyage humanitaire pour favoriser la scolarisation des enfants au Togo lorsqu’elle a 20 ans.</p>",
     "instagramUrl": "https://www.instagram.com/ravaheresillouxoff/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/df18fd2f-7e82-48c4-b519-9b7542bfec31_tahiti-miss-france-2024-ravahere-silloux-90ff12-0_1x.jpg?auto=format,compress",
@@ -536,7 +536,7 @@
       "maillotPortrait": "https://images.prismic.io/mfu24/1592c86c-e68e-4ba7-b52d-a9d8828453ae_Tahiti+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/554461c4-6f8f-42d8-8d67-bad8c8ae916d_Tahiti.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/cbdfb81f-2b41-4a1e-b759-5f584e34e081_Tahiti.png?auto=format,compress"
     }
   }
 }
