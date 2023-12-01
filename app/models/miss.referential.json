@@ -10,7 +10,7 @@
     "instagramUrl": "https://www.instagram.com/adelinevetter.off/?hl=fr",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/c57bf68d-4be6-4078-ac1d-430348110907_Alsace-miss-france-2024-adeline-vetter-733c63-0_1x.jpg?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/01a99160-c719-41b8-a8d0-d23fe55ec1c7_Alsace.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/6568fac9531ac2845a259786_alsace-vache.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/debffb57-aff1-4125-8699-a2ca69971ffb_Alsace+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/e63ca6ce-965c-415e-8bd3-57ad2b5d7a01_Alsace.webp?auto=format,compress",
       "maillotAssis": null,
@@ -67,8 +67,8 @@
       "pied": "https://images.prismic.io/mfu24/d4b6e4c9-40ab-44d8-bb93-8410febce82b_Bourgogne.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/93c1b0ef-97b4-4967-84fd-8a484c401bf5_Bourgogne+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/b1e458ba-5156-4440-abb4-136b37a42750_Bourgogne.webp?auto=format,compress",
-      "maillotAssis": "https://images.prismic.io/mfu24/73dbef2b-bf08-4104-8360-2eb0809f08c3_Bourgogne.png?auto=format,compress",
-      "insta": null
+      "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/6568fd5b531ac2845a2597a4_399874875_18292929643122370_6867871006285736440_n.jpg?auto=format,compress"
     }
   },
   "bretagne": {
@@ -133,14 +133,14 @@
     "taille": 1.71,
     "chapo": "diplômée d'un master métier de l'enseignement, de l'éducation et de la formation pour devenir professeur des écoles. ",
     "bio": "<p>elle souhaite faire de l&#39;inclusion à l&#39;école sa cause principale</p>",
-    "instagramUrl": "https://www.instagram.com/karlabchir/?hl=fr",
+    "instagramUrl": "https://www.instagram.com/sandrabakoff/",
     "photos": {
       "portrait": "https://images.prismic.io/mfu24/89b1760c-b8df-448a-8829-cbc485fc8457_corse-miss-france-2024-sandra-bak-9262f0-0%401x.jpg?auto=format,compress",
-      "pied": null,
+      "pied": "https://images.prismic.io/mfu24/6568ff35531ac2845a2597b0_402964908_1659994041196067_4975788930449435994_n.jpg?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/3d73970e-f4c2-41de-b07d-a0d84d749749_Corse+2.webp?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/53abd548-1846-41bc-81bb-055a062339ed_Corse.webp?auto=format,compress",
       "maillotAssis": null,
-      "insta": "https://images.prismic.io/mfu24/f9ef01ef-742d-430a-90c4-789549f89783_Corse.png?auto=format,compress"
+      "insta": "https://images.prismic.io/mfu24/656906ad531ac2845a2597cc_357147936_648935886787800_7069893186729835317_n.jpg?auto=format,compress"
     }
   },
   "cote-d-azur": {
@@ -161,9 +161,9 @@
       "insta": "https://images.prismic.io/mfu24/75929f2c-efc2-4447-aa8a-8cc4ace1e6cf_Cote+dazure.png?auto=format,compress"
     }
   },
-  "franche-compte": {
-    "id": "franche-compte",
-    "région": "Franche-Compté",
+  "franche-comte": {
+    "id": "franche-comte",
+    "région": "Franche-Comté",
     "nom": "Sonia Coutant",
     "age": 24,
     "taille": 1.72,

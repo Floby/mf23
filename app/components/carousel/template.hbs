@@ -1,4 +1,12 @@
-<section {{style-namespace 'carousel'}} ...attributes>
+<section {{style-namespace 'carousel'}}
+  class="scroller-root"
+  data-hover-direction={{this.hoverDirection}}
+  {{on 'click' this.navigateScroll}}
+  {{on 'mouseover' (fn this.mouseActive true)}}
+  {{on 'mouseout' (fn this.mouseActive false)}}
+  {{on 'mousemove' this.mouseMove}}
+  ...attributes>
+
   <div class="carousel-wrapper" 
        {{did-insert this.onInsert}}
        {{children-changed this.onInsert}}
@@ -7,4 +15,6 @@
     {{yield}}
   </div>
   <span class="control meter">{{this.meter}}</span>
+  <span class="hover-scroll left">&#x3008;</span>
+  <span class="hover-scroll right">&#x3009;</span>
 </section>

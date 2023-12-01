@@ -4,13 +4,14 @@
   margin: 0;
   padding: 0;
   position: relative;
+  overflow: hidden;
 
   > .meter {
     display: block;
     position: absolute;
     top: 1em;
     left: 1em;
-    padding: .5em;
+    padding: 0.5em;
     .overlay();
     .rounded-l();
     font-size: var(--txt-s);
@@ -21,6 +22,7 @@
     white-space: nowrap;
     overflow-y: hidden;
     overflow-x: scroll;
+    scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 
     > :not(.control) {
@@ -29,4 +31,31 @@
       scroll-snap-align: center;
     }
   }
+  
+  > .hover-scroll {
+    .overlay();
+    aspect-ratio: ~"1/1";
+    width: 2em;
+    box-sizing: border-box;
+    position: absolute;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+
+    bottom: 50%;
+    &.left{ left: 1em; padding-right: .5em; translate: -3em }
+    &.right{ right: 1em; padding-left: .5em; translate: 3em }
+
+    transition: translate ease-in-out 200ms 20ms;
+  }
+
+  &:hover {
+    cursor: pointer;
+    &[data-hover-direction="left"] > .hover-scroll.left { translate: 0; }
+    &[data-hover-direction="right"] > .hover-scroll.right { translate: 0; }
+
+  }
+
 }
