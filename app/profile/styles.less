@@ -7,9 +7,10 @@
   .avatar {
     margin: 2em 0;
     display: flex;
-    flex-direction:row;
+    flex-direction: row;
     justify-content: space-around;
     align-items: center;
+    gap: var(--gutter);
 
     .photo {
       aspect-ratio: ~"1 / 1";
@@ -18,6 +19,10 @@
       .shadow();
     }
     .name {
+      display: flex;
+      flex-direction: column;
+      gap: var(--gutter);
+
       input#nom {
         font-size: var(--txt-m);
         background: var(--color-text-accent);
@@ -26,6 +31,10 @@
         border: none;
         padding: .3em .5em;
         .hollow();
+      }
+
+      label {
+        cursor: pointer;
       }
     }
   }

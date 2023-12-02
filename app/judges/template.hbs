@@ -5,7 +5,7 @@
   {{#each this.judges as |judge|}}
     <li class="judge">
       <div class="avatar">
-        <img alt="" src={{judge.avatar}} data-altsrc={{boring-avatar judge.nom}} role="none">
+        <img alt="" src={{if judge.autoAvatar (boring-avatar judge.nom) judge.avatar }} data-altsrc={{boring-avatar judge.nom}} role="none">
         <h3>{{ judge.nom }}</h3>
       </div>
       <dl class="stats">

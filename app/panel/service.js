@@ -56,6 +56,7 @@ export default class PanelService extends Service {
         hasTop: Boolean(j.top?.miss.length),
         nom: j.nom,
         avatar: j.avatar,
+        autoAvatar: j.autoAvatar || false,
         since: Math.min(...Object.values(j.miss).map((m) => m.createdAt)),
         progress: Object.values(j.miss).length / Miss.getAll().length,
         favTotal: allFavs.filter(({ favvee }) => favvee === j.id).length,

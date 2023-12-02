@@ -10,7 +10,7 @@ export default class JudgeService extends Service {
   @service auth;
   constructor(...args) {
     super(...args);
-    const schemaVersion = 3;
+    const schemaVersion = 4;
     this.migrateTo(schemaVersion);
     this.store = this.getStore(schemaVersion);
   }
@@ -61,7 +61,7 @@ export default class JudgeService extends Service {
     this.saveCurrent(judge);
   }
 
-  @debounce(ms('5 second'))
+  @debounce(ms('2 second'))
   scheduleSync() {
     this.syncChanges();
   }
@@ -198,6 +198,17 @@ export default class JudgeService extends Service {
       },
     };
     v3.set('me', newJudge);
+  }
+  migrate_3_to_4(v3, v4) {
+    const judge = v3.get('me');
+    if (!judge) {
+      return;
+    }
+    const newJudge = {
+      ...judge,
+      autoAvatar: true,
+    };
+    v4.set('me', newJudge);
   }
 }
 

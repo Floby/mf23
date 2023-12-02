@@ -72,6 +72,7 @@ const JudgeValidator = Joi.object({
   id: Joi.string().optional().max(100).description('Identifier'),
   nom: Joi.string().required().max(100).description('The name of the judge'),
   avatar: Joi.string().uri({ scheme: ['https'] }),
+  autoAvatar: Joi.boolean().default(false),
   updatedAt: Joi.number().required().integer().description('Javascript epoch'),
   top: Joi.object({
     updatedAt: Joi.number().integer().description('Javascript epoch'),

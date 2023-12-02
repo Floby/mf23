@@ -5,9 +5,12 @@
 {{#if this.auth.isAuthenticated}}
 
 <div class="avatar">
-  <img class="photo" src={{@model.picture}} alt="" role="none">
+  <img class="photo" src={{if this.autoAvatar (boring-avatar this.nom)  @model.picture}} alt="" role="none">
   <div class="name">
     <Input @value={{this.nom}} name="nom" id="nom" />
+    <label for="auto-avatar">
+      <Input name="auto-avatar" id="auto-avatar" @type="checkbox" @checked={{this.autoAvatar}} /> Utiliser un avatar généré
+    </label>
   </div>
 </div>
 

@@ -21,12 +21,23 @@ export default class ProfileController extends Controller {
   @tracked _nom = null;
 
   get nom() {
-    return this._nom || this.judge.getCurrent().nom;
+    return this._nom || this.judge._current.nom;
   }
   set nom(nom) {
     const judge = this.judge.getCurrent();
     judge.nom = nom;
     this._nom = nom;
+    this.judge.saveCurrent(judge);
+  }
+
+  @tracked _autoAvatar = null;
+  get autoAvatar() {
+    return this._autoAvatar || this.judge._current.autoAvatar;
+  }
+  set autoAvatar(value) {
+    const judge = this.judge.getCurrent();
+    console.log(value);
+    judge.autoAvatar = value;
     this.judge.saveCurrent(judge);
   }
 }

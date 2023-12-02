@@ -10,7 +10,7 @@
         {{#if this.auth.isExpired}}
           <small class="warning">!</small>
         {{/if}}
-        <img src={{this.auth.userInfo.picture}} alt="Aller vers la page de profil" role="link">
+        <img src={{if this.profile.autoAvatar (boring-avatar this.profile.nom) this.auth.userInfo.picture}} alt="Aller vers la page de profil" role="link">
       </LinkTo>
     {{/if}}
   </header>
