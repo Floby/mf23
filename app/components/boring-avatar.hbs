@@ -1,0 +1,74 @@
+<svg
+  viewBox={{this.viewBox}}
+  fill="none"
+  role="img"
+  xmlns="http://www.w3.org/2000/svg"
+  ...attributes
+>
+  {{#if this.props.title}}
+    <title>
+      {{this.props.name}}
+    </title>
+  {{/if}}
+  <mask
+    id="mask__beam"
+    maskUnits="userSpaceOnUse"
+    x={{0}}
+    y={{0}}
+    width={{this.avatarSize}}
+    height={{this.avatarSize}}
+  >
+    <rect
+      width={{this.avatarSize}}
+      height={{this.avatarSize}}
+      rx={{this.rectRx}}
+      fill="#FFFFFF"
+    ></rect>
+  </mask>
+  <g mask="url(#mask__beam)">
+    <rect
+      width={{this.avatarSize}}
+      height={{this.avatarSize}}
+      fill={{this.data.backgroundColor}}
+    ></rect>
+    <rect
+      x="0"
+      y="0"
+      width={{this.avatarSize}}
+      height={{this.avatarSize}}
+      transform={{this.wrapperTransform}}
+      fill={{this.data.wrapperColor}}
+      rx={{this.circleRx}}
+    ></rect>
+    <g transform={{this.faceTransform}}>
+      {{#if this.data.isMouthOpen}}
+        <path
+          d={{this.pathDFace}}
+          stroke={{this.data.faceColor}}
+          fill="none"
+          stroke-linecap="round"
+        ></path>
+      {{else}}
+        <path d={{this.pathDFace}} fill={{this.data.faceColor}}></path>
+      {{/if}}
+      <rect
+        x={{this.eyeSpreadFrom14}}
+        y={{14}}
+        width={{1.5}}
+        height={{2}}
+        rx={{1}}
+        stroke="none"
+        fill={{this.data.faceColor}}
+      ></rect>
+      <rect
+        x={{this.eyeSpreadPlus20}}
+        y={{14}}
+        width={{1.5}}
+        height={{2}}
+        rx={{1}}
+        stroke="none"
+        fill={{this.data.faceColor}}
+      ></rect>
+    </g>
+  </g>
+</svg>{{yield}}

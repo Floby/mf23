@@ -1,0 +1,17 @@
+{{#if @judge.autoAvatar}}
+  <BoringAvatar
+      @size={{240}}
+      @square={{true}}
+      @name={{@judge.nom}}
+      @colors={{array "#5FAEAE" "#F0F5F5" "#4D8399" "#F0C8C8"}}
+      ...attributes
+      />
+{{else}}
+  <img
+      class="judge-avatar"
+      src={{if @judge.autoAvatar (boring-avatar @judge.nom)  @judge.avatar}}
+      alt="Avatar de {{@judge.nom}}"
+      role="none"
+      ...attributes
+  >
+{{/if}}

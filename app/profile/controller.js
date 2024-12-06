@@ -40,4 +40,8 @@ export default class ProfileController extends Controller {
     judge.autoAvatar = value;
     this.judge.saveCurrent(judge);
   }
+
+  get avatar() {
+    return this.judge._current.avatar;
+  }
 }
