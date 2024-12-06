@@ -1,23 +1,22 @@
 TODO
 ====
 
+RELEASE 12-06-01!
+-----------------
+
 + set up primsic.io for new season
 + set up auth0 again
   + detect need to re login
-  + actually check permissions for auth0 (avoid strangers)
-
-
 + change collection on mongoDB ?
 + upgrade prefix for local data
 + Boring avatar embedded -> https://github.com/joshbabier/ember-boring-avatars
+
+next
+------------
++ actually check permissions for auth0 (avoid strangers)
 + better dark mode
 
-
-
-+ Classements
-  + classement général
-  + classement personnel
-
+someday
 ----------------------------------
 
 - Release notes
