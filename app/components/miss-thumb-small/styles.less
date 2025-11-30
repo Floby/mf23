@@ -22,9 +22,9 @@
     position: relative;
     overflow: hidden;
     img {
-      width: 130%;
+      width: 150%;
       position: relative;
-      right: 12%;
+      right: 28%;
       top: 0%;
 
 
@@ -34,6 +34,20 @@
       &:is(.done .portrait img) {
         filter: saturate(100%);
       }
+
+      &:is(.aquitaine img) { left: -40% }
+      &:is(.auvergne img) { left: -40% }
+      &:is(.champagne-ardenne img) { left: -34% }
+      &:is(.franche-comte img) { top: -18%; left: -20% }
+      &:is(.limousin img) { left: -40%}
+      &:is(.lorraine img) { width: 122% ; top: -15%; left: -9% }
+      &:is(.martinique img) { left: -35%}
+      &:is(.mayotte img) { top: -15% ; left: -45%}
+      &:is(.midi-pyrenees img) { top: -15%; left: 0% }
+      &:is(.nord-pas-de-calais img) { left: -45% }
+      &:is(.normandie img) { top: -25%; left: -9% }
+      &:is(.provence img) { top: -10% ; left: -12%}
+      &:is(.rhone-alpes img) { top: -20% }
     }
   }
   .mention {
