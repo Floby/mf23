@@ -16,7 +16,7 @@ export default class JudgeService extends Service {
   }
 
   getStore(schemaVersion) {
-    return Store.namespace('2025')
+    return Store.namespace('2026')
       .namespace('judge')
       .namespace(`v${schemaVersion}`);
   }
