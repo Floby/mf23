@@ -22,8 +22,8 @@
     img {
       height: 100%;
       width: 100%;
-      object-fit: cover;
-      transform: scale(122%) translateY(3%) translateX(0%);
+      object-fit: scale-down;
+      transform: scale(170%) translateY(21%) translateX(-5%);
       position: relative;
 
       &:is(.todo .portrait img) {
@@ -33,15 +33,15 @@
         filter: saturate(100%);
       }
 
-      &:is(.aquitaine img) { right: 5%; }
-      &:is(.auvergne img) { top: 3%; right: 5%; }
-      &:is(.corse img) { right: 5% }
-      &:is(.cote-d-azur img) { top: 5%; left: 5% }
-      &:is(.ile-de-france img) { top: -10% }
-      &:is(.poitou-charentes img) { top: 5% }
-      &:is(.rhone-alpes img) { top: 2% }
-      &:is(.picardie img) { left: 5% }
-      &:is(.poitou-charentes img) { top: 5% }
+      &:is(.franche-comte img) { left: 14%; bottom: 12% }
+      &:is(.lorraine img) { top: 3%; transform: scale(120%)}
+      &:is(.mayotte img) { bottom: 10%; right: 6% }
+      &:is(.midi-pyrenees img) { top: 28%; left: 12%; transform: scale(180%) }
+      &:is(.nord-pas-de-calais img) { right: 10% }
+      &:is(.normandie img) { bottom: 18%; left: 15%}
+      &:is(.provence img) { bottom: 8%; left: 13% }
+      &:is(.rhone-alpes img) { bottom: 15% }
+      &:is(.tahiti img) { transform: scale(185%) translateY(23%) }
 
     }
   }
