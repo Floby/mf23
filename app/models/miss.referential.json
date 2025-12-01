@@ -353,8 +353,8 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NinNYClf9nonC_midipyrennees1.webp?auto=format%2Ccompress&rect=134%2C69%2C265%2C398&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2NinNYClf9nonC_midipyrennees1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaInNYClf9nmqn_midipyr_2.png?auto=format,compress",
-      "maillotPortrait": "https://images.prismic.io/mfu24/aS3ThXNYClf9npw0_midi-pyrenees.jpg?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3rynNYClf9np3D_midipyrennees2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3r1nNYClf9np3F_midipyreneesmaillot.png?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2Ni3NYClf9nonD_midipyrennees3.jpeg?auto=format,compress",
       "maillotAssis": null,
       "insta": "https://images.prismic.io/mfu24/aS2n4HNYClf9npI3_instamidipyrenees.png?auto=format,compress"
@@ -372,7 +372,7 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2Nk3NYClf9nonP_NPDC1.webp?auto=format%2Ccompress&rect=284%2C32%2C271%2C407&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2Nk3NYClf9nonP_NPDC1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaIHNYClf9nmql_NPDC_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3r73NYClf9np3K_NPDC2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS3TX3NYClf9npwu_nord-pas-de-calais.jpg?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2NlHNYClf9nonQ_NPDC3.jpeg?auto=format,compress",
       "maillotAssis": null,
@@ -391,8 +391,8 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NjXNYClf9nonG_normandie1.webp?auto=format%2Ccompress&rect=166%2C112%2C264%2C396&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2NjXNYClf9nonG_normandie1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaDHNYClf9nmqR_Normandie_2.png?auto=format,compress",
-      "maillotPortrait": "https://images.prismic.io/mfu24/aS3TMHNYClf9npwt_normandie.jpg?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3sBXNYClf9np3L_Normandie2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3sFHNYClf9np3P_Normandiemaillot.png?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2NjnNYClf9nonH_Normandie3.jpeg?auto=format,compress",
       "maillotAssis": null,
       "insta": "https://images.prismic.io/mfu24/aS2n4XNYClf9npI4_instaNormandie.png?auto=format,compress"
@@ -410,9 +410,9 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NkHNYClf9nonK_nouvellecaledonie1.webp?auto=format%2Ccompress&rect=272%2C64%2C296%2C444&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2KB3NYClf9nojh_nouvellecaledonie1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaHXNYClf9nmqi_Nouvellecaledonie_2.png?auto=format,compress",
-      "maillotPortrait": "https://images.prismic.io/mfu24/aS3UKnNYClf9npxB_nouvelle-caledonie.jpg?auto=format,compress",
-      "maillotPied": "https://images.prismic.io/mfu24/aS2NkXNYClf9nonL_nouvellecaledonie3.jpeg?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3tJnNYClf9np3v_nouvellecaledonie2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3tM3NYClf9np3w_nouvellecal%C3%A9doniemaillot2.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS3tPXNYClf9np3y_nouvellecaledoniemaillot4.png?auto=format,compress",
       "maillotAssis": "https://images.prismic.io/mfu24/aS2OAXNYClf9nooB_instanouvellecaledonie.png?auto=format,compress",
       "insta": null
     }
@@ -429,7 +429,7 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2KCXNYClf9nojj_paysdelaloire1.webp?auto=format%2Ccompress&rect=172%2C58%2C266%2C399&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2KCXNYClf9nojj_paysdelaloire1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaG3NYClf9nmqg_Paysdelaloire_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3sOXNYClf9np3S_paysdelaloire2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS3TCnNYClf9npws_pays-de-la-loire.jpg?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2Nl3NYClf9nonT_paysdelaloire.jpeg?auto=format,compress",
       "maillotAssis": null,
@@ -448,8 +448,8 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NmXNYClf9nonV_picardie1.webp?auto=format%2Ccompress&rect=244%2C10%2C275%2C412&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2NmXNYClf9nonV_picardie1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaGXNYClf9nmqe_Picardie_2.png?auto=format,compress",
-      "maillotPortrait": "https://images.prismic.io/mfu24/aS3S1XNYClf9npwl_picardie.jpg?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3sUnNYClf9np3V_picardie2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3sYHNYClf9np3W_picardiemaillot.png?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2NmnNYClf9nonW_picardie3.jpeg?auto=format,compress",
       "maillotAssis": null,
       "insta": "https://images.prismic.io/mfu24/aS2n5HNYClf9npI8_instaPicardie.png?auto=format,compress"
@@ -467,7 +467,7 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NnHNYClf9nonY_poitoucharente1.webp?auto=format%2Ccompress&rect=276%2C63%2C264%2C396&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2NnHNYClf9nonY_poitoucharente1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaF3NYClf9nmqc_poitoucharentes_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3sd3NYClf9np3Z_poitoucharentes2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS3Sr3NYClf9npwk_poitou-charentes.jpg?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2NnXNYClf9nonZ_poitoucharente3.jpeg?auto=format,compress",
       "maillotAssis": null,
@@ -505,7 +505,7 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NonNYClf9nonf_reunion1.webp?auto=format%2Ccompress&rect=204%2C49%2C273%2C409&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2NonNYClf9nonf_reunion1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaE3NYClf9nmqY_reunion_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3slnNYClf9np3b_reunion2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS3SXnNYClf9npwc_reunion.jpg?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2No3NYClf9nong_reunion3.jpeg?auto=format,compress",
       "maillotAssis": null,
@@ -524,7 +524,7 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NpXNYClf9noni_rhonealpes.webp?auto=format%2Ccompress&rect=170%2C99%2C267%2C401&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2KDnNYClf9nojp_rhonealpes.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaEXNYClf9nmqW_rhonealpes_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3srnNYClf9np3d_rhonealpes2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS3SNXNYClf9npwJ_rhone-alpes.jpg?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2NpnNYClf9nonj_rhonealpes3.jpeg?auto=format,compress",
       "maillotAssis": null,
@@ -543,7 +543,7 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2NqHNYClf9nonl_roussillon1.webp?auto=format%2Ccompress&rect=212%2C16%2C257%2C385&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2NqHNYClf9nonl_roussillon1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaD3NYClf9nmqU_roussillon_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3s4HNYClf9np3m_roussillon2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS3SBHNYClf9npv__roussillon.jpg?auto=format,compress",
       "maillotPied": "https://images.prismic.io/mfu24/aS2NqXNYClf9nonm_roussillon3.jpeg?auto=format,compress",
       "maillotAssis": null,
@@ -562,9 +562,9 @@
     "photos": {
       "thumbnail": "https://images.prismic.io/mfu24/aS2Nq3NYClf9nono_tahiti1.webp?auto=format%2Ccompress&rect=265%2C24%2C253%2C380&w=200&h=300",
       "portrait": "https://images.prismic.io/mfu24/aS2Nq3NYClf9nono_tahiti1.webp?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaDXNYClf9nmqS_Tahiti_2.png?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3s9HNYClf9np3p_tahiti2.png?auto=format,compress",
       "maillotPortrait": "https://images.prismic.io/mfu24/aS2NrXNYClf9nonq_tahiti4.jpeg?auto=format,compress",
-      "maillotPied": "https://images.prismic.io/mfu24/aS2NrHNYClf9nonp_tahiti3.jpeg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS3tAXNYClf9np3r_tahitimaillot3.png?auto=format,compress",
       "maillotAssis": null,
       "insta": "https://images.prismic.io/mfu24/aS2n6nNYClf9npJD_instatahiti.png?auto=format,compress"
     }
