@@ -15,6 +15,11 @@ next
 ------------
 + actually check permissions for auth0 (avoid strangers)
 + better dark mode
++ freehand annotation with
+    - perfect-freehand https://github.com/steveruizok/perfect-freehand
+    - www.fffuel.co/dddraw
+    - js-draw https://github.com/personalizedrefrigerator/js-draw
+    - simplify markup with https://jakearchibald.github.io/svgomg/
 
 someday
 ----------------------------------
