@@ -9,11 +9,12 @@
     "bio": "<p>Agée de 20 ans, elle mesure 1m75 et est originaire de Blotzheim. La jeune femme suit une formation en psychologie pour devenir psychologue pour enfants.</p>",
     "instagramUrl": "https://www.instagram.com/juliedecroixoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaR3NYClf9nmrM_Alsace_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaRnNYClf9nmrL_Alsace_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
-      "maillotAssis": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2JanNYClf9noi2_Alsace1.webp?auto=format%2Ccompress&rect=208%2C77%2C264%2C396&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS1-23NYClf9nocB_Alsace1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS2-p3NYClf9npkL_Alsace2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3QWnNYClf9npvG_alsace.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NVnNYClf9nomC_Alsace4.jpeg?auto=format,compress",
+      "maillotAssis": "https://images.prismic.io/mfu24/aS2PJ3NYClf9nopV_instaAlsace.png?auto=format,compress",
       "insta": null
     }
   },
@@ -27,12 +28,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m73 et est originaire d’Hendaye au sud des Pyrénées-Atlantiques. La jeune femme est étudiante en première année de droit.</p>",
     "instagramUrl": "https://www.instagram.com/ainhoa_lahitete/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaRXNYClf9nmrK_Aquitaine_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaRHNYClf9nmrJ_Aquitaine_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NV3NYClf9nomD_Aquitaine1.webp?auto=format%2Ccompress&rect=272%2C37%2C277%2C415&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NV3NYClf9nomD_Aquitaine1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3FJ3NYClf9npn2_Aquitaine2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3QHXNYClf9npvC_aquitaine.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NWHNYClf9nomE_Aquitaine3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2nz3NYClf9npIk_instaAquitaine.png?auto=format,compress"
     }
   },
   "auvergne": {
@@ -45,12 +47,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m72 et est originaire de Vichy. La jeune femme est étudiante en classe préparatoire littéraire au lycée Fénelon de Clermont-Ferrand.</p>",
     "instagramUrl": "https://www.instagram.com/alicedelimaguimaraes/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaQ3NYClf9nmrI_Auvergne_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aSzTuHNYClf9nm0O_auvergne-1.webp?auto=format%2Ccompress&rect=310%2C213%2C405%2C608&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aSzTuHNYClf9nm0O_auvergne-1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaQnNYClf9nmrH_Auvergne_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3UAXNYClf9npw-_auvergne.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NW3NYClf9nomI_Auvergne3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2oPnNYClf9npJr_instaAuvergne.png?auto=format,compress"
     }
   },
   "bourgogne": {
@@ -63,12 +66,13 @@
     "bio": "<p>Âgée de 22 ans, elle mesure 1m82 et est originaire de Saône-et-Loire. La jeune femme est préparatrice en pharmacie.</p>",
     "instagramUrl": "https://www.instagram.com/charlenelaurinoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaQXNYClf9nmrG_Bourgogne_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaQHNYClf9nmrF_Bourgogne_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NXXNYClf9nomK_Bourgogne1.webp?auto=format%2Ccompress&rect=210%2C106%2C241%2C362&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NXXNYClf9nomK_Bourgogne1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3FQnNYClf9npn__Bourgogne2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3FTHNYClf9npoD_Bourgognemaillot1.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS3FVnNYClf9npoH_Bourgognemaillot2.png?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2pEHNYClf9npK5_instaBourgogne.png?auto=format,compress"
     }
   },
   "bretagne": {
@@ -81,12 +85,13 @@
     "bio": "<p>Âgée de 18 ans, elle mesure 1m71 et est originaire de Ploemer. La jeune femme suit des études d’infirmière et souhaite se spécialiser en neurologie.</p>",
     "instagramUrl": "https://www.instagram.com/ninoncrolas_off/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaP3NYClf9nmrE_Bretagne_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaPnNYClf9nmrD_Bretagne_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2JbnNYClf9noi6_Bretagne1.webp?auto=format%2Ccompress&rect=165%2C44%2C245%2C368&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NYHNYClf9nomN_Bretagne1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3FgHNYClf9npoQ_bretagne2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3P63NYClf9npu9_bretagne.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NYXNYClf9nomO_Bretagne3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2pKXNYClf9npK9_instaBretagne.png?auto=format,compress"
     }
   },
   "centre-val-de-loire": {
@@ -99,12 +104,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m70 et est originaire d’Orléans. La jeune femme est étudiante à la faculté de médecine de Tours.</p>",
     "instagramUrl": "https://www.instagram.com/annavalero.off/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaPXNYClf9nmrC_Centrevaldeloire_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaPHNYClf9nmrB_Centrevaldeloire_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2Jb3NYClf9noi7_centrevaldeloire1.webp?auto=format%2Ccompress&rect=250%2C111%2C273%2C410&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NY3NYClf9nomQ_centrevaldeloire1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3FoHNYClf9npoS_centrevaldeloire2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3FwXNYClf9npoW_centrevaldeloiremaillot.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NZHNYClf9nomR_Centrevaldeloire3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2pQ3NYClf9npK__instacentrevaldeloire.png?auto=format,compress"
     }
   },
   "champagne-ardenne": {
@@ -117,12 +123,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m72 et est originaire de Reims. La jeune femme est étudiante en deuxième année de licence de droit à l’Institut Catholique de Paris.</p>",
     "instagramUrl": "https://www.instagram.com/yneslallemandoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaO3NYClf9nmrA_Champagneardenne_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaOnNYClf9nmq__Champagneardenne_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NZnNYClf9nomU_champagneardenne1.webp?auto=format%2Ccompress&rect=268%2C34%2C290%2C435&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NZnNYClf9nomU_champagneardenne1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3F23NYClf9npoY_cahmpagneardenne2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3F6nNYClf9npoZ_champagneardennemaillot.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NZ3NYClf9nomX_Champagneardenne3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2pWHNYClf9npLD_instachampagneardenne.png?auto=format,compress"
     }
   },
   "corse": {
@@ -135,12 +142,13 @@
     "bio": "<p>Âgée de 23 ans, elle mesure 1m71 et est originaire de la commune de Sartène. La jeune femme gère une gelateria ambulante.</p>",
     "instagramUrl": "https://www.instagram.com/manonmateus/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaOXNYClf9nmq-_Corse_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaOHNYClf9nmq9_Corse_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2JcXNYClf9noi9_corse1.webp?auto=format%2Ccompress&rect=210%2C94%2C258%2C387&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NaXNYClf9nomZ_corse1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3F_3NYClf9npob_corse2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3PXXNYClf9npup_corse.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NanNYClf9noma_Corse3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2pbHNYClf9npLG_instaCorse.png?auto=format,compress"
     }
   },
   "cote-d-azur": {
@@ -153,12 +161,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m75 et est originaire d’Antibes. Actuellement agent polyvalent de service et vente balnéaire, la jeune femme souhaite entamer des études en techniques de commercialisation.</p>",
     "instagramUrl": "https://www.instagram.com/luna.maiolino/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaN3NYClf9nmq8_cotedazure_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaNnNYClf9nmq7_cotedazure_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NbHNYClf9nomd_cotedazur1.webp?auto=format%2Ccompress&rect=239%2C109%2C254%2C381&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2JcnNYClf9noi-_cotedazur1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3GE3NYClf9npof_cotedazu2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3GI3NYClf9npoj_cotedazurmaillot.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NbXNYClf9nome_Cotedazur3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2pkHNYClf9npLK_instacotedazur.png?auto=format,compress"
     }
   },
   "franche-comte": {
@@ -171,12 +180,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m77 et est originaire de Besançon. La jeune femme est étudiante en première année de BTS profession de l’immobilier.</p>",
     "instagramUrl": "https://www.instagram.com/jadecholleyoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaNXNYClf9nmq6_franchecomte_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaNHNYClf9nmq5_franchecomte_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2Nb3NYClf9nomh_franchecomte1.webp?auto=format%2Ccompress&rect=149%2C88%2C259%2C388&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2Nb3NYClf9nomh_franchecomte1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3GP3NYClf9npon_franchecomte2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3GXHNYClf9npos_franchecomtemaillot4.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS3GTHNYClf9npoq_franchecomtemaillot3.png?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2po3NYClf9npLU_instafranchecomte.png?auto=format,compress"
     }
   },
   "guadeloupe": {
@@ -189,12 +199,13 @@
     "bio": "<p>Âgée de 30 ans, elle mesure 1m77 et est originaire de la région Basse-Terre. La jeune femme est analyste financière.</p>",
     "instagramUrl": "https://www.instagram.com/naomitorrent/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaM3NYClf9nmq4_gwada_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaMnNYClf9nmq3_gwada_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NdXNYClf9nomo_gwada1.webp?auto=format%2Ccompress&rect=194%2C74%2C258%2C387&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NdXNYClf9nomo_gwada1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3GeHNYClf9npox_gwada2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3OynNYClf9npub_guadeloupe.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NdnNYClf9nomp_gwada3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2punNYClf9npLe_instagwada.png?auto=format,compress"
     }
   },
   "guyane": {
@@ -207,12 +218,13 @@
     "bio": "<p>Âgée de 20 ans, elle mesure 1m73 et est originaire de Rémire-Montjoly. La jeune femme est étudiante en deuxième année de BTS Professions Immobilières.</p>",
     "instagramUrl": "https://www.instagram.com/aliciamertosetikooff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaMXNYClf9nmq2_Guyane_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaMHNYClf9nmq1_Guyane_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NcnNYClf9noml_guyane1.webp?auto=format%2Ccompress&rect=233%2C64%2C261%2C392&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NcnNYClf9noml_guyane1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3Gj3NYClf9npo2_Guyane2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3GnnNYClf9npo3_GuyaneMaillot.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2Nc3NYClf9nomm_guyane3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n2HNYClf9npIu_instaguyane.png?auto=format,compress"
     }
   },
   "ile-de-france": {
@@ -225,12 +237,13 @@
     "bio": "<p>Âgée de 21 ans, elle mesure 1m73 et est originaire de Chesnay-Rocquencourt. La jeune femme est étudiante en troisième année à l’ESSEC Business School pour travailler dans le marketing digital.</p>",
     "instagramUrl": "https://www.instagram.com/marevamichel/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaL3NYClf9nmq0_iledefrance_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaLnNYClf9nmqz_Iledefrance_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2JdnNYClf9nojD_iledefrance1.webp?auto=format%2Ccompress&rect=160%2C0%2C269%2C404&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2JdnNYClf9nojD_iledefrance1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3GtXNYClf9npo6_iledefrance2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3GwHNYClf9npo7_iledefrancemaillot1.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS3GzXNYClf9npo-_iledefrancemaillot3.png?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n2nNYClf9npIw_instailedefrance.png?auto=format,compress"
     }
   },
   "languedoc": {
@@ -243,12 +256,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m72 et est originaire de l’Hérault. La jeune femme étudie le droit à Montpellier et espère travailler un jour à l’ONU.</p>",
     "instagramUrl": "https://www.instagram.com/loulambertoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaLXNYClf9nmqy_languedoc_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaLHNYClf9nmqx_Languedoc_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2Ne3NYClf9nomv_languedoc1.webp?auto=format%2Ccompress&rect=135%2C75%2C263%2C394&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2Ne3NYClf9nomv_languedoc1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3G53NYClf9nppE_languedoc2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3G8nNYClf9nppH_languedocmaillot3.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NfHNYClf9nomw_languedoc3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n23NYClf9npIx_instalanguedoc.png?auto=format,compress"
     }
   },
   "limousin": {
@@ -261,12 +275,13 @@
     "bio": "<p>Âgée de 24 ans, elle mesure 1m74 et est originaire de Chamboure. La jeune femme est employée dans le secteur de la maroquinerie de luxe.</p>",
     "instagramUrl": "https://www.instagram.com/aloicesejotte/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaK3NYClf9nmqw_Limousin_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaKnNYClf9nmqv_Limousin_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NfnNYClf9nomz_limousin1.webp?auto=format%2Ccompress&rect=183%2C85%2C267%2C400&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2JeHNYClf9nojG_limousin1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3HCXNYClf9nppM_limousin2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3HGHNYClf9nppV_limousinmaillot.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2Nf3NYClf9nom0_limousin3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n3HNYClf9npIy_instalimousin.png?auto=format,compress"
     }
   },
   "lorraine": {
@@ -279,12 +294,13 @@
     "bio": "<p>Âgée de 23 ans, elle mesure 1m72 et est originaire de Liverdun. La jeune femme est infirmière dans un centre de cancérologie.</p>",
     "instagramUrl": "https://www.instagram.com/camilleletangoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaKXNYClf9nmqu_Lorraine_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaKHNYClf9nmqt_Lorraine_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NgXNYClf9nom2_lorraine1.webp?auto=format%2Ccompress&rect=103%2C95%2C397%2C596&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NgXNYClf9nom2_lorraine1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3HM3NYClf9nppc_lorraine2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3HP3NYClf9npph_lorrainemaillot2.png?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NgnNYClf9nom3_lorraine3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n3XNYClf9npI0_instaLorraine.png?auto=format,compress"
     }
   },
   "martinique": {
@@ -297,12 +313,13 @@
     "bio": "<p>Âgée de 21 ans, elle mesure 1m71 et est originaire de la commune de Le François. La jeune femme est étudiante en stylisme-modélisme.</p>",
     "instagramUrl": "https://www.instagram.com/lealinepatryoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaJ3NYClf9nmqs_Martinique_1.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/aSyaJnNYClf9nmqr_Martinique_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NhHNYClf9nom5_martinique1.webp?auto=format%2Ccompress&rect=210%2C62%2C267%2C400&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NhHNYClf9nom5_martinique1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aS3HUXNYClf9nppn_martnique2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3NsHNYClf9npt6_martinique.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NhXNYClf9nom6_martinique3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n3nNYClf9npI1_instaMartinique.png?auto=format,compress"
     }
   },
   "mayotte": {
@@ -315,12 +332,13 @@
     "bio": "<p>Âgée de 24, elle mesure 1m73 et est originaire de la commune d’Ouangani.</p>",
     "instagramUrl": "https://www.instagram.com/herviankamillatoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaJXNYClf9nmqq_Mayotte_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2KBHNYClf9noje_mayotte1.webp?auto=format%2Ccompress&rect=239%2C87%2C276%2C414&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2Nh3NYClf9nom9_mayotte1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaJHNYClf9nmqp_Mayotte_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3TrnNYClf9npw4_mayotte.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NiHNYClf9nom__mayotte3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n33NYClf9npI2_instaMayotte.png?auto=format,compress"
     }
   },
   "midi-pyrenees": {
@@ -333,12 +351,13 @@
     "bio": "<p>Âgée de 24 ans, elle mesure 1m70 et est originaire de Tarascon-sur-Ariège. La jeune femme est ostéopathe</p>",
     "instagramUrl": "https://www.instagram.com/leachabreloff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaI3NYClf9nmqo_midipyr_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NinNYClf9nonC_midipyrennees1.webp?auto=format%2Ccompress&rect=134%2C69%2C265%2C398&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NinNYClf9nonC_midipyrennees1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaInNYClf9nmqn_midipyr_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3ThXNYClf9npw0_midi-pyrenees.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2Ni3NYClf9nonD_midipyrennees3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n4HNYClf9npI3_instamidipyrenees.png?auto=format,compress"
     }
   },
   "nord-pas-de-calais": {
@@ -351,12 +370,13 @@
     "bio": "<p>Elle 20 ans, mesure 1 m74 et est originaire de Berck. Elle est étudiante en BUT commerce événementiel et souhaite devenir chargée de projets.</p>",
     "instagramUrl": "https://www.instagram.com/lola_lachere/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaIXNYClf9nmqm_NPDC_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2Nk3NYClf9nonP_NPDC1.webp?auto=format%2Ccompress&rect=284%2C32%2C271%2C407&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2Nk3NYClf9nonP_NPDC1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaIHNYClf9nmql_NPDC_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3TX3NYClf9npwu_nord-pas-de-calais.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NlHNYClf9nonQ_NPDC3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n4nNYClf9npI5_instaNPDC.png?auto=format,compress"
     }
   },
   "normandie": {
@@ -369,11 +389,31 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m70 et est originaire de Rouen. La jeune femme est étudiante en deuxième année d’études en école de communication et marketing à Rouen.</p>",
     "instagramUrl": "https://www.instagram.com/victoiredupuis_/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaH3NYClf9nmqk_Normandie_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NjXNYClf9nonG_normandie1.webp?auto=format%2Ccompress&rect=166%2C112%2C264%2C396&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NjXNYClf9nonG_normandie1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaDHNYClf9nmqR_Normandie_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3TMHNYClf9npwt_normandie.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NjnNYClf9nonH_Normandie3.jpeg?auto=format,compress",
       "maillotAssis": null,
+      "insta": "https://images.prismic.io/mfu24/aS2n4XNYClf9npI4_instaNormandie.png?auto=format,compress"
+    }
+  },
+  "nouvelle-caledonie": {
+    "id": "nouvelle-caledonie",
+    "région": "Nouvelle-Calédonie",
+    "nom": "Juliette Collet",
+    "age": 22,
+    "taille": 1.7,
+    "chapo": "Étudiante en tourisme, hôtellerie et alimentation",
+    "bio": "<p>Âgée de 22 ans, elle mesure 1m70 et a grandi entre Marseille et Nouméa. La jeune femme est diplômée d’une Licence en biologie marine et d’un Master en gestion des risques naturels.</p>",
+    "instagramUrl": "https://www.instagram.com/juliettecolletoff/",
+    "photos": {
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NkHNYClf9nonK_nouvellecaledonie1.webp?auto=format%2Ccompress&rect=272%2C64%2C296%2C444&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2KB3NYClf9nojh_nouvellecaledonie1.webp?auto=format,compress",
+      "pied": "https://images.prismic.io/mfu24/aSyaHXNYClf9nmqi_Nouvellecaledonie_2.png?auto=format,compress",
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3UKnNYClf9npxB_nouvelle-caledonie.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NkXNYClf9nonL_nouvellecaledonie3.jpeg?auto=format,compress",
+      "maillotAssis": "https://images.prismic.io/mfu24/aS2OAXNYClf9nooB_instanouvellecaledonie.png?auto=format,compress",
       "insta": null
     }
   },
@@ -387,12 +427,13 @@
     "bio": "<p>Âgée de 19 ans, elle mesure 1m71 et est originaire de Saint-Nazaire. La jeune femme est étudiante en droit à Nantes.</p>",
     "instagramUrl": "https://www.instagram.com/lolawinteroff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaHHNYClf9nmqh_paysdelaloire_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2KCXNYClf9nojj_paysdelaloire1.webp?auto=format%2Ccompress&rect=172%2C58%2C266%2C399&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2KCXNYClf9nojj_paysdelaloire1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaG3NYClf9nmqg_Paysdelaloire_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3TCnNYClf9npws_pays-de-la-loire.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2Nl3NYClf9nonT_paysdelaloire.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n43NYClf9npI6_instapaysdelaloire.png?auto=format,compress"
     }
   },
   "picardie": {
@@ -405,12 +446,13 @@
     "bio": "<p>Âgée de 24 ans, elle mesure 1m77 et est originaire de Beauvais. La jeune femme est en troisième année d’études d’infirmière à Amiens.</p>",
     "instagramUrl": "https://www.instagram.com/emmaboivinoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaGnNYClf9nmqf_Picardie_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NmXNYClf9nonV_picardie1.webp?auto=format%2Ccompress&rect=244%2C10%2C275%2C412&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NmXNYClf9nonV_picardie1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaGXNYClf9nmqe_Picardie_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3S1XNYClf9npwl_picardie.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NmnNYClf9nonW_picardie3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n5HNYClf9npI8_instaPicardie.png?auto=format,compress"
     }
   },
   "poitou-charentes": {
@@ -423,12 +465,13 @@
     "bio": "<p>Âgée de 26 ans, elle mesure 1m74 et est originaire de Royan. La jeune femme a décroché son diplôme de chirurgien-dentiste et réalise quelques remplacements dans des cabinets, notamment à Bordeaux.</p>",
     "instagramUrl": "https://www.instagram.com/agathemichelet_/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaGHNYClf9nmqd_poitourcharentes.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NnHNYClf9nonY_poitoucharente1.webp?auto=format%2Ccompress&rect=276%2C63%2C264%2C396&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NnHNYClf9nonY_poitoucharente1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaF3NYClf9nmqc_poitoucharentes_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3Sr3NYClf9npwk_poitou-charentes.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NnXNYClf9nonZ_poitoucharente3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n5XNYClf9npI9_instapoitourcharentes.png?auto=format,compress"
     }
   },
   "provence": {
@@ -441,12 +484,13 @@
     "bio": "<p>Âgée de 26 ans, elle mesure 1m72 et est originaire de Marseille. La jeune femme est entrepreneuse et égérie pour des marques de beauté.</p>",
     "instagramUrl": "https://www.instagram.com/juliezitouni/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaFnNYClf9nmqb_provence_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2Nn3NYClf9nonc_provence1.webp?auto=format%2Ccompress&rect=142%2C67%2C265%2C398&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2Nn3NYClf9nonc_provence1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaFXNYClf9nmqa_provence_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3ShHNYClf9npwg_provence.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NoHNYClf9nond_provence3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n5nNYClf9npI-_instaProvence.png?auto=format,compress"
     }
   },
   "reunion": {
@@ -459,12 +503,13 @@
     "bio": "<p>Âgée de 19 ans, elle est originaire de Bras-Panon. Étudiante en droit, elle a récemment validé sa deuxième année de licence.</p>",
     "instagramUrl": "https://www.instagram.com/priyapadavatanoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaFHNYClf9nmqZ_reunion_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NonNYClf9nonf_reunion1.webp?auto=format%2Ccompress&rect=204%2C49%2C273%2C409&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NonNYClf9nonf_reunion1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaE3NYClf9nmqY_reunion_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3SXnNYClf9npwc_reunion.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2No3NYClf9nong_reunion3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n53NYClf9npI__instareunion.png?auto=format,compress"
     }
   },
   "rhone-alpes": {
@@ -477,12 +522,13 @@
     "bio": "<p>Âgée de 21 ans, elle mesure 1m71 et est originaire de Replonges dans l’Ain. La jeune femme étudie le maquillage pour le cinéma et espère un jour devenir maquilleuse spécialiste dans les effets spéciaux.</p>",
     "instagramUrl": "https://www.instagram.com/noemiebaiamonte/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaEnNYClf9nmqX_rhonesalpes_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NpXNYClf9noni_rhonealpes.webp?auto=format%2Ccompress&rect=170%2C99%2C267%2C401&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2KDnNYClf9nojp_rhonealpes.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaEXNYClf9nmqW_rhonealpes_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3SNXNYClf9npwJ_rhone-alpes.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NpnNYClf9nonj_rhonealpes3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n6HNYClf9npJB_instarhonealpe.png?auto=format,compress"
     }
   },
   "roussillon": {
@@ -495,30 +541,13 @@
     "bio": "<p>Âgée de 18 ans, elle mesure 1m75 et est originaire de Cabestany. La jeune femme est danseuse professionnelle.</p>",
     "instagramUrl": "https://www.instagram.com/deborahadelinchabal/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaEHNYClf9nmqV_roussillon_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2NqHNYClf9nonl_roussillon1.webp?auto=format%2Ccompress&rect=212%2C16%2C257%2C385&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2NqHNYClf9nonl_roussillon1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaD3NYClf9nmqU_roussillon_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS3SBHNYClf9npv__roussillon.jpg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NqXNYClf9nonm_roussillon3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
-    }
-  },
-  "saint-martin-saint-barthelemy": {
-    "id": "saint-martin-saint-barthelemy",
-    "région": "Saint-Martin Saint-Barthélémy",
-    "nom": "Sasha Bique",
-    "age": 20,
-    "taille": 1.7,
-    "chapo": "Étudiante en tourisme, hôtellerie et alimentation",
-    "bio": "",
-    "instagramUrl": "https://www.instagram.com/sashabiqueoff/",
-    "photos": {
-      "portrait": "https://images.prismic.io/mfu24/Z0b0bZbqstJ97z5J_saintmartinportrait.png?auto=format,compress",
-      "pied": "https://images.prismic.io/mfu24/Z0Waq68jQArT1TwE_saintmartinbarthelemy.webp?auto=format,compress",
-      "maillotPortrait": "https://images.prismic.io/mfu24/Z0b0vZbqstJ97z5S_saintmartinoff.png?auto=format,compress",
-      "maillotPied": null,
-      "maillotAssis": "https://images.prismic.io/mfu24/Z0b0bpbqstJ97z5K_saintmartinbarthelemymaillot.webp?auto=format,compress",
-      "insta": "https://images.prismic.io/mfu24/Z0b0vpbqstJ97z5T_saintmartininsta.png?auto=format,compress"
+      "insta": "https://images.prismic.io/mfu24/aS2n6XNYClf9npJC_instaroussillon.png?auto=format,compress"
     }
   },
   "tahiti": {
@@ -531,12 +560,13 @@
     "bio": "<p>Âgée de 23 ans, elle mesure 1m83 et est originaire de Papeete. La jeune femme est secrétaire administrative et organisatrice de séjours le reste du temps.</p>",
     "instagramUrl": "https://www.instagram.com/hinaupokodevezeoff/",
     "photos": {
-      "portrait": "https://images.prismic.io/mfu24/aSyaDnNYClf9nmqT_Tahiti_1.png?auto=format,compress",
+      "thumbnail": "https://images.prismic.io/mfu24/aS2Nq3NYClf9nono_tahiti1.webp?auto=format%2Ccompress&rect=265%2C24%2C253%2C380&w=200&h=300",
+      "portrait": "https://images.prismic.io/mfu24/aS2Nq3NYClf9nono_tahiti1.webp?auto=format,compress",
       "pied": "https://images.prismic.io/mfu24/aSyaDXNYClf9nmqS_Tahiti_2.png?auto=format,compress",
-      "maillotPortrait": null,
-      "maillotPied": null,
+      "maillotPortrait": "https://images.prismic.io/mfu24/aS2NrXNYClf9nonq_tahiti4.jpeg?auto=format,compress",
+      "maillotPied": "https://images.prismic.io/mfu24/aS2NrHNYClf9nonp_tahiti3.jpeg?auto=format,compress",
       "maillotAssis": null,
-      "insta": null
+      "insta": "https://images.prismic.io/mfu24/aS2n6nNYClf9npJD_instatahiti.png?auto=format,compress"
     }
   }
 }

@@ -17,6 +17,7 @@ async function main() {
       bio: asHTML(miss.data.bio),
       instagramUrl: asLink(miss.data.instagram),
       photos: {
+        thumbnail: asImageSrc(miss.data.thumbnail),
         portrait: asImageSrc(miss.data.studio_portrait),
         pied: asImageSrc(miss.data.studio_pied),
         maillotPortrait: asImageSrc(miss.data.maillot_portrait),
