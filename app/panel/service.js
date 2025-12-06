@@ -146,6 +146,7 @@ export default class PanelService extends Service {
     const maxRounds = Miss.getAll().length;
     let round = 0;
     while (round < maxRounds) {
+      await noblock();
       round++;
       console.log('tops', tops);
 
@@ -168,6 +169,7 @@ export default class PanelService extends Service {
       tops = tops.map((top) => top.filter((m) => m in votes));
 
       const minVoted = Math.min(...Object.values(votes));
+      await noblock();
 
       // eliminate least voted miss
       for (const miss in votes) {
@@ -176,7 +178,7 @@ export default class PanelService extends Service {
           bottomTop.push({
             miss: Miss.get(miss),
             round,
-            judgement: { mention: round+2 },
+            judgement: { mention: round + 2 },
           });
           tops = tops.map((top) => top.filter((m) => m != miss));
         }
