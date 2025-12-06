@@ -157,8 +157,13 @@ function compareTopRank(a, b) {
     return a.mention > b.mention ? A_THEN_B : B_THEN_A;
   }
 
-  return a.average > b.average ? A_THEN_B : B_THEN_A;
+  if (a.average !== b.average) {
+    return a.average > b.average ? A_THEN_B : B_THEN_A;
+  }
 
+  return a.miss.age + a.miss.taille > b.miss.age + b.miss.taille
+    ? B_THEN_A
+    : A_THEN_B;
   /*
   for (let i = 0; i < 6; ++i) {
     const aPro = a.mentions.filter((m) => m > a.mention + i).length;
