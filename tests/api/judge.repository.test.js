@@ -1,6 +1,8 @@
 /* eslint-env node, mocha */
+const fs = require('fs');
 const InMemoryJudgeRepository = require('../../server/infra/InMemoryJudgeRepository');
 const MongoJudgeRepository = require('../../server/infra/MongoJudgeRepository');
+const LocalFileJudgeRepository = require('../../server/infra/LocalFileJudgeRepository');
 const { MongoClient } = require('mongodb');
 const { expect } = require('chai');
 
@@ -8,6 +10,19 @@ describeJudgeRepository(
   'InMemory',
   () => new InMemoryJudgeRepository(),
   () => {}
+);
+describeJudgeRepository(
+  'LocalFile',
+  async function setup() {
+    const path = '/tmp/mfu.localfile.repo.json';
+    try {
+      fs.unlinkSync(path);
+    } catch {
+      //
+    }
+    return new LocalFileJudgeRepository(path);
+  },
+  (repo) => repo.clear()
 );
 describeJudgeRepository(
   'Mongo',
@@ -26,7 +41,7 @@ describeJudgeRepository(
 );
 
 function describeJudgeRepository(name, setup, teardown) {
-  describe(`${name}JudgeRepository`, () => {
+  return describe(`${name}JudgeRepository`, () => {
     const id = 'FTYHJNBVG';
     const judge = {
       id,
