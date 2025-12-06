@@ -104,6 +104,7 @@ export default class PanelService extends Service {
   async getTop() {
     const misses = Miss.getAll();
     const allJudges = await this.#getAll();
+    console.log(await this.getRoundTop());
     const judges = allJudges.filter(
       (j) => Object.keys(j.miss).length === misses.length
     );
@@ -116,7 +117,7 @@ export default class PanelService extends Service {
       const proponents = mentions.filter((m) => m > mention).length;
       const opponents = mentions.filter((m) => m < mention).length;
       await noblock();
-      const average = mentions.reduce((sum, m) => sum + m, 0) / mentions.length
+      const average = mentions.reduce((sum, m) => sum + m, 0) / mentions.length;
       const rank = {
         région: miss.région,
         miss,
@@ -130,6 +131,37 @@ export default class PanelService extends Service {
     }
     await noblock();
     return [...top2];
+  }
+
+  async getRoundTop() {
+    const allJudges = await this.#getAll();
+    const tops = allJudges.map((j) => (j.top ? j.top.miss : []));
+
+    const bottomTop = [];
+    let allRanked = false;
+    while (!allRanked) {
+      const votes = {};
+      let emptyCount = 0;
+      for (const top of tops) {
+        const vote = top.find((m) => bottomTop.indexOf(m) < 0);
+        console.log('vote', vote);
+        if (vote) {
+          votes[vote] = (votes[vote] || 0) + 1;
+        } else {
+          emptyCount += 1;
+        }
+      }
+      const minVoted = Math.min(...Object.values(votes));
+      for (const miss in votes) {
+        if (votes[miss] == minVoted) {
+          console.log(`eliminating ${miss} with ${minVoted} votes`);
+          bottomTop.push(miss);
+        }
+      }
+      allRanked = emptyCount == tops.length;
+    }
+
+    return bottomTop;
   }
 
   async getJudgeTop(judgeId) {
@@ -157,14 +189,12 @@ function compareTopRank(a, b) {
     return a.mention > b.mention ? A_THEN_B : B_THEN_A;
   }
 
+  /*
   if (a.average !== b.average) {
     return a.average > b.average ? A_THEN_B : B_THEN_A;
   }
+    */
 
-  return a.miss.age + a.miss.taille > b.miss.age + b.miss.taille
-    ? B_THEN_A
-    : A_THEN_B;
-  /*
   for (let i = 0; i < 6; ++i) {
     const aPro = a.mentions.filter((m) => m > a.mention + i).length;
     const bPro = b.mentions.filter((m) => m > b.mention + i).length;
@@ -182,7 +212,6 @@ function compareTopRank(a, b) {
   return a.miss.age + a.miss.taille > b.miss.age + b.miss.taille
     ? B_THEN_A
     : A_THEN_B;
-    */
 }
 
 const noblock = () => delay(0);
