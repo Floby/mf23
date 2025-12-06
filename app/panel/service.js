@@ -115,6 +115,8 @@ export default class PanelService extends Service {
       await noblock();
       const proponents = mentions.filter((m) => m > mention).length;
       const opponents = mentions.filter((m) => m < mention).length;
+      await noblock();
+      const average = mentions.reduce((sum, m) => sum + m, 0) / mentions.length
       const rank = {
         région: miss.région,
         miss,
@@ -122,6 +124,7 @@ export default class PanelService extends Service {
         mentions,
         proponents,
         opponents,
+        average,
       };
       top2.push(rank);
     }
@@ -153,6 +156,10 @@ function compareTopRank(a, b) {
   if (a.mention !== b.mention) {
     return a.mention > b.mention ? A_THEN_B : B_THEN_A;
   }
+
+  return a.average > b.average;
+
+  /*
   for (let i = 0; i < 6; ++i) {
     const aPro = a.mentions.filter((m) => m > a.mention + i).length;
     const bPro = b.mentions.filter((m) => m > b.mention + i).length;
@@ -170,6 +177,7 @@ function compareTopRank(a, b) {
   return a.miss.age + a.miss.taille > b.miss.age + b.miss.taille
     ? B_THEN_A
     : A_THEN_B;
+    */
 }
 
 const noblock = () => delay(0);
