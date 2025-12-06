@@ -104,7 +104,6 @@ export default class PanelService extends Service {
   async getTop() {
     const misses = Miss.getAll();
     const allJudges = await this.#getAll();
-    console.log(await this.getRoundTop());
     const judges = allJudges.filter(
       (j) => Object.keys(j.miss).length === misses.length
     );
@@ -135,33 +134,56 @@ export default class PanelService extends Service {
 
   async getRoundTop() {
     const allJudges = await this.#getAll();
-    const tops = allJudges.map((j) => (j.top ? j.top.miss : []));
+    let tops = [];
+    for (const judge of allJudges) {
+      if (judge.top) {
+        console.log(`top ${judge.nom}:`, judge.top.miss);
+        tops.push(judge.top.miss);
+      }
+    }
 
     const bottomTop = [];
-    let allRanked = false;
-    while (!allRanked) {
+    const maxRounds = Miss.getAll().length;
+    let round = 0;
+    while (round < maxRounds) {
+      round++;
+      console.log('tops', tops);
+
+      // tally votes for this round
       const votes = {};
-      let emptyCount = 0;
       for (const top of tops) {
-        const vote = top.find((m) => bottomTop.indexOf(m) < 0);
+        const vote = top[0];
         console.log('vote', vote);
         if (vote) {
           votes[vote] = (votes[vote] || 0) + 1;
-        } else {
-          emptyCount += 1;
         }
       }
+
+      // exit if not votes this round
+      if (Object.keys(votes).length == 0) {
+        break;
+      }
+
+      // eliminate unvoted misses
+      tops = tops.map((top) => top.filter((m) => m in votes));
+
       const minVoted = Math.min(...Object.values(votes));
+
+      // eliminate least voted miss
       for (const miss in votes) {
         if (votes[miss] == minVoted) {
           console.log(`eliminating ${miss} with ${minVoted} votes`);
-          bottomTop.push(miss);
+          bottomTop.push({
+            miss: Miss.get(miss),
+            round,
+            judgement: { mention: round+2 },
+          });
+          tops = tops.map((top) => top.filter((m) => m != miss));
         }
       }
-      allRanked = emptyCount == tops.length;
     }
 
-    return bottomTop;
+    return bottomTop.reverse().slice(0, 5);
   }
 
   async getJudgeTop(judgeId) {

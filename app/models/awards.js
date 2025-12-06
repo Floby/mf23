@@ -23,7 +23,7 @@ const awards = {
     title: 'Fidèle à elle-même',
     description: `Comme souvent, Xelle s'est illustrée par sa relative générosité vis-à-vis des miss. C'est d'alleurs pour cette raison qu'un catégorie spéciale avait été inaugurée en son nom cette année. Xelle est la juge qui a le plus usé de la même catégorie : Dans le top de Christelle`,
   },
-  Florent: {
+  Floby: {
     title: 'Subtil et nuancé',
     description: `Ça vous fera marrer autant que vous voudrez, mais Florent s'est illustré par sa nuance et sa subtilité, faisant montre de l'utilisation la plus variée des différentes mentions à sa disposition`,
   },
