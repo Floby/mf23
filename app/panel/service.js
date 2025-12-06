@@ -157,7 +157,7 @@ function compareTopRank(a, b) {
     return a.mention > b.mention ? A_THEN_B : B_THEN_A;
   }
 
-  return a.average > b.average;
+  return a.average > b.average ? A_THEN_B : B_THEN_A;
 
   /*
   for (let i = 0; i < 6; ++i) {
